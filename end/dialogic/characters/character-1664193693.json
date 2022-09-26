@@ -1,0 +1,41 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Sabrina",
+	"display_name_bool": true,
+	"id": "character-1664193693.json",
+	"mirror_portraits": false,
+	"name": "Sabrina2",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://sabrina/sabrina_padrão.png"
+		},
+		{
+			"name": "triste",
+			"path": "res://sabrina/sabrina_triste.png"
+		},
+		{
+			"name": "apontando",
+			"path": "res://sabrina/sabrina_feliz.png"
+		},
+		{
+			"name": "triste-apontando",
+			"path": "res://sabrina/sabrina_triste_apontando.png"
+		},
+		{
+			"name": "sabrina_feliz",
+			"path": "res://sabrina/sabrina_feliz.png"
+		},
+		{
+			"name": "sabrina_felizona",
+			"path": "res://sabrina/sabrina_felizona.png"
+		}
+	],
+	"scale": 70,
+	"theme": ""
+}

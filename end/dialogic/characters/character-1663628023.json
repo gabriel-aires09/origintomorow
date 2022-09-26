@@ -1,0 +1,21 @@
+{
+	"color": "#ffe41c1c",
+	"description": "Personagem principal",
+	"display_name": "Você",
+	"display_name_bool": true,
+	"id": "character-1663628023.json",
+	"mirror_portraits": false,
+	"name": "Você.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -220,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 25,
+	"theme": ""
+}

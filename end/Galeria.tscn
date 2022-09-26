@@ -1,0 +1,71 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Visual Novel (Eng. do conhecimento)/Cenário/Praia.png" type="Texture" id=2]
+[ext_resource path="res://Visual Novel (Eng. do conhecimento)/Cenário/quadro final.png" type="Texture" id=3]
+[ext_resource path="res://Visual Novel (Eng. do conhecimento)/Cenário/afogando.png" type="Texture" id=4]
+[ext_resource path="res://Galeria.gd" type="Script" id=5]
+[ext_resource path="res://Visual Novel (Eng. do conhecimento)/Cenário/praia_roupas.png" type="Texture" id=6]
+[ext_resource path="res://menu.png" type="Texture" id=7]
+
+[node name="Galeria" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 5 )
+
+[node name="Download(1)" type="Sprite" parent="."]
+position = Vector2( 516, 301 )
+scale = Vector2( 3.42667, 3.55952 )
+
+[node name="Menu" type="Sprite" parent="Download(1)"]
+position = Vector2( 129.284, 67.4235 )
+scale = Vector2( 0.291825, 0.2825 )
+texture = ExtResource( 7 )
+
+[node name="Button" type="TextureButton" parent="Download(1)"]
+anchor_left = 127.018
+anchor_top = 83.523
+anchor_right = 127.018
+anchor_bottom = 83.523
+margin_left = -165.831
+margin_top = -112.179
+margin_right = 1766.16
+margin_bottom = 973.823
+rect_scale = Vector2( 0.04, 0.04 )
+texture_normal = ExtResource( 2 )
+
+[node name="Button2" type="TextureButton" parent="Download(1)"]
+margin_left = 202.529
+margin_top = -27.8126
+margin_right = 2134.53
+margin_bottom = 1058.19
+rect_scale = Vector2( 0.04, 0.04 )
+texture_normal = ExtResource( 4 )
+
+[node name="Button3" type="TextureButton" parent="Download(1)"]
+margin_left = -37.6458
+margin_top = 135.13
+margin_right = 1894.35
+margin_bottom = 1221.13
+rect_scale = Vector2( 0.04, 0.04 )
+texture_normal = ExtResource( 6 )
+
+[node name="Button4" type="TextureButton" parent="Download(1)"]
+margin_left = 203.113
+margin_top = 135.692
+margin_right = 2135.11
+margin_bottom = 1221.69
+rect_scale = Vector2( 0.04, 0.04 )
+texture_normal = ExtResource( 3 )
+
+[node name="BackButton" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 33.0
+margin_right = 182.0
+margin_bottom = 113.0
+text = "Back"
+
+[connection signal="pressed" from="Download(1)/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Download(1)/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Download(1)/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Download(1)/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]
