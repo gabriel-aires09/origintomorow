@@ -1,10 +1,40 @@
 # Origin of Tomorrow - Uma visual novel em Godot
 
-Pequeno projeto feito em dois dias para matéria de Gestão de Conhecimentos do curso de Engenharia de Software da Católica.
+# Introdução
 
-# Descrição do Sistema
+Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de Engenharia de Software do Centro Universitário Católica do Tocantins.
 
-Jogo de texto no estilo visual novel. Visual novel é um gênero de jogo focado em leituras de textos, cujo suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados para analisar as decisões dos jogadores, como também a de outros, para comparar os caminhos traçados por cada ao decorrer da história. Serão mostradas estatísticas e porcentagens visuais das decisões tomadas ao decorrer do jogo, tendo como base o sistema utilizado em alguns jogos da desenvolvedora TellTale como: The Walking Dead, The Walking Dead Season 2, The Wolf Among Us e Batman: The TellTale Series.
+O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.
+
+Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.
+
+
+Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa Telltale Games, responsáveis por jogos como The Walking Dead Season 1 & 2, The Wolf Among Us e The Batman Telltale series.
+
+
+# Funcionalidades
+
+1. Implementação do Firebase como aplicação de gerenciamento Dados e informações emitidas pela aplicação.
+
+2. Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;
+
+3. Sistemas de decisões que serão armazenadas no Banco de Dados e mostradas como estátisticas para o jogador ao final do jogo, demonstrando o seu  desempenho e progressão comparadas aos outros jogadores;
+
+4. História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história
+
+5. Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história
+
+6. Sons e efeitos sonoros para maior imersão do jogador.
+
+7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo;
+
+
+# Possíveis funcionalidades e que estão fora do escopo
+
+1. Portabilidade da aplicaçãão para dispositivos móveis e consoles de videogame.
+2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
+3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
+
 
 # Ferramentas utilizadas
 
