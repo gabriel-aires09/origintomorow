@@ -14,7 +14,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 # Funcionalidades
 
-1. Implementação do Firebase como aplicação de gerenciamento Dados e informações emitidas pela aplicação.
+1. Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação.
 
 2. Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;
 
