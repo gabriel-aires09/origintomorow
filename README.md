@@ -7,7 +7,7 @@
 <p align="center">
 	<img width="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
-		src="https://i.imgur.com/wADTXCi.png">
+		src="https://i.imgur.com/wADTXCi.png">Fluxograma do registro de escolhas do jogo no Firebase
 </p>
 
 # Introdução
