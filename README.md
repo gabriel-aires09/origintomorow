@@ -1,7 +1,16 @@
 # Origin of Tomorrow - Uma visual novel em Godot
 
-![Sabrina](https://drive.google.com/file/d/1PkmA6EK5sbiCLPuC9L_rbC014sl7c-aY/view?usp=sharing)
+<p align="center">
+	<img width="200" alt="Godot" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png">
+</p>
 
+<h1 align="center">Origin of Tomorrow - Uma Visual Novel feita no Godoto</h1>
+
+<p align="center">
+	<img width="600"
+		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
+		src="https://raw.githubusercontent.com/origintomorow/imagens/sabrina.png">
+</p>
 
 # Introdução
 
