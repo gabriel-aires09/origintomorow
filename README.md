@@ -56,7 +56,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 <p align="center">
 	<img width="600"
 		alt="Fluxograma da página de login"
-		src="https://i.imgur.com/VmjCt0Y.png">
+		src="https://i.imgur.com/fGLKb95.png">
 </p>
 
 
