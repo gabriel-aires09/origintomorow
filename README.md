@@ -1,5 +1,3 @@
-# Origin of Tomorrow - Uma visual novel em Godot
-
 <p align="center">
 	<img width="200" alt="Godot" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png">
 </p>
@@ -9,7 +7,7 @@
 <p align="center">
 	<img width="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
-		src="https://raw.githubusercontent.com/origintomorow/imagens/sabrina.png">
+		src="https://github.com/gabriel-aires09/origintomorow/imagens/sabrina.png">
 </p>
 
 # Introdução
