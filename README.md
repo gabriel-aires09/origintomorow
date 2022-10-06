@@ -45,6 +45,20 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
 3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
 
+# Fluxograma das funcionalidades
+
+<p align="center">
+	<img width="600"
+		alt="Fluxograma do Firebase e escolhas do jogo"
+		src="https://i.imgur.com/RpyphN4.png">
+</p>
+
+<p align="center">
+	<img width="600"
+		alt="Fluxograma da página de login"
+		src="https://i.imgur.com/VmjCt0Y.png">
+</p>
+
 
 # Ferramentas utilizadas
 
