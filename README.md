@@ -7,7 +7,7 @@
 <p align="center">
 	<img width="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
-		src="/home/resetim/origintomorow/imagens/sabrina.png">
+		src="https://i.imgur.com/wADTXCi.png">
 </p>
 
 # Introdução
