@@ -7,7 +7,7 @@
 <p align="center">
 	<img width="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
-		src="https://github.com/gabriel-aires09/origintomorow/imagens/sabrina.png">
+		src="https://github.com/gabriel-aires09/origintomorow/main/imagens/sabrina.png">
 </p>
 
 # Introdução
