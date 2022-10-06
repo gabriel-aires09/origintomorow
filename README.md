@@ -1,5 +1,8 @@
 # Origin of Tomorrow - Uma visual novel em Godot
 
+![Sabrina](~/origintomorow/imagens/sabrina.png)
+
+
 # Introdução
 
 Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de Engenharia de Software do Centro Universitário Católica do Tocantins.
