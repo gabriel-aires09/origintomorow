@@ -7,7 +7,7 @@
 <p align="center">
 	<img width="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
-		src="https://i.imgur.com/wADTXCi.png">Fluxograma do registro de escolhas do jogo no Firebase
+		src="https://i.imgur.com/wADTXCi.png">
 </p>
 
 # Introdução
@@ -51,12 +51,14 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 	<img width="600"
 		alt="Fluxograma do Firebase e escolhas do jogo"
 		src="https://i.imgur.com/RpyphN4.png">
+		<br>Fluxograma do registro das escolhas do jogo no Firebase
 </p>
 
 <p align="center">
 	<img width="600"
 		alt="Fluxograma da página de login"
 		src="https://i.imgur.com/fGLKb95.png">
+		<br>Fluxograma do página de login e senha
 </p>
 
 
