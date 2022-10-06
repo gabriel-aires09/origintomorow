@@ -1,6 +1,6 @@
 # Origin of Tomorrow - Uma visual novel em Godot
 
-![Sabrina](~/origintomorow/imagens/sabrina.png)
+![Sabrina](https://drive.google.com/file/d/1PkmA6EK5sbiCLPuC9L_rbC014sl7c-aY/view?usp=sharing)
 
 
 # Introdução
