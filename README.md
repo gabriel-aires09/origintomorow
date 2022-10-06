@@ -2,12 +2,12 @@
 	<img width="200" alt="Godot" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png">
 </p>
 
-<h1 align="center">Origin of Tomorrow - Uma Visual Novel feita no Godoto</h1>
+<h1 align="center">Origin of Tomorrow - Uma Visual Novel feita no Godot</h1>
 
 <p align="center">
 	<img width="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
-		src="https://github.com/gabriel-aires09/origintomorow/main/imagens/sabrina.png">
+		src="/home/resetim/origintomorow/imagens/sabrina.png">
 </p>
 
 # Introdução
