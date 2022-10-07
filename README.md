@@ -72,4 +72,5 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 4. O Firebase é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
+Olá amigo
 
