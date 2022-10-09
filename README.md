@@ -41,7 +41,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 # Possíveis funcionalidades e que estão fora do escopo
 
-1. Portabilidade da aplicaçãão para dispositivos móveis e consoles de videogame.
+1. Portabilidade da aplicação para dispositivos móveis e consoles de videogame.
 2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
 3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
 
