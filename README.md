@@ -48,7 +48,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 # Fluxograma das funcionalidades
 
 <p align="center">
-	<img width="600" height="454"
+	<img width="600"
 		alt="Fluxograma do Firebase e escolhas do jogo"
 		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma do registro das escolhas do jogo no Firebase
