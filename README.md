@@ -70,6 +70,12 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 		<br>Exemplificação do sistema de escolhas do jogo, por intermédio de condicionais/nested condicionais
 </p>
 
+<p align="center">
+	  <img src="https://i.imgur.com/YDGCaDl.png" width="600"
+	       alt="Fluxograma do modelo lógico"
+	       <br>Fluxograma do modelo lógico do banco de dados
+</p>
+
 
 # Ferramentas utilizadas
 
