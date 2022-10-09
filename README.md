@@ -71,8 +71,9 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 </p>
 
 <p align="center">
-	  <img src="https://i.imgur.com/YDGCaDl.png" width="600"
+	  <img width="600"
 	       alt="Fluxograma do modelo lógico"
+	       src="https://i.imgur.com/YDGCaDl.png">
 	       <br>Fluxograma do modelo lógico do banco de dados
 </p>
 
