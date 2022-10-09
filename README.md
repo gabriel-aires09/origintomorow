@@ -50,7 +50,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 <p align="center">
 	<img width="600"
 		alt="Fluxograma do Firebase e escolhas do jogo"
-		src="https://i.imgur.com/RpyphN4.png">
+		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma do registro das escolhas do jogo no Firebase
 </p>
 
@@ -81,6 +81,6 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 4. O Firebase é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
-# Configuração
+# Configuração/Tutorial para rodar o jogo
 
 
