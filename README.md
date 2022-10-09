@@ -66,8 +66,8 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 <p align="center">
 	<img width="600"
 		alt="Exemplificação do sistema de escolhas do jogo, por intermédio de condicionais/nested condicionais"
-		src="https://i.imgur.com/7woJMdc.png">
-		<br>Exemplificação do sistema de escolhas do jogo, por intermédio de condicionais/nested condicionais
+		src="https://i.imgur.com/CD905bI.png">
+		<br>Exemplificação do sistema de escolhas do jogo
 </p>
 
 <p align="center">
