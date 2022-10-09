@@ -5,7 +5,7 @@
 <h1 align="center">Origin of Tomorrow - Uma Visual Novel feita na Godot</h1>
 
 <p align="center">
-	<img width="800"
+	<img width="600" height="600"
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
 		src="https://i.imgur.com/wADTXCi.png">
 </p>
