@@ -5,7 +5,7 @@
 <h1 align="center">Origin of Tomorrow - Uma Visual Novel feita na Godot</h1>
 
 <p align="center">
-	<img width="600" height="600"
+	<img width="600" 
 		alt="Origin of Tomorrow - tela artes e primeiras escolhas"
 		src="https://i.imgur.com/wADTXCi.png">
 </p>
@@ -48,7 +48,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 # Fluxograma das funcionalidades
 
 <p align="center">
-	<img width="600"
+	<img width="600" height="800"
 		alt="Fluxograma do Firebase e escolhas do jogo"
 		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma do registro das escolhas do jogo no Firebase
