@@ -10,7 +10,7 @@
 		src="https://i.imgur.com/wADTXCi.png">
 </p>
 
-# Introdução
+## Introdução
 
 Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de Engenharia de Software do Centro Universitário Católica do Tocantins.
 
@@ -22,7 +22,7 @@ Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decis
 Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa Telltale Games, responsáveis por jogos como The Walking Dead Season 1 & 2, The Wolf Among Us e The Batman Telltale series.
 
 
-# Funcionalidades
+## Funcionalidades
 
 1. Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação.
 
@@ -39,13 +39,13 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo;
 
 
-# Possíveis funcionalidades e que estão fora do escopo
+## Possíveis funcionalidades e que estão fora do escopo
 
 1. Portabilidade da aplicação para dispositivos móveis e consoles de videogame.
 2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
 3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
 
-# Fluxograma das funcionalidades
+## Fluxograma das funcionalidades
 
 <p align="center">
 	<img width="600"
@@ -78,7 +78,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 </p>
 
 
-# Ferramentas utilizadas
+## Ferramentas utilizadas
 
 1. O Godot é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
 
@@ -88,6 +88,15 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 4. O Firebase é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
-# Configuração/Tutorial para rodar o jogo
+## Instalação
+
+Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. 
+
+Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases).
+
+Quanto ao uso da aplicação em <strong>navegadores</strong>, é recomendável utilizar o editor de texto [Visual Studio Code](https://code.visualstudio.com/), juntamente com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). O jogo não consegue rodar abrindo automaticamente a página HTML, necessitando a criação de um servidor local. 
+
+Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
+
 
 
