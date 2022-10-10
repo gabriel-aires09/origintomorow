@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://PraiaRoupas.gd" type="Script" id=1]
+[ext_resource path="res://praia_roupas.png" type="Texture" id=2]
+[ext_resource path="res://interface/fonts/montserrat_eb_128.tres" type="DynamicFont" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="PraiaRoupas" type="Sprite" parent="."]
+position = Vector2( 957, 539.5 )
+scale = Vector2( 1.00417, 1.00463 )
+texture = ExtResource( 2 )
+
+[node name="BackButton" type="Button" parent="."]
+margin_top = 1.0
+margin_right = 429.0
+margin_bottom = 164.0
+custom_fonts/font = ExtResource( 3 )
+text = "Voltar"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]

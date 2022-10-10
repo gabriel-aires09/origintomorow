@@ -1,0 +1,33 @@
+{
+	"color": "#ff8f10b2",
+	"description": "Personagem",
+	"display_name": "Sabrina",
+	"display_name_bool": true,
+	"id": "character-1663627790.json",
+	"mirror_portraits": false,
+	"name": "Sabrina.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 20,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://sabrina/sabrina_padrão.png"
+		},
+		{
+			"name": "triste",
+			"path": "res://sabrina/sabrina_séria.png"
+		},
+		{
+			"name": "feliz",
+			"path": "res://Visual Novel (Eng. do conhecimento)/Sabrina/sabrina_felizona.png"
+		},
+		{
+			"name": "apontando",
+			"path": "res://Visual Novel (Eng. do conhecimento)/Sabrina/sabrina_feliz.png"
+		}
+	],
+	"scale": 40,
+	"theme": ""
+}

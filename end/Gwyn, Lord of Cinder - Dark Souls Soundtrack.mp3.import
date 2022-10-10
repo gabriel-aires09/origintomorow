@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Gwyn, Lord of Cinder - Dark Souls Soundtrack.mp3-20d06463c70847d63e5a387c0973e4ca.mp3str"
+
+[deps]
+
+source_file="res://Gwyn, Lord of Cinder - Dark Souls Soundtrack.mp3"
+dest_files=[ "res://.import/Gwyn, Lord of Cinder - Dark Souls Soundtrack.mp3-20d06463c70847d63e5a387c0973e4ca.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
