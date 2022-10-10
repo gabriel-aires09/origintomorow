@@ -102,7 +102,7 @@ Os arquivos do código fonte podem ser executados utilizando a própria engine [
 
 ## Fontes de pesquisa
 
-<br>[Godot documentation](https://docs.godotengine.org/en/stable/)
+[Godot documentation](https://docs.godotengine.org/en/stable/)
 <br>[GDQuest - Login with Firebase in Godot 3.1 (tutorial)](https://www.youtube.com/watch?v=Udm7uDQM05w)
 <br>[Gamesfromscratch - Dialogic -- Powerful New Dialog Add-On For Godot](https://www.youtube.com/watch?v=QXm0L-QSXoQ)
 <br>[Emi - Getting Started With Dialogic](https://www.youtube.com/watch?v=sYjgDIgD7AY)
