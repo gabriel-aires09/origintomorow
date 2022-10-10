@@ -12,14 +12,14 @@
 
 ## Introdução
 
-Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de Engenharia de Software do Centro Universitário Católica do Tocantins.
+Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).
 
 O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.
 
 Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.
 
 
-Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa Telltale Games, responsáveis por jogos como The Walking Dead Season 1 & 2, The Wolf Among Us e The Batman Telltale series.
+Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa [Telltale Games](https://telltale.com/), responsáveis por jogos como [The Walking Dead Series](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/), [The Wolf Among Us](https://store.steampowered.com/app/250320/The_Wolf_Among_Us/) e [The Batman Telltale series](https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/).
 
 
 ## Funcionalidades
@@ -80,23 +80,29 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 ## Ferramentas utilizadas
 
-1. O Godot é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
+1. [Godot](https://godotengine.org/) é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
 
-2. O Dialogic é uma extensão da Godot responsável em facilitar a adição de diálogos no seu jogo. Ela é uma aplicação feita dentro da própria, tendo como base ferramentas com interface gráfica para organização de diálogos dentro do jogo. 
+2. [Dialogic](https://github.com/coppolaemilio/dialogic) é uma extensão da Godot responsável em facilitar a adição de diálogos no seu jogo. Ela é uma aplicação feita dentro da própria, tendo como base ferramentas com interface gráfica para organização de diálogos dentro do jogo. 
 
-3. Krita é uma ferramenta de criação de ilustrações, concept art, histórias em quadrinhos, pinturas digitais e animações, também podendo ser usado como um programa de retoques e manipulação de fotografia, conversor de formatos, suportando vários modelos de cores e pintura HDR. 
+3. [Krita](https://krita.org/en/) é uma ferramenta de criação de ilustrações, concept art, histórias em quadrinhos, pinturas digitais e animações, também podendo ser usado como um programa de retoques e manipulação de fotografia, conversor de formatos, suportando vários modelos de cores e pintura HDR. 
 
-4. O Firebase é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
+4. [Firebase](https://firebase.google.com/?hl=pt) é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
 ## Instalação
 
 Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. 
 
-Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases).
+Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases). Necessário apenas descompactar os arquivos e rodar diretamente no sistema. O executável e o arquivo de extensão .pck devem estar localizados no mesmo diretório. Sem isso, o jogo não será executado. 
+
 
 Quanto ao uso da aplicação em <strong>navegadores</strong>, é recomendável utilizar o editor de texto [Visual Studio Code](https://code.visualstudio.com/), juntamente com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). O jogo não consegue rodar abrindo automaticamente a página HTML, necessitando a criação de um servidor local. 
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
 
+## Fontes de pesquisa
 
+[Godot documentation](https://docs.godotengine.org/en/stable/)
+[GDQuest - Login with Firebase in Godot 3.1 (tutorial)](https://www.youtube.com/watch?v=Udm7uDQM05w)
+[Gamesfromscratch - Dialogic -- Powerful New Dialog Add-On For Godot](https://www.youtube.com/watch?v=QXm0L-QSXoQ)
+[Emi - Getting Started With Dialogic](https://www.youtube.com/watch?v=sYjgDIgD7AY)
