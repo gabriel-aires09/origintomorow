@@ -54,7 +54,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 		<br>Fluxograma da página de login e senha
 </p>
 
-<p align="left">
+<p align="center">
 	<img width="600"
 		alt="Exemplificação do sistema de escolhas do jogo, por intermédio de condicionais/nested condicionais"
 		src="https://i.imgur.com/CD905bI.png">
