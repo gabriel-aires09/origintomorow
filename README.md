@@ -158,8 +158,7 @@ Criação do Banco de Dados
 		Sou Gabriel Aires, natural de Palmas (TO), Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
-
-
+<br>
 ## Fontes de pesquisa
 
 [Godot documentation](https://docs.godotengine.org/en/stable/)
