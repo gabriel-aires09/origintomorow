@@ -49,19 +49,10 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 <p align="center">
 	<img width="600"
-		alt="Fluxograma do Firebase e escolhas do jogo"
-		src="https://i.imgur.com/Y1s0nMq.png">
-		<br>Fluxograma Geral das funcionalidades da aplicação
-</p>
-
-<p align="center">
-	<img width="600"
 		alt="Fluxograma da página de login"
 		src="https://i.imgur.com/fGLKb95.png">
 		<br>Fluxograma da página de login e senha
 </p>
-
-<p>
 
 <p align="center">
 	<img width="600"
@@ -69,14 +60,6 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 		src="https://i.imgur.com/CD905bI.png">
 		<br>Exemplificação do sistema de escolhas do jogo
 </p>
-
-<p align="center">
-	  <img width="600"
-	       alt="Fluxograma do modelo lógico"
-	       src="https://i.imgur.com/YDGCaDl.png">
-	       <br>Fluxograma do modelo lógico do banco de dados
-</p>
-
 
 ## Ferramentas utilizadas
 
@@ -88,7 +71,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 4. [Firebase](https://firebase.google.com/?hl=pt) é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
-## Instalação
+## Configurações do Projeto
 
 Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. 
 
@@ -99,6 +82,27 @@ Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
+## Rotas
+
+<p align="center">
+	<img width="600"
+		alt="Fluxograma do Firebase e escolhas do jogo"
+		src="https://i.imgur.com/Y1s0nMq.png">
+		<br>Fluxograma Geral das funcionalidades da aplicação
+</p>
+
+## Modelagem do banco de dados
+
+Modelo lógico
+
+<p align="center">
+	  <img width="600"
+	       alt="Fluxograma do modelo lógico"
+	       src="https://i.imgur.com/YDGCaDl.png">
+	       <br>Fluxograma do modelo lógico do banco de dados
+</p>
+
+Criação do Banco de Dados
 
 ## Fontes de pesquisa
 
