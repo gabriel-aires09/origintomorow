@@ -132,12 +132,14 @@ Abra o aplicativo da Godot. A primeira inicialização irá pedir para adicionar
 		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma Geral das funcionalidades da aplicação
 </p>
-	Ao acessar o jogo, o jogador irá se deparar com uma tela apresentando as opções de login e cadastro, onde os dados cadastrados pelo usuário serão armazenados no banco de dados em nuvem. O menu inicial dá ao usuário três opções sendo elas start, galeria e quit, cuja opção start possui função de iniciar jogo. Cada opção a qual o jogador escolher será armazenada em nuvem, sendo enviada novamente ao jogador ao final dos capítulos em forma de estatísticas, juntamente com as outros jogadores. 
+
+Ao acessar o jogo, o jogador irá se deparar com uma tela apresentando as opções de login e cadastro, onde os dados cadastrados pelo usuário serão armazenados no banco de dados em nuvem. O menu inicial dá ao usuário três opções sendo elas start, galeria e quit, cuja opção start possui função de iniciar jogo. Cada opção a qual o jogador escolher será armazenada em nuvem, sendo enviada novamente ao jogador ao final dos capítulos em forma de estatísticas, juntamente com as outros jogadores. 
 	
-<video width="800" height="600" controls>
-	<source src="https://github.com/gabriel-aires09/origintomorow/blob/main/video/choices1.mp4" type="video/mp4">
-	Seu navegador não suporta esta tag de video
-</video>
+### Rota 1 - Primeira escolha do jogo
+
+https://user-images.githubusercontent.com/90778217/195460870-dfe8cddc-d4d2-4802-9faf-dcbda5428594.mp4
+
+
 
 ## Modelagem do banco de dados
 
