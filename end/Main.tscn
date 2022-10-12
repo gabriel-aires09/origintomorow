@@ -45,6 +45,5 @@ text = "Origem do Amanhã"
 show_behind_parent = true
 position = Vector2( 965, 541 )
 texture = ExtResource( 3 )
-
 [connection signal="pressed" from="HBoxContainer/RegisterButton" to="." method="_on_RegisterButton_pressed"]
 [connection signal="pressed" from="HBoxContainer/LoginButton" to="." method="_on_LoginButton_pressed"]

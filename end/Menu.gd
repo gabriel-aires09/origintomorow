@@ -18,7 +18,7 @@ func _ready():
 
 
 func _on_StartButton_pressed():
-	 get_tree().change_scene("res://SuperScene.tscn")
+	 get_tree().change_scene("res://Superscene.tscn")
 
 
 
