@@ -159,6 +159,7 @@ Criação do Banco de Dados
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 <br>
+
 ## Fontes de pesquisa
 
 [Godot documentation](https://docs.godotengine.org/en/stable/)
