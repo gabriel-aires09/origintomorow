@@ -90,39 +90,16 @@ Abra o aplicativo da Godot. A primeira inicialização irá pedir para adicionar
 
 #### 1. Na tela de gerenciamento de projetos, aperte o botão Import
 
-<p align="left">
-	<img width="600"
-		alt="Tela de gerenciamento do projeto"
-		src="https://i.imgur.com/onAIBTu.png">
-</p>
-
 #### 2. Selecione o arquivo "project.godot" na janela Open a File/Abrir Arquivo
-<p align="left">
-	<img width="600"
-		alt="Open a File/Abrir Arquivo"
-		src="https://i.imgur.com/yTT2Fw9.png">
-</p>
 
 #### 3. Na janela de importar arquivo, selecione a opção Import & Edit
-<p align="left">
-	<img width="600"
-		alt="Importar arquivo"
-		src="https://i.imgur.com/YoNSQc5.png">
-</p>
 
 #### 4. Ao canto da tela da Godot Engine, aperte o ícone play.
-<p align="left">
-	<img width="600"
-		alt="Godot e play"
-		src="https://i.imgur.com/Z6xNMJ3.png">
-</p>
 
 #### 5. A cena principal será inicializada, juntamente com as demais
-<p align="left">
-	<img width="600"
-		alt="Importar arquivo"
-		src="https://i.imgur.com/NkmXbuw.png">
-</p>
+
+https://user-images.githubusercontent.com/90778217/195465148-2cbacfbf-9149-4709-bafb-80ddd5c36f2d.mp4
+
 
 ## Rotas
 
