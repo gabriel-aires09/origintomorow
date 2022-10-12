@@ -150,7 +150,7 @@ Criação do Banco de Dados
 ## Colaboradores
 
 <p align="center">
-	<img width="320"
+	<img width="320" height="240"
 		alt="Gabriel"
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
