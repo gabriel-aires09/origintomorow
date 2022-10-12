@@ -158,6 +158,17 @@ Criação do Banco de Dados
 		Sou Gabriel Aires, natural de Palmas (TO), Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
+
+<p align="left">
+	<img width="100"
+	     	align="left"
+		alt="Jonathan"
+		src="https://i.imgur.com/Dek9BJr.png"
+		<br><br>
+		Sou estudante Engenharia de Software na faculdade Unicatolica do Tocantins. Tenho como paixões desenhar, jogar videogamer e programar.
+		<br><strong>Arte, Roteiro e Documentação</strong>
+</p>
+
 <br>
 
 ## Fontes de pesquisa
