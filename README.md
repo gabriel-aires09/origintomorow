@@ -139,7 +139,9 @@ Ao acessar o jogo, o jogador irá se deparar com uma tela apresentando as opçõ
 
 https://user-images.githubusercontent.com/90778217/195460870-dfe8cddc-d4d2-4802-9faf-dcbda5428594.mp4
 
+## Rota 2 - Segunda escolha do jogo
 
+https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-a9cb-fe39b158ae0d.mp4
 
 ## Modelagem do banco de dados
 
