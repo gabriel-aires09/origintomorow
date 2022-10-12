@@ -54,11 +54,11 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 		<br>Fluxograma da página de login e senha
 </p>
 
-<p align="center">
+<p align="left">
 	<img width="600"
 		alt="Exemplificação do sistema de escolhas do jogo, por intermédio de condicionais/nested condicionais"
 		src="https://i.imgur.com/CD905bI.png">
-		<br>Exemplificação do sistema de escolhas do jogo
+		<br>Exemplificação do sistema de escolhas do jogo</img>
 </p>
 
 ## Ferramentas utilizadas
@@ -151,12 +151,13 @@ Criação do Banco de Dados
 
 <p align="center">
 	<img width="100"
+	     	align="left"
 		alt="Gabriel"
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
 		Sou Gabriel Aires, natural de Palmas (TO), Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
-	</img>
+
 </p>
 
 
