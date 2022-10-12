@@ -167,7 +167,7 @@ Criação do Banco de Dados
 		alt="Jonathan"
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
-		Sou estudante Engenharia de Software na faculdade Unicatolica do Tocantins. Tenho como paixões desenhar, jogar videogamer e programar.
+		Sou estudante Engenharia de Software na faculdade Unicatolica do Tocantins. Tenho como paixões desenhar, jogar videogame e programar.
 		<br><strong>Arte, Roteiro e Documentação</strong>
 </p>
 
