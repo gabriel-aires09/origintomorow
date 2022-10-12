@@ -132,7 +132,13 @@ Abra o aplicativo da Godot. A primeira inicialização irá pedir para adicionar
 		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma Geral das funcionalidades da aplicação
 </p>
-	Ao acessar o jogo, o jogador irá se deparar com uma tela apresentando as opções de login e cadastro, onde os dados cadastrados pelo usuário serão armazenados no banco de dados em nuvem. O menu inicial dá ao usuário três opções sendo elas start, galeria e quit, cuja opção start possui função de iniciar jogo. Cada opção a qual o jogador escolher será armazenada em nuvem, sendo enviada novamente ao jogador ao final dos capítulos em forma de estatísticas, juntamente com as outros jogadores.  
+
+<br>	Ao acessar o jogo, o jogador irá se deparar com uma tela apresentando as opções de login e cadastro, onde os dados cadastrados pelo usuário serão armazenados no banco de dados em nuvem. O cadastro ocorre dentro do próprio jogo, assim como o login, que quando efetuado, o menu inicial é apresentado, exibindo ao usuário as opções de start, galeria e quit, cuja opção start possui função de iniciar jogo.
+
+Cada escolha a qual o jogador selecionar será armazenada na firebase, sendo enviada novamente ao jogador ao final dos capítulos em forma de estatísticas, juntamente com as outros jogadores, sendo exibidas de forma comparativa. As médias a serem exibidas são geradas através da média de escolhas feitas por todos os jogadores. Quando acessada, a galeria exibe todas as artes do jogo, que são mostradas em forma de listas, sendo armazenadas localmente, cujo desbloqueio de imagens, ocorre através do avanço na história ou rota escolhida. 
+
+
+
 
 ## Modelagem do banco de dados
 
@@ -144,7 +150,7 @@ Modelo lógico
 	       src="https://i.imgur.com/HKGmoh8.png">
 	       <br>Fluxograma do modelo lógico do banco de dados
 </p>
-
+<br>Modelito lindo
 Criação do Banco de Dados
 
 ## Colaboradores
