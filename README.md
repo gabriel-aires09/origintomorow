@@ -177,9 +177,9 @@ Criação do Banco de Dados
 	<img width="100"
 	     	align="left"
 		alt="Jonathan"
-		src="https://i.imgur.com/Dek9BJr.png"
+		src="https://i.imgur.com/LWlxy36.png"
 		<br><br>
-		Olá, meu nome é Mateus Citriniti Emilio. Sou estudante de Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e assistir animes. Profissional certificado em ficar o dia inteiro sentado na frente do PC>
+		Olá, meu nome é Mateus Citriniti Emilio. Sou estudante de Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e assistir animes. Profissional certificado em ficar o dia inteiro sentado na frente do PC.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
