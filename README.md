@@ -150,7 +150,7 @@ Modelo lógico
 	       src="https://i.imgur.com/HKGmoh8.png">
 	       <br>Fluxograma do modelo lógico do banco de dados
 </p>
-<br>Modelito lindo
+<br> Os dados a serem armazenados no Firebase são escolhas e dados de cadastro.
 Criação do Banco de Dados
 
 ## Colaboradores
