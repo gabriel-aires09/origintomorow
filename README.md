@@ -157,22 +157,8 @@ Criação do Banco de Dados
 		<br><br>
 		Sou Gabriel Aires, natural de Palmas (TO), Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
-
 </p>
 
-<table cellspacing="0" cellpadding="0">
-  <tr>
-    <p align="center">
-	<img width="100"
-	     	align="center"
-		alt="Gabriel"
-		src="https://i.imgur.com/4b3eRBA.png"
-		<br>
-		Sou Gabriel Aires, natural de Palmas (TO), Tenho como paixões jogar videogame, codar e ler.
-	    <br><strong>Codificação, Documentação e Ideias</strong>
-    </p>
-  </tr>
-</table>
 
 ## Fontes de pesquisa
 
