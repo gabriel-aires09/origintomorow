@@ -141,7 +141,7 @@ Modelo lógico
 <p align="center">
 	  <img width="600"
 	       alt="Fluxograma do modelo lógico"
-	       src="https://i.imgur.com/YDGCaDl.png">
+	       src="https://i.imgur.com/HKGmoh8.png">
 	       <br>Fluxograma do modelo lógico do banco de dados
 </p>
 
