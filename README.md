@@ -82,45 +82,47 @@ Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
-### Tutorial para rodar o projeto na Godot Engie
+### Tutorial para rodar o projeto na Godot Engine
 
 Abaixo, o tutorial passo a passo:
 
 Abra o aplicativo da Godot. A primeira inicialização irá pedir para adicionar assets. É opcional, mas recomendamos apertar o botão Cancel/Cancelar.
 
-<p align="center">
+1. Na tela de gerenciamento de projetos, aperte o botão Import
+
+<p align="left">
 	<img width="600"
 		alt="Tela de gerenciamento do projeto"
 		src="https://i.imgur.com/onAIBTu.png">
-		<br>1. Na tela de gerenciamento de projetos, aperte o botão Import.
 </p>
 
-<p align="center">
+2. Selecione o arquivo "project.godot" na janela Open a File/Abrir Arquivo
+<p align="left">
 	<img width="600"
 		alt="Open a File/Abrir Arquivo"
 		src="https://i.imgur.com/yTT2Fw9.png">
-		<br>2. Selecione o arquivo "project.godot" na janela Open a File/Abrir Arquivo
 </p>
 
-<p align="center">
+3. Na janela de importar arquivo, selecione a opção Import & Edit
+<p align="left">
 	<img width="600"
 		alt="Importar arquivo"
 		src="https://i.imgur.com/YoNSQc5.png">
-		<br>3. Na janela de importar arquivo, selecione a opção Import & Edit
 </p>
 
-<p align="center">
+4. Ao canto da tela da Godot Engine, aperte o ícone play.
+<p align="left">
 	<img width="600"
 		alt="Godot e play"
 		src="https://i.imgur.com/Z6xNMJ3.png">
-		<br>4. Ao canto da tela da Godot Engine, aperte o ícone play. 
+4. Ao canto da tela da Godot Engine, aperte o ícone play. 
 </p>
 
-<p align="center">
+5. A cena principal será inicializada, juntamente com as demais
+<p align="left">
 	<img width="600"
 		alt="Importar arquivo"
 		src="https://i.imgur.com/NkmXbuw.png">
-		<br>5. A cena principal será inicializada, juntamente com as demais
 </p>
 
 ## Rotas
