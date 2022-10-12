@@ -149,7 +149,7 @@ Criação do Banco de Dados
 
 ## Colaboradores
 
-<p align="center">
+<p align="left">
 	<img width="100"
 	     	align="left"
 		alt="Gabriel"
@@ -160,6 +160,22 @@ Criação do Banco de Dados
 
 </p>
 
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <p align="left">
+	<img width="100"
+	     	align="left"
+		alt="Gabriel"
+		src="https://i.imgur.com/4b3eRBA.png"
+		<br>
+		Sou Gabriel Aires, natural de Palmas (TO), Tenho como paixões jogar videogame, codar e ler.
+	    <br><strong>Codificação, Documentação e Ideias</strong>
+    </p>
+  </tr>
+  <tr>
+    <td class="second">second row</td>
+  </tr>
+</table>
 
 ## Fontes de pesquisa
 
