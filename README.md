@@ -164,7 +164,7 @@ Criação do Banco de Dados
 		alt="Gabriel"
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
-		Sou Gabriel Aires, natural de Palmas (TO). Tenho como paixões jogar videogame, codar e ler. Pseudo advogado frustado que resolveu migrar para TI, porque mexer com PC é melhor do que lidar com gente.
+		Sou Gabriel Aires, natural de Palmas (TO). Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
@@ -188,7 +188,7 @@ Criação do Banco de Dados
 		alt="Mateus a lenda"
 		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
-		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e assistir animes. Profissional certificado em ficar o dia inteiro sentado na frente do PC.
+		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e assistir animes.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
