@@ -177,7 +177,7 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 	<img width="600"
 		alt="Representação das escolhas do jogador no Firebase"
 		src="https://i.imgur.com/QYgDnA1.png"
-		<br>Representação das escolhas feitas do jogador, mostrando chave primária e os objetos/propriedades definidas"
+		<br><br>Representação das escolhas feitas do jogador, mostrando chave primária e os objetos/propriedades definidas
 </p>
 
 <p align="center">
