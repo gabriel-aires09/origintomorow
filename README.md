@@ -164,7 +164,7 @@ https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-
 
 Diante das funcionalidades e sistemas utilizados para o nosso projeto, optamos por um gerenciamento de banco de dados não relacional (NoSQL). Primeiramente, o motivo para utilizar esta estrutura de banco de dados é a sua característica de mutabilidade durante o processo de desenvolvimento da aplicação. Queremos, na medida que surgem novas ideias entre os integrantes do projeto, modificar a manipulação dos dados na nossa aplicação, não necessariamente atendendo uma estrutura pré-definida. Segundo, adotamos o Firebase como aplicação principal para o gerenciamento de dados e informações do nosso jogo. Percebemos que, ao analisar o contexto e, pelo tempo exigido para desenvolvimento da aplicação, o melhor caminho a ser seguido seria a utilização do Firebase, principalmente por causa da facilidade de implementação e praticidade de utilização na nossa aplicação. Terceiro, porque a nossa própria orientadora apresentou como uma das ferramentas que podem ser utilizadas durante o processo de desenvolvimento. :smile:
 
-Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a representação de tabelas do Dialogic repassadas para o RealTime Database e o gerenciamento de emails/cadastros emitidos no Firebase para teste da aplicação.
+Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a representação de tabelas do Dialogic repassadas para o RealTime Database e o gerenciamento de emails/cadastros registrados no Firebase para teste da aplicação.
 
 <p align="center">
 	  <img width="600"
