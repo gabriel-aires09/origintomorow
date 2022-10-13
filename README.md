@@ -82,6 +82,7 @@ Exemplo:
 		<li>Porcentagem: 44%</li>
 	</ul>
 </ul> 
+
 Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.
 
 
