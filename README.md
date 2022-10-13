@@ -138,7 +138,7 @@ https://user-images.githubusercontent.com/90778217/195465148-2cbacfbf-9149-4709-
 ## Rotas
 
 <p align="center">
-	<img width="600"
+	<img width="1280" length="720"
 		alt="Fluxograma do Firebase e escolhas do jogo"
 		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma Geral das funcionalidades da aplicação
@@ -192,8 +192,7 @@ Criação do Banco de Dados
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
 		Sou Jonathan Rodrigues. Atualmente, estudo Engenharia de Software na Faculdade Unicatólica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
-		<br><strong>Arte, Roteiro e Documentação</strong>
-  
+		<br><strong>Arte, Roteiro e Documentação</strong>  
 
 <br>
 
