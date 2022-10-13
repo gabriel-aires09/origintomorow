@@ -30,13 +30,13 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 3. Sistemas de decisões que serão armazenadas no Banco de Dados e mostradas como estátisticas para o jogador ao final do jogo, demonstrando o seu  desempenho e progressão comparadas aos outros jogadores;
 
-4. História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história
+4. História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história;
 
-5. Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história
+5. Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história;
 
-6. Sons e efeitos sonoros para maior imersão do jogador.
+6. Sons e efeitos sonoros para maior imersão do jogador;
 
-7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo;
+7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.
 
 
 ## Possíveis funcionalidades e que estão fora do escopo
@@ -103,6 +103,10 @@ Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresen
 
 4. [Firebase](https://firebase.google.com/?hl=pt) é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
+5. [Fruity Loop Studio](https://www.image-line.com/fl-studio/)FL Studio é uma estação de trabalho de áudio digital desenvolvido pela empresa belga Image-Line. Atualmente é um dos softwares mais usados em produções musicais no mundo, ficando em 4° lugar com 13.63%. Em 2018 foi considerado o melhor DAW do ano pelo IDMA.
+
+6. [Obs Studio](https://obsproject.com/pt-br/download)O OBS é uma suíte de software livre e de código aberto para gravação e transmissão ao vivo. Escrito em C e C++, o OBS fornece captura de fonte e dispositivo em tempo real, composição de cena, codificação, gravação e transmissão. A transmissão de dados é feita principalmente através do RTMP (Real Time Messaging Protocol) e pode ser enviada para qualquer destino de suporte RTMP, incluindo muitas predefinições para sites de streaming, como YouTube, Instagram, Twitch e Facebook.
+
 ## Configurações do Projeto
 
 Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. 
@@ -158,7 +162,9 @@ https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-
 
 ## Modelagem do banco de dados
 
-Modelo lógico
+Diante das funcionalidades e sistemas utilizados para o nosso projeto, optamos por um gerenciamento de banco de dados não relacional (NoSQL). Primeiramente, o motivo para utilizar esta estrutura de banco de dados é a sua característica de mutabilidade durante o processo de desenvolvimento da aplicação. Queremos, na medida que surgem novas ideias entre os integrantes do projeto, modificar a manipulação dos dados na nossa aplicação, não necessariamente atendendo uma estrutura pré-definida. Segundo, adotamos o Firebase como aplicação principal para o gerenciamento de dados e informações do nosso jogo. Percebemos que, ao analisar o contexto e, pelo tempo exigido para desenvolvimento da aplicação, o melhor caminho a ser seguido seria a utilização do Firebase, principalmente por causa da facilidade de implementação e praticidade de utilização na nossa aplicação. Terceiro, porque a nossa própria orientadora apresentou como uma das ferramentas que podem ser utilizadas durante o processo de desenvolvimento :smile:.
+
+Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a representação de tabelas do Dialogic repassadas para o RealTime Databasee o gerenciamento de emails/cadastros emitidos no Firebase para teste da aplicação.
 
 <p align="center">
 	  <img width="600"
@@ -167,7 +173,27 @@ Modelo lógico
 	       <br>Fluxograma do modelo lógico do banco de dados
 </p>
 
-Criação do Banco de Dados
+<p align="center">
+	<img width="600"
+		alt="Representação das escolhas do jogador no Firebase"
+		src="https://i.imgur.com/QYgDnA1.png"
+		<br>Representação das escolhas feitas do jogador, mostrando chave primária e os objetos/propriedades definidas"
+</p>
+
+<p align="center">
+	<img width="600"
+		alt="Usuários cadastrados no jogo e registrados no Firebase"
+		src="https://i.imgur.com/y7Y2Kz0.png"
+		<br>Página de autenticação do Firebase, demonstrando os usuários cadastrados e registrados no banco de dados
+</p>
+
+<p align="center">
+	<img width="600"
+		alt="Estrutura da tabela da timeline criada pela Dialogic"
+		src="https://i.imgur.com/o8ww56j.png"
+		<br>Estrutura da tabela do arquivo .json criado pelo Dialogic. Algumas das escolhas serão armazenadas por aqui, juntamente com os objetos que compõem a cena do jogo
+</p>
+
 
 ## Colaboradores
 
