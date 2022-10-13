@@ -137,8 +137,8 @@ https://user-images.githubusercontent.com/90778217/195465148-2cbacfbf-9149-4709-
 
 ## Rotas
 
-<p align="center">
-	<img width="1506" height="720"
+<p align="left">
+	<img width="1506" height="334"
 		alt="Fluxograma do Firebase e escolhas do jogo"
 		src="https://i.imgur.com/Y1s0nMq.png">
 		<br>Fluxograma Geral das funcionalidades da aplicação
