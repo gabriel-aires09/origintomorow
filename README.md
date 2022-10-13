@@ -56,11 +56,8 @@ Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo
 		<li>Caso os dados não estiverem corretos, vai aparecer uma mensagem de erro do usuário ou senha digitada incorretamente, solicitando novamente a autenticação.</li>
 	</ul>
 </ul>
-Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída diferente ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.
- 
 
-
-
+<br> 
 
 <p align="center">
 	<img width="600"
@@ -68,6 +65,27 @@ Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, 
 		src="https://i.imgur.com/cQPXj1B.png">
 		<br>Fluxograma da página de login e senha
 </p>
+
+<br>
+
+Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída  ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.
+ 
+Exemplo: 
+
+<ul>
+	<li>O jogador A traçou o caminho X.</li> 
+	<ul>
+		<li>Porcentagem de jogadores que seguiram este caminho 56%.</li>
+	</ul> 
+	<li>Outros jogadores que seguiram o caminho Y.</li>
+	<ul>
+		<li>Porcentagem: 44%</li>
+	</ul>
+</ul> 
+Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.
+
+
+<br>
 
 <p align="center">
 	<img width="600"
@@ -172,9 +190,7 @@ Criação do Banco de Dados
 		alt="Jonathan"
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
-		Sou Jonathan Rodrigues. Atualmente, estudo Engenharia de Software na faculdade Unicatolica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
-		<br><strong>Arte, Roteiro e Documentação</strong>
-</p>
+		</ul>  
 
 <br>
 
