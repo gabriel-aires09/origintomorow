@@ -103,9 +103,9 @@ Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresen
 
 4. [Firebase](https://firebase.google.com/?hl=pt) é um conjunto de serviços de hospedagem para qualquer tipo de aplicativo. Oferece hospedagem NoSQL e em tempo real de bancos de dados, conteúdo, autenticação social e notificações, ou serviços, como um servidor de comunicação em tempo real.
 
-5. [Fruity Loop Studio](https://www.image-line.com/fl-studio/)FL Studio é uma estação de trabalho de áudio digital desenvolvido pela empresa belga Image-Line. Atualmente é um dos softwares mais usados em produções musicais no mundo, ficando em 4° lugar com 13.63%. Em 2018 foi considerado o melhor DAW do ano pelo IDMA.
+5. [Fruity Loop Studio](https://www.image-line.com/fl-studio/)é uma estação de trabalho de áudio digital desenvolvido pela empresa belga Image-Line. Atualmente é um dos softwares mais usados em produções musicais no mundo, ficando em 4° lugar com 13.63%. Em 2018 foi considerado o melhor DAW do ano pelo IDMA.
 
-6. [Obs Studio](https://obsproject.com/pt-br/download)O OBS é uma suíte de software livre e de código aberto para gravação e transmissão ao vivo. Escrito em C e C++, o OBS fornece captura de fonte e dispositivo em tempo real, composição de cena, codificação, gravação e transmissão. A transmissão de dados é feita principalmente através do RTMP (Real Time Messaging Protocol) e pode ser enviada para qualquer destino de suporte RTMP, incluindo muitas predefinições para sites de streaming, como YouTube, Instagram, Twitch e Facebook.
+6. [Obs Studio](https://obsproject.com/pt-br/download) é uma suíte de software livre e de código aberto para gravação e transmissão ao vivo. Escrito em C e C++, o OBS fornece captura de fonte e dispositivo em tempo real, composição de cena, codificação, gravação e transmissão. A transmissão de dados é feita principalmente através do RTMP (Real Time Messaging Protocol) e pode ser enviada para qualquer destino de suporte RTMP, incluindo muitas predefinições para sites de streaming, como YouTube, Instagram, Twitch e Facebook.
 
 ## Configurações do Projeto
 
@@ -184,14 +184,14 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 	<img width="600"
 		alt="Usuários cadastrados no jogo e registrados no Firebase"
 		src="https://i.imgur.com/y7Y2Kz0.png"
-		<br>Página de autenticação do Firebase, demonstrando os usuários cadastrados e registrados no banco de dados
+		<br><br>Página de autenticação do Firebase, demonstrando os usuários cadastrados e registrados no banco de dados
 </p>
 
 <p align="center">
 	<img width="600"
 		alt="Estrutura da tabela da timeline criada pela Dialogic"
 		src="https://i.imgur.com/o8ww56j.png"
-		<br>Estrutura da tabela do arquivo .json criado pelo Dialogic. Algumas das escolhas serão armazenadas por aqui, juntamente com os objetos que compõem a cena do jogo
+		<br><br>Estrutura da tabela do arquivo .json criado pelo Dialogic. Algumas das escolhas serão armazenadas por aqui, juntamente com os objetos que compõem a cena do jogo
 </p>
 
 
