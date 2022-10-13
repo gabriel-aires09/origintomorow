@@ -176,8 +176,8 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 <p align="center">
 	<img width="600"
 		alt="Representação das escolhas do jogador no Firebase"
-		src="https://i.imgur.com/QYgDnA1.png"
-		<br><br>Representação das escolhas feitas do jogador, mostrando chave primária e os objetos/propriedades definidas
+		src="https://i.imgur.com/q2L1JAo.jpg"
+		<br><br>Representação das escolhas feitas do jogador, mostrando chave primária e os objetos/propriedades definidas. Algumas das escolhas serão armazenadas por aqui.
 </p>
 
 <p align="center">
@@ -191,7 +191,7 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 	<img width="600"
 		alt="Estrutura da tabela da timeline criada pela Dialogic"
 		src="https://i.imgur.com/o8ww56j.png"
-		<br><br>Estrutura da tabela do arquivo .json criado pelo Dialogic. Algumas das escolhas serão armazenadas por aqui, juntamente com os objetos que compõem a cena do jogo
+		<br><br>Estrutura da tabela do arquivo .json criado pelo Dialogic. 
 </p>
 
 
