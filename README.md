@@ -142,7 +142,7 @@ https://user-images.githubusercontent.com/90778217/195465148-2cbacfbf-9149-4709-
 		alt="Fluxograma do Firebase e escolhas do jogo"
 		src="https://i.imgur.com/Y1s0nMq.png">
 </p>
-<br><p align="center">Fluxograma Geral das funcionalidades da aplicação</p>
+<p align="center">Fluxograma Geral das funcionalidades da aplicação</p>
 
 Ao acessar o jogo, o jogador irá se deparar com uma tela apresentando as opções de login e cadastro, onde os dados cadastrados pelo usuário serão armazenados no banco de dados em nuvem. O cadastro ocorre dentro do próprio jogo, assim como o login, que quando efetuado, o menu inicial é apresentado, exibindo ao usuário as opções de start, galeria e quit, cuja opção start possui função de iniciar jogo.
 
