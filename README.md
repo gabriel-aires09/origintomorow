@@ -47,10 +47,25 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 
 ## Fluxograma das funcionalidades
 
+Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo a comunicação entre aplicação e banco de dados/servidor Firebase. Estas informações serão armazenadas no banco de dados, criando uma identificação/chave primária própria. Existe um cenário/interação para verificação se os dados dos usuários estiverem corretos.
+
+<ul>
+	<li>Caso o email já esteja cadastrado, o jogador já pode pular para tela de login e digitar os seus dados;</li>
+	<ul>
+		<li>Se os dados estiverem corretos, vai aparecer uma mensagem de login bem sucedido, avançando para o menu do jogo;</li> 
+		<li>Caso os dados não estiverem corretos, vai aparecer uma mensagem de erro do usuário ou senha digitada incorretamente, solicitando novamente a autenticação.</li>
+	</ul>
+</ul>
+Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída diferente ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.
+ 
+
+
+
+
 <p align="center">
 	<img width="600"
 		alt="Fluxograma da página de login"
-		src="https://i.imgur.com/fGLKb95.png">
+		src="https://i.imgur.com/cQPXj1B.png">
 		<br>Fluxograma da página de login e senha
 </p>
 
