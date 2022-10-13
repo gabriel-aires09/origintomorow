@@ -191,7 +191,9 @@ Criação do Banco de Dados
 		alt="Jonathan"
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
-		</ul>  
+		Sou Jonathan Rodrigues. Atualmente, estudo Engenharia de Software na Faculdade Unicatólica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
+		<br><strong>Arte, Roteiro e Documentação</strong>
+  
 
 <br>
 
