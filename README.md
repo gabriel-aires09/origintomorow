@@ -238,8 +238,18 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 		alt="Mateus a lenda"
 		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
-		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e assistir animes.
+		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
 		<br><strong>Codificação, Documentação e Ideias</strong>
+</p>
+
+<p align="left">
+	<img width="100"
+	     	align="left"
+		alt="Daniel"
+		src=""
+		<br><br>
+		Meu nome é Daniel Vitor. Tenho 18 anos e estou cursando Engenharia de Software no Centro Universitário Católica do Tocantins. Tenho como paixões programar e me aprimorar como pessoa.
+		<br><strong>ntegração com Firebase e Ideias</strong>
 </p>
 
 <br>
