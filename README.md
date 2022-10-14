@@ -136,6 +136,11 @@ Abra o aplicativo da Godot. A primeira inicialização irá pedir para adicionar
 
 https://user-images.githubusercontent.com/90778217/195465148-2cbacfbf-9149-4709-bafb-80ddd5c36f2d.mp4
 
+### Tutorial para rodar o projeto no Visual Studio Code
+
+Caso você tenha interesse em conferir a versão para navegadores e acessar/editar o código fonte, faça o download da versão HTML + Javascript na página de [releases](https://github.com/gabriel-aires09/origintomorow/releases/tag/v0.1b). Baixe o arquivo [Origin_of_Tomorrow_Browser.zip](https://github.com/gabriel-aires09/origintomorow/releases/download/v0.1b/Origin_of_Tomorrow_Browser.zip). Caso tenha interesse em rodar aplicação para verificar as modificações, baixe a extensão Live Server do Visual Studio Code. Abaixo, um pequeno tutorial em vídeo de como pode ser feito este procedimento.
+
+https://user-images.githubusercontent.com/90778217/195739306-23e4c58e-0d15-42e6-a16d-45dad32c2787.mp4
 
 ## Rotas
 
