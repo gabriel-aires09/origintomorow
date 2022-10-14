@@ -242,6 +242,8 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
+<br>
+
 <p align="left">
 	<img width="100"
 	     	align="left"
