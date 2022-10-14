@@ -229,6 +229,7 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 		<br><br>
 		Sou Jonathan Rodrigues. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
 		<br><strong>Arte, Roteiro e Documentação</strong>  
+</p>
 
 <br>
 
