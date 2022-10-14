@@ -118,6 +118,7 @@ Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
+
 ### Tutorial para rodar o projeto na Godot Engine
 
 Abaixo, o tutorial passo a passo:
@@ -136,6 +137,7 @@ Abra o aplicativo da Godot. A primeira inicialização irá pedir para adicionar
 
 https://user-images.githubusercontent.com/90778217/195465148-2cbacfbf-9149-4709-bafb-80ddd5c36f2d.mp4
 
+
 ### Tutorial para rodar o projeto no Visual Studio Code
 
 Caso você tenha interesse em conferir a versão para navegadores e acessar/editar o código fonte, faça o download da versão HTML + Javascript na página de [releases](https://github.com/gabriel-aires09/origintomorow/releases/tag/v0.1b). Baixe o arquivo [Origin_of_Tomorrow_Browser.zip](https://github.com/gabriel-aires09/origintomorow/releases/download/v0.1b/Origin_of_Tomorrow_Browser.zip). Caso tenha interesse em rodar aplicação para verificar as modificações, baixe a extensão Live Server do Visual Studio Code. 
@@ -143,6 +145,7 @@ Caso você tenha interesse em conferir a versão para navegadores e acessar/edit
 Abaixo, um pequeno tutorial em vídeo de como pode ser feito este procedimento.
 
 https://user-images.githubusercontent.com/90778217/195740843-746e6f9d-6960-4bfd-9436-a5dfde40e185.mp4
+
 
 ## Rotas
 
@@ -163,9 +166,11 @@ Abaixo, as rotas/caminhos de acesso que podem ser acessadas aos jogadores neste 
 
 https://user-images.githubusercontent.com/90778217/195460870-dfe8cddc-d4d2-4802-9faf-dcbda5428594.mp4
 
+
 ## Rota 2 - Segunda escolha do jogo
 
 https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-a9cb-fe39b158ae0d.mp4
+
 
 ## Modelagem do banco de dados
 
