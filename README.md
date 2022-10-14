@@ -246,7 +246,7 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 	<img width="100"
 	     	align="left"
 		alt="Daniel"
-		src=""
+		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
 		Meu nome é Daniel Vitor. Tenho 18 anos e estou cursando Engenharia de Software no Centro Universitário Católica do Tocantins. Tenho como paixões programar e me aprimorar como pessoa.
 		<br><strong>ntegração com Firebase e Ideias</strong>
