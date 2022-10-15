@@ -209,6 +209,20 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 
 ## Colaboradores
 
+<br>
+
+<p align="left">
+	<img width="100"
+	     	align="left"
+		alt="Daniel"
+		src="https://i.imgur.com/qeJnyNH.png"
+		<br><br>
+		Meu nome é Daniel Vitor. Tenho 18 anos e estou cursando Engenharia de Software no Centro Universitário Católica do Tocantins. Tenho como paixões programar e me aprimorar como pessoa.
+		<br><strong>Integração com Firebase e Ideias</strong>
+</p>
+
+<br>
+
 <p align="left">
 	<img width="100"
 	     	align="left"
@@ -236,7 +250,7 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 <p align="left">
 	<img width="100"
 	     	align="left"
-		alt="Mateus a lenda"
+		alt="Mateus, a lenda"
 		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
 		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
@@ -245,17 +259,6 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 
 <br>
 
-<p align="left">
-	<img width="100"
-	     	align="left"
-		alt="Daniel"
-		src="https://i.imgur.com/qeJnyNH.png"
-		<br><br>
-		Meu nome é Daniel Vitor. Tenho 18 anos e estou cursando Engenharia de Software no Centro Universitário Católica do Tocantins. Tenho como paixões programar e me aprimorar como pessoa.
-		<br><strong>Integração com Firebase e Ideias</strong>
-</p>
-
-<br>
 
 ## Fontes de pesquisa
 
