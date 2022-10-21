@@ -229,49 +229,57 @@ Após ela, o usuário frequentemente passará pela seguinte rota:
 
 Eu como jogador desejo registrar uma conta no sistema para que eu possa ter acesso ao jogo
 
-Cenário 1: Primeira entrada
-Dado que o usuário não tenha uma conta  
-E queira iniciar o jogo
-Então ele seleciona o opção registro e preenche os dados:
-email, senha,confirmar senha
-O sistema retorna uma confirmação e o jogador
-é levado para a tela inicial
+#### Cenário 1: Primeira entrada
+
+Dado que o usuário não tenha uma conta
+<ul>
+	<li>E queira iniciar o jogo</li>
+</ul>
+Então ele seleciona o opção registro 
+<ul>
+	<li>E preenche os dados email, senha,confirmar senha</li>
+</ul>
+O sistema retorna uma confirmação 
+<ul>
+	<li>E o jogador é levado para a tela inicial</li>
+</ul>
     
-Cenário 2: Senha fraca
+#### Cenário 2: Senha fraca
+
 Dado que o usuário
 Quando estiver preenchendo os dados do cadastro
-E a senha possuir menos que seis caracteres
+<ul>
+	<li>E a senha possuir menos que seis caracteres</li>
+</ul>
 Então o sistema retorna um erro
-E pede para o usuário tentar outra senha novamente
-
-
-        
+<ul>
+	<li>E pede para o usuário tentar outra senha novamente</li>
+</ul>     
     
 ### História 2:  Sistema de decisões
 
 Eu como jogador quero escolher que escolhas tomar durante a história para que possa ver como minhas decisões afetaram a história no geral
 
-Cenário 1: Escolha impactante
+#### Cenário 1: Escolha impactante
 Dado que o usuário esteja jogando
-E apareça duas ou mais opções de escolha
-Ex: Ajudar, ignorar
-    
-Então o jogador seleciona uma das duas opções
-O sistema salva a escolha que o jogador tomou
-E avança a história de acordo com a opção escolhida
+<ul>
+	<li>E apareça duas ou mais opções de escolha</li>
+</ul>
+Ex: Ajudar, ignorar    
+Então o jogador seleciona uma das duas opções, salva a escolha que o jogador tomou
+<ul>
+	<li>E avança a história de acordo com a opção escolhida</li>
+</ul>
         
-
-
 ## Regras de negócio - Jogo de texto
 
 ### Login/Registro
 
 <ul>
-	<li>Um email e senha são obrigatórios</li>
+Um email e senha são obrigatórios
 	<li>A senha deve possuir no mínimo 6 caracteres</li>
 	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 </ul>
-
 
 ## Colaboradores
 
