@@ -10,6 +10,7 @@
 		src="https://i.imgur.com/wADTXCi.png">
 </p>
 
+## A2 - Sprint 1
 ## Introdução
 
 Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).
@@ -118,36 +119,6 @@ Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
-
-## Padronização e permissão de rotas
-
-Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. Quando o usuário se registra, seus dados são salvos na nuvem juntamente com um token gerado pelo Firebase, cuja utilização se dará na autenticação de usuário. O jogo apresenta as seguintes rotas: 
-### Iniciar
-Sendo a primeira rota a qual o usuário utitizará, ele terá acesso ao conteúdo jogável
-
-
-<h3 align="center">{Main}/{Register{token_criado}}/{Login{token_autenticado}}/{Menu}/{Supercene{dialogic}} </h3>
-
-
-Após ela, o usuário frequentemente passará pela seguinte rota:
-
-
-<h3 align="center">{Main}/{Login{token_autenticado}}/{Menu}/{Supercene{dialogic}}</h3>
-
-
-### Galeria
-Nessa Rota ele terá acesso à galeria do jogo. Caso seja seu primeiro acesso, ele se dará da seguinte forma: 
-
-
-<h3 align="center">{Main}/{Register{token_criado}}/{Login{token_autenticado}}/{Menu}/{Galeria}</h3>
-
-
-Se já possuir conta registrada:
-
-
-<h3 align="center">{Main}/{Login{token_autenticado}}/{Menu}/{Galeria}</h3>
-
-
 ## Tutorial para rodar o projeto na Godot Engine
 
 Abaixo, o tutorial passo a passo:
@@ -234,6 +205,72 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 		src="https://i.imgur.com/o8ww56j.png"
 		<br><br>Estrutura da tabela do arquivo .json criado pelo Dialogic. 
 </p>
+
+## A2 - Sprint 2
+
+## Padronização e permissão de rotas
+
+Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. Quando o usuário se registra, seus dados são salvos na nuvem juntamente com um token gerado pelo Firebase, cuja utilização se dará na autenticação de usuário. O jogo apresenta as seguintes rotas: 
+### Iniciar
+Sendo a primeira rota a qual o usuário utitizará, ele terá acesso ao conteúdo jogável
+
+
+<h3 align="center">{Main}/{Register{token_criado}}/{Login{token_autenticado}}/{Menu}/{Supercene{dialogic}} </h3>
+
+
+Após ela, o usuário frequentemente passará pela seguinte rota:
+
+
+<h3 align="center">{Main}/{Login{token_autenticado}}/{Menu}/{Supercene{dialogic}}</h3>
+
+## Histórias de usuário
+
+### História 1: Registro
+
+Eu como jogador desejo registrar uma conta no sistema para que eu possa ter acesso ao jogo
+
+Cenário 1: Primeira entrada
+Dado que o usuário não tenha uma conta  
+E queira iniciar o jogo
+Então ele seleciona o opção registro e preenche os dados:
+email, senha,confirmar senha
+O sistema retorna uma confirmação e o jogador
+é levado para a tela inicial
+    
+Cenário 2: Senha fraca
+Dado que o usuário
+Quando estiver preenchendo os dados do cadastro
+E a senha possuir menos que seis caracteres
+Então o sistema retorna um erro
+E pede para o usuário tentar outra senha novamente
+
+
+        
+    
+### História 2:  Sistema de decisões
+
+Eu como jogador quero escolher que escolhas tomar durante a história para que possa ver como minhas decisões afetaram a história no geral
+
+Cenário 1: Escolha impactante
+Dado que o usuário esteja jogando
+E apareça duas ou mais opções de escolha
+Ex: Ajudar, ignorar
+    
+Então o jogador seleciona uma das duas opções
+O sistema salva a escolha que o jogador tomou
+E avança a história de acordo com a opção escolhida
+        
+
+
+## Regras de negócio - Jogo de texto
+
+### Login/Registro
+
+<ul>
+	<li>Um email e senha são obrigatórios</li>
+	<li>A senha deve possuir no mínimo 6 caracteres</li>
+	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
+</ul>
 
 
 ## Colaboradores
