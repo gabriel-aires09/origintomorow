@@ -121,7 +121,7 @@ Os arquivos do código fonte podem ser executados utilizando a própria engine [
 
 ## Padronização e permissão de rotas
 
-Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. O jogo apresenta as seguintes rotas: 
+Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. Quando o usuário se registra, seus dados são salvos na nuvem juntamente com um token gerado pelo Firebase, cuja utilização se dará na autenticação de usuário. O jogo apresenta as seguintes rotas: 
 ### Iniciar
 Sendo a primeira rota a qual o usuário utitizará, ele terá acesso ao conteúdo jogável
 
