@@ -277,8 +277,9 @@ Então o jogador seleciona uma das duas opções, salva a escolha que o jogador 
 
 ### Login/Registro
 
-<ul>
 Um email e senha são obrigatórios
+
+<ul>
 	<li>A senha deve possuir no mínimo 6 caracteres</li>
 	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 </ul>
