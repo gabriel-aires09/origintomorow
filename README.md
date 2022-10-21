@@ -119,6 +119,35 @@ Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
 
+## Padronização e permissão de rotas
+
+Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. O jogo apresenta as seguintes rotas: 
+### Iniciar
+Sendo a primeira rota a qual o usuário utitizará, ele terá acesso ao conteúdo jogável
+
+
+<h3 align="center">Main/Register{token_criado}/Login{token_autenticado}/Menu/Supercene{dialogic} </h3>
+
+
+Após ela, o usuário frequentemente passará pela seguinte rota:
+
+
+<h3 align="center">Main/Login{token_autenticado}/Menu/Supercene{dialogic}</h3>
+
+
+### Galeria
+Nessa Rota ele terá acesso à galeria do jogo. Caso seja seu primeiro acesso, ele se dará da seguinte forma: 
+
+
+<h3 align="center">Main/Register{token_criado}/Login{token_autenticado}/Menu/Galeria</h3>
+
+
+Se já possuir conta registrada:
+
+
+<h3 align="center">Main/Login{token_autenticado}/Menu/Galeria</h3>
+
+
 ### Tutorial para rodar o projeto na Godot Engine
 
 Abaixo, o tutorial passo a passo:
