@@ -148,7 +148,7 @@ Se já possuir conta registrada:
 <h3 align="center">Main/Login{token_autenticado}/Menu/Galeria</h3>
 
 
-### Tutorial para rodar o projeto na Godot Engine
+## Tutorial para rodar o projeto na Godot Engine
 
 Abaixo, o tutorial passo a passo:
 
