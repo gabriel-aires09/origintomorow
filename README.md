@@ -284,6 +284,8 @@ Um email e senha são obrigatórios
 	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 </ul>
 
+## Termos de Uso
+
 ## Colaboradores
 
 <br>
