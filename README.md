@@ -294,13 +294,13 @@ Ao instalar e jogar Origin of Tomorrow, você estará de acordo com estes termos
 
 Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o jogo cessará, e você deverá interromper o uso do jogo imediatamente. 
 
-### Concessão de Licença Limitada para Uso do Jogo.
+### Concessão de Licença Limitada para Uso do Jogo
 
 Levando em conta a sua concordância com os presentes Termos de Uso além das políticas de privacidade, concebemos a você uma licença não exclusiva, intransferível, não sublicenciável, revogável e limitada para o acesso e uso do jogo para seus fins de entretenimento. Você concorda em não usar o jogo para nenhuma outra finalidade.
 Não é permitida a venda, compra, aluguel ou doação da sua conta, nem criar dados falsos. Você não poderá jogar caso já tenha sido banido anteriormente. Sua conta serve apenas para fins não comerciais.
 Você não está permitido a jogar caso tenha menos de 16 anos. O uso do seu cartão de crédito ou outros instrumentos de pagamento por menores, são responsabilidade sua.
 
-### Dados de Acesso e sua Conta:
+### Dados de Acesso e sua Conta
 
 Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta não deve ser compartilhada, e nem pode ser acessada por outras pessoas. Caso desconfie ou tome conhecimento que sua conta está sendo acessada indevidamente, notifique as equipes através do github e altere os seus dados de acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo que acontece por meio da sua Conta.
 
