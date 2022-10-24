@@ -292,7 +292,7 @@ Antes de acessar ou utilizar o jogo, você deve concordar com os Termos de Uso. 
 
 Ao instalar e jogar Origin of Tomorrow, você estará de acordo com estes termos de uso. Se não estiver de acordo com estes termos de uso, não instale ou jogue o jogo.
 
-Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o Serviço cessará, e você deverá interromper o uso do jogo imediatamente. 
+Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o jogo cessará, e você deverá interromper o uso do jogo imediatamente. 
 
 ### Concessão de Licença Limitada para Uso do Jogo.
 
