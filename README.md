@@ -284,42 +284,43 @@ Um email e senha são obrigatórios
 	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 </ul>
 ## Termos de Uso
+
 Os termos deste contrato (“Termos de Uso”) regem o relacionamento entre você e os colaboradores, pessoas físicas com sede em Palmas/Tocantins.
 
-	Antes de acessar ou utilizar o jogo, você deve concordar com os Termos de Uso. É necessário que você crie uma conta no jogo, sendo que dessa forma, você declara ter 16 anos de idade ou mais. Caso tenha de 16 a 17 anos, você declara que seus responsáveis legais estão de acordo com os termos de uso presentes no documento.
+Antes de acessar ou utilizar o jogo, você deve concordar com os Termos de Uso. É necessário que você crie uma conta no jogo, sendo que dessa forma, você declara ter 16 anos de idade ou mais. Caso tenha de 16 a 17 anos, você declara que seus responsáveis legais estão de acordo com os termos de uso presentes no documento.
 
-	Ao instalar e jogar Origin of Tomorrow, você estará de acordo com estes termos de uso. Se não estiver de acordo com estes termos de uso, não instale ou jogue o jogo.
+Ao instalar e jogar Origin of Tomorrow, você estará de acordo com estes termos de uso. Se não estiver de acordo com estes termos de uso, não instale ou jogue o jogo.
 
-	Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o Serviço cessará, e você deverá interromper o uso do jogo imediatamente. 
+Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o Serviço cessará, e você deverá interromper o uso do jogo imediatamente. 
 
 ### Concessão de Licença Limitada para Uso do Jogo.
 
-	Levando em conta a sua concordância com os presentes Termos de Uso além das políticas de privacidade, concebemos a você uma licença não exclusiva, intransferível, não sublicenciável, revogável e limitada para o acesso e uso do jogo para seus fins de entretenimento. Você concorda em não usar o jogo para nenhuma outra finalidade.
-	Não é permitida a venda, compra, aluguel ou doação da sua conta, nem criar dados falsos. Você não poderá jogar caso já tenha sido banido anteriormente. Sua conta serve apenas para fins não comerciais.
-	Você não está permitido a jogar caso tenha menos de 16 anos. O uso do seu cartão de crédito ou outros instrumentos de pagamento por menores, são responsabilidade sua.
+Levando em conta a sua concordância com os presentes Termos de Uso além das políticas de privacidade, concebemos a você uma licença não exclusiva, intransferível, não sublicenciável, revogável e limitada para o acesso e uso do jogo para seus fins de entretenimento. Você concorda em não usar o jogo para nenhuma outra finalidade.
+Não é permitida a venda, compra, aluguel ou doação da sua conta, nem criar dados falsos. Você não poderá jogar caso já tenha sido banido anteriormente. Sua conta serve apenas para fins não comerciais.
+Você não está permitido a jogar caso tenha menos de 16 anos. O uso do seu cartão de crédito ou outros instrumentos de pagamento por menores, são responsabilidade sua.
 
 ### Dados de Acesso e sua Conta:
 
-	Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta não deve ser compartilhada, e nem pode ser acessada por outras pessoas. Caso desconfie ou tome conhecimento que sua conta está sendo acessada indevidamente, notifique as equipes através do github e altere os seus dados de acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo que acontece por meio da sua Conta.
+Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta não deve ser compartilhada, e nem pode ser acessada por outras pessoas. Caso desconfie ou tome conhecimento que sua conta está sendo acessada indevidamente, notifique as equipes através do github e altere os seus dados de acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo que acontece por meio da sua Conta.
 
 ### Propriedade
 
 ###	Jogo
 
-	Todos os títulos e direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
+Todos os títulos e direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 	
 	Contas
 
-	Não obstante disposições em contrário aqui expressas, você reconhece e concorda que não terá propriedade ou outros direitos de propriedade sobre a conta, e você reconhece e concorda ainda que todos os direitos sobre a conta são e serão sempre de propriedade e para o benefício dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
+Não obstante disposições em contrário aqui expressas, você reconhece e concorda que não terá propriedade ou outros direitos de propriedade sobre a conta, e você reconhece e concorda ainda que todos os direitos sobre a conta são e serão sempre de propriedade e para o benefício dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 	
 ###	Uso da imagem do Usuário
 	
-	Ao jogar Origin of Tomorrow, você autoriza a divulgação da sua imagem e nome para materiais de divulgação do jogo. Neste caso, você autoriza, expressa ser sua vontade e declara sua autorização pelo uso supramencionado. Tendo conhecimento disso, qualquer reclamação referente ao ponto mencionado acima se torna inviável. A autorização é concedida a título gratuito, abrangendo o uso da imagem em todo o território nacional.
+Ao jogar Origin of Tomorrow, você autoriza a divulgação da sua imagem e nome para materiais de divulgação do jogo. Neste caso, você autoriza, expressa ser sua vontade e declara sua autorização pelo uso supramencionado. Tendo conhecimento disso, qualquer reclamação referente ao ponto mencionado acima se torna inviável. A autorização é concedida a título gratuito, abrangendo o uso da imagem em todo o território nacional.
 	Essa autorização pode ser revogada a qualquer momento por você, porém, seu uso do jogo deve cessar imediatamente para que os colaboradores possam então tomar as devidas providências.
 	
 ###	Sua licença para o jogo Origin of Tomorrow
 	
-	Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor), uma licença irrevogável, perpétua, transferível, integralmente paga, isenta de royalties, e mundial (inclusive o direito de sublicenciar e ceder a terceiros) e o direito de copiar, reproduzir, corrigir, adaptar, modificar, criar trabalhos derivados, fabricar, comercializar, publicar, distribuir, vender, licenciar, sublicenciar, transferir, alugar, transmitir, exibir publicamente, executar publicamente, ou fornecer acesso eletronicamente, transmitir por radiodifusão, comunicar ao público por telecomunicações, exibir, executar, armazenar em memória de computador, e usar e praticar, de qualquer forma, seus Conteúdo de Usuário.
+Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor), uma licença irrevogável, perpétua, transferível, integralmente paga, isenta de royalties, e mundial (inclusive o direito de sublicenciar e ceder a terceiros) e o direito de copiar, reproduzir, corrigir, adaptar, modificar, criar trabalhos derivados, fabricar, comercializar, publicar, distribuir, vender, licenciar, sublicenciar, transferir, alugar, transmitir, exibir publicamente, executar publicamente, ou fornecer acesso eletronicamente, transmitir por radiodifusão, comunicar ao público por telecomunicações, exibir, executar, armazenar em memória de computador, e usar e praticar, de qualquer forma, seus Conteúdo de Usuário.
 
 ## Colaboradores
 
