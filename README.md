@@ -283,6 +283,7 @@ Um email e senha são obrigatórios
 	<li>A senha deve possuir no mínimo 6 caracteres</li>
 	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 </ul>
+
 ## Termos de Uso
 
 Os termos deste contrato (“Termos de Uso”) regem o relacionamento entre você e os colaboradores, pessoas físicas com sede em Palmas/Tocantins.
@@ -309,7 +310,7 @@ Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta 
 
 Todos os títulos e direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 	
-	Contas
+### Contas
 
 Não obstante disposições em contrário aqui expressas, você reconhece e concorda que não terá propriedade ou outros direitos de propriedade sobre a conta, e você reconhece e concorda ainda que todos os direitos sobre a conta são e serão sempre de propriedade e para o benefício dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 	
