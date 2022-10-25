@@ -323,6 +323,26 @@ Ao jogar Origin of Tomorrow, você autoriza a divulgação da sua imagem e nome 
 	
 Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor), uma licença irrevogável, perpétua, transferível, integralmente paga, isenta de royalties, e mundial (inclusive o direito de sublicenciar e ceder a terceiros) e o direito de copiar, reproduzir, corrigir, adaptar, modificar, criar trabalhos derivados, fabricar, comercializar, publicar, distribuir, vender, licenciar, sublicenciar, transferir, alugar, transmitir, exibir publicamente, executar publicamente, ou fornecer acesso eletronicamente, transmitir por radiodifusão, comunicar ao público por telecomunicações, exibir, executar, armazenar em memória de computador, e usar e praticar, de qualquer forma, seus Conteúdo de Usuário.
 
+### Atualizações do jogo
+
+Você compreende que o jogo está em constante evolução. Os colaboradores podem requerer que você aceite atualizações do jogo instalado em seu computador. Você reconhece  e concorda que o jogo pode ser atualizado assim que necessário. Caso seja necessário, você deverá atualizar outros softwares e afins.
+
+### Limitação de Respnsabilidade
+
+Os colaboradores não são responsáveis por danos indiretos, incidentais, consequentes, especiais, punitivos ou similares.
+Você concorda em indenizar, defender e proteger os colaboradores de reclamações, demandas, danos ou outras perdas.
+
+### Lei
+Você concorda que todas as disputas entre você e os colaboradores serão regidas pelas leis d Brasil, desconsiderando-se disposições de conflitos de lei.
+
+### Proteção de Dados
+Os colaboradores são os únicos responsáveis pela segurança dos dados e informações disponibilizados pelos usuários, obriando-se os colaboradores:
+	1. Tratar e usar os dados pessoais nos termos legalmente permitidos recolhendo, conservando, registando, organizando, consultando ou transmitindo os mesmos, apenas e somente nos casos em que o seu usuário tenha dado o consentimento.
+	2. Tratar os dados de modo compatível com as finalidades para os quais tenham sido recolhidos;
+	3. Conservar os dados apenas durante o período contratual e durante o período necessário à prossecução das finalidades da recolha ou do tratamento posterior, garantindo a sua confidencialidade;
+	4. Informar imediatamente ao Usuário, devendo prestar toda a colaboração necessária a qualquer investigação que venha a ser realizada, caso exista alguma quebra de segurança, ou suspeita da mesma, independentemente de colocar ou não em causa a segurança e integridade dos Dados Pessoais;
+	5. Assegurar que os respetivos colaboradores ou os prestadores de serviços externos contratados pela Play2sell, que venham a ter acesso a dados pessoais dos Usuários no contexto do APP cumprem as disposições legais aplicáveis em matéria de proteção de dados pessoais, designadamente, não cedendo ou divulgando tais dados pessoais a terceiros, nem deles fazendo uso para quaisquer fins que não os estritamente consentidos pelos respectivos Usuários ou, se aplicável, ser o seu processamento objeto de notificação ou de pedido de autorização à Comissão Nacional de Proteção de Dados.
+	
 ## Colaboradores
 
 <br>
