@@ -308,18 +308,18 @@ Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta 
 
 ###	Jogo
 
-Todos os títulos e direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
+Todos os direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 	
 ### Contas
 
 Não obstante disposições em contrário aqui expressas, você reconhece e concorda que não terá propriedade ou outros direitos de propriedade sobre a conta, e você reconhece e concorda ainda que todos os direitos sobre a conta são e serão sempre de propriedade e para o benefício dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 	
-###	Uso da imagem do Usuário
+### Uso da imagem do Usuário
 	
 Ao jogar Origin of Tomorrow, você autoriza a divulgação da sua imagem e nome para materiais de divulgação do jogo. Neste caso, você autoriza, expressa ser sua vontade e declara sua autorização pelo uso supramencionado. Tendo conhecimento disso, qualquer reclamação referente ao ponto mencionado acima se torna inviável. A autorização é concedida a título gratuito, abrangendo o uso da imagem em todo o território nacional.
 	Essa autorização pode ser revogada a qualquer momento por você, porém, seu uso do jogo deve cessar imediatamente para que os colaboradores possam então tomar as devidas providências.
 	
-###	Sua licença para o jogo Origin of Tomorrow
+### Sua licença para o jogo Origin of Tomorrow
 	
 Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor), uma licença irrevogável, perpétua, transferível, integralmente paga, isenta de royalties, e mundial (inclusive o direito de sublicenciar e ceder a terceiros) e o direito de copiar, reproduzir, corrigir, adaptar, modificar, criar trabalhos derivados, fabricar, comercializar, publicar, distribuir, vender, licenciar, sublicenciar, transferir, alugar, transmitir, exibir publicamente, executar publicamente, ou fornecer acesso eletronicamente, transmitir por radiodifusão, comunicar ao público por telecomunicações, exibir, executar, armazenar em memória de computador, e usar e praticar, de qualquer forma, seus Conteúdo de Usuário.
 
@@ -327,7 +327,7 @@ Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citri
 
 Você compreende que o jogo está em constante evolução. Os colaboradores podem requerer que você aceite atualizações do jogo instalado em seu computador. Você reconhece  e concorda que o jogo pode ser atualizado assim que necessário. Caso seja necessário, você deverá atualizar outros softwares e afins.
 
-### Limitação de Respnsabilidade
+### Limitação de Responsabilidade
 
 Os colaboradores não são responsáveis por danos indiretos, incidentais, consequentes, especiais, punitivos ou similares.
 Você concorda em indenizar, defender e proteger os colaboradores de reclamações, demandas, danos ou outras perdas.
