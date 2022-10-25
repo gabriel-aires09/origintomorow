@@ -337,10 +337,14 @@ Você concorda que todas as disputas entre você e os colaboradores serão regid
 
 ### Proteção de Dados
 Os colaboradores são os únicos responsáveis pela segurança dos dados e informações disponibilizados pelos usuários, obriando-se os colaboradores:
-	1. Tratar e usar os dados pessoais nos termos legalmente permitidos recolhendo, conservando, registando, organizando, consultando ou transmitindo os mesmos, apenas e somente nos casos em que o seu usuário tenha dado o consentimento.
-	2. Tratar os dados de modo compatível com as finalidades para os quais tenham sido recolhidos;
-	3. Conservar os dados apenas durante o período contratual e durante o período necessário à prossecução das finalidades da recolha ou do tratamento posterior, garantindo a sua confidencialidade;
-	4. Informar imediatamente ao Usuário, devendo prestar toda a colaboração necessária a qualquer investigação que venha a ser realizada, caso exista alguma quebra de segurança, ou suspeita da mesma, independentemente de colocar ou não em causa a segurança e integridade dos Dados Pessoais;
+	
+1. Tratar e usar os dados pessoais nos termos legalmente permitidos recolhendo, conservando, registando, organizando, consultando ou transmitindo os mesmos, apenas e somente nos casos em que o seu usuário tenha dado o consentimento.
+
+2. Tratar os dados de modo compatível com as finalidades para os quais tenham sido recolhidos;
+
+3. Conservar os dados apenas durante o período contratual e durante o período necessário à prossecução das finalidades da recolha ou do tratamento posterior, garantindo a sua confidencialidade;
+
+4. Informar imediatamente ao Usuário, devendo prestar toda a colaboração necessária a qualquer investigação que venha a ser realizada, caso exista alguma quebra de segurança, ou suspeita da mesma, independentemente de colocar ou não em causa a segurança e integridade dos Dados Pessoais;
 	5. Assegurar que os respetivos colaboradores ou os prestadores de serviços externos contratados pelos colaboradores, que venham a ter acesso a dados pessoais dos Usuários no contexto do APP cumprem as disposições legais aplicáveis em matéria de proteção de dados pessoais, designadamente, não cedendo ou divulgando tais dados pessoais a terceiros, nem deles fazendo uso para quaisquer fins que não os estritamente consentidos pelos respectivos Usuários ou, se aplicável, ser o seu processamento objeto de notificação ou de pedido de autorização à Comissão Nacional de Proteção de Dados.
 	
 ## Colaboradores
