@@ -333,7 +333,7 @@ Os colaboradores não são responsáveis por danos indiretos, incidentais, conse
 Você concorda em indenizar, defender e proteger os colaboradores de reclamações, demandas, danos ou outras perdas.
 
 ### Lei
-Você concorda que todas as disputas entre você e os colaboradores serão regidas pelas leis d Brasil, desconsiderando-se disposições de conflitos de lei.
+Você concorda que todas as disputas entre você e os colaboradores serão regidas pelas leis do Brasil, desconsiderando-se disposições de conflitos de lei.
 
 ### Proteção de Dados
 Os colaboradores são os únicos responsáveis pela segurança dos dados e informações disponibilizados pelos usuários, obriando-se os colaboradores:
