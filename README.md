@@ -552,7 +552,7 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 		<td>Ao iniciar o jogo, o usuário deverá preencher preencher os campos de email/login e senha. Estes dois campos são obrigatórios. O usuário pode sair ao apertar o botão de login.</td>
 	<tr>
 	<tr>
-		<td>Requisitos<td>
+		<td>Requisitos</td>
 		<td>
 			<ul>
 				<li>A senha deve possuir, no mínimo, 6 caracteres</li>
