@@ -47,7 +47,7 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
 
 <details>
-	<summary>Fluxograma das funcionalidades</summary>
+	<summary><h2>Fluxograma das funcionalidades</h2></summary>
 
 <p>Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo a comunicação entre aplicação e banco de dados/servidor Firebase. Estas informações serão armazenadas no banco de dados, criando uma identificação/chave primária própria. Existe um cenário/interação para verificação se os dados dos usuários estiverem corretos.</p>
 </details>
