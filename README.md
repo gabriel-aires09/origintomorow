@@ -376,6 +376,8 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 
 </details>
 	
+## Colaboradores
+
 <br>
 
 <p align="left">
