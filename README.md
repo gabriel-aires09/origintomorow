@@ -778,15 +778,15 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 <table>
 	<tr>
 		<td>Identificador</td>
-		<td>OT0007</td>
+		<td>OT0006</td>
 	</tr>
 	<tr>
 		<td>Nome</td>
-		<td>Escolhas</td>
+		<td>Perfil do jogador</td>
 	</tr>
 	<tr>
 		<td>Módulo</td>
-		<td>Interação Jogador e armazenamento de informações no Firebase</td>
+		<td>Interação Jogador/Aplicação e Comunicação banco de dados</td>
 	</tr>
 	<tr>
 		<td>Data</td>
@@ -794,7 +794,7 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 	</tr>
 	<tr>
 		<td>Autor</td>
-		<td>Daniel Vitor, Gabriel Aires, Jonathan Rodrigues e Mateus Citriniti</td>
+		<td>Daniel Vitor e Gabriel Oliveira Aires</td>
 	</tr>
 	<tr>
 		<td>Data da última alteração</td>
@@ -806,14 +806,14 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 	</tr>
 	<tr>
 		<td>Dependências</td>
-		<td>OT0001, OT002, OT0005</td>
+		<td> OT0001, OT002, OT0005 e OT0006</td>
 	</tr>
 	<tr>
 		<td>Descrição</td>
 		<td>Ao iniciar a aplicação, o jogador terá a oportunidade de personalizar seu perfil. Este perfil terá algumas perguntas sobre o perfil do jogador. Vale ressaltar que nenhum tipo de pergunta pessoal ou do âmbito extremamente privado do indivíduo como sexualidade e etnia serão impostas neste questionário. No máximo, perguntas voltadas para o âmbito geral como nome de música, cor, filme ou comida favorita.</td>
+	</tr>
 	<tr>
-	<tr>
-		<td>Requisitos<td>
+		<td>Requisitos</td>
 		<td>
 			<ul>
 				<li>Neste módulo, é necessário que o jogador esteja cadastrado e logado no sistema. Ao apertar o botão iniciar, dentro do menu inicial do jogo, será exibido uma nova janela. Esta janela conterá um pequeno questionário a respeito do jogador, podendo este questionário ser predeterminado ou não</li>
@@ -829,6 +829,7 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 				<li>Será uma forma de lembrar a escolha/definição de perfil feita pelo jogador.</li> 
 			</ul>
 		</td>
+	</tr>
 </table>
 
 <table>
@@ -876,6 +877,118 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 				<li>A senha deve possuir caracteres especiais, números e letras maiúsculas</li>
 				<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0007</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Escolhas</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interação Jogador e armazenamento de informações no Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>XXXXX</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor, Gabriel Aires, Jonathan Rodrigues e Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>XXXXXX</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT0002, OT0003, OT0004, OT0005 e OT0006</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Como todo bom jogo do gênero Visual Novel, ao decorrer da campanha haverá escolhas que irão afetar o progresso da história. Sendo assim, caso você siga para o caminho A, diversos elementos e até personagens podem mudar. Caso você siga para caminho B, outros objetos serão apresentados e personagens também. Dependendo das escolhas morais desencadeadas durante o jogo, personagens podem morrer e a história seguirá seu ritmo mesmo assim.
+		<br>
+Buscamos como fonte de inspiração obras da empresa Telltale Games. Tanto que a implementação das escolhas para serem armazenadas, dentro de um banco de dados e apresentadas ao final da jornada do jogador, tem a sua origem em jogos como The Walking Dead e Batman.</td>
+	</tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>Caso o jogador faça determinada escolha para caminho A, a história caminhará para caminho X. Caso o jogador faça escolha para caminho B, a história seguirá para caminho Y. Conforme dito anteriormente, cada uma das escolhas irá apresentar novas experiências narrativas ao jogador. </li>
+				<li>As escolhas serão armazenadas no banco de dados e apresentadas ao jogador ao final do jogo, apresentando uma tela de estatísticas com desempenho e caminhos tomados pelo jogador.</li>
+				<li>Exemplo: O jogador seguiu na história do jogo, realizando suas escolhas morais e de interação com o personagem. </li>
+				<li>O caminho traçado é X:</li>
+				<ul>
+					<li>Porcentagem de jogadores que escolheram este caminho é igual 44%</li>
+				</ul>
+				<li>Outros jogadores traçaram o caminho Y:</li>
+				<ul>
+					<li>Porcentagem de jogadores que escolheram este caminho é igual a 56%</li>
+				</ul>
+			</ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0008</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Mini-game RPG</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interação e maior engajamento jogador/aplicação</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>XXXXX</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Gabriel Aires, Jonathan Rodrigues e Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>XXXXXX</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT0002, OT0003, OT0004, OT0005, OT0006 e OT0007</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td><O sistema de perfil do jogador, como também o sistema de pontos são funcionalidades conectadas, seguindo princípios de Role-Playing Game, comumente empregados em diversos títulos atuais, sendo uma tendência para quase todos os gêneros de jogos existentes. Filmes como Jogador Número Um e animações japonesas do gênero Isekai apresentam estes conceitos para o público em geral.
+		<br>
+De qualquer forma, em determinado momento da história, a forma como o jogo está sendo apresentado para o jogador será modificada.
+</td>
+	<tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>Primeiramente, a perspectiva será isométrica. Os personagens serão apresentados em sprites com cabeça gigante e corpo pequeno. Remete visualmente aos jogos de Role-Playing Game do antigo Super Nintendo, videogame extremamente influente e importante da empresa japonesa Nintendo. </li>
+				<li>Os sprites dos jogadores poderão se mover em quatro sentidos, respectivamente: cima, baixo, direita e esquerda.</li>
+				<li>Ao se deparar com algum objeto ou personagem na frente do jogador, o algoritmo de colisão será acionado e o personagem controlável vai parar de movimentar.</li>
+				<li>O personagem controlável não pode ultrapassar os objetos, devendo ficar imóvel, apenas acionando a animação de movimentação.</li>
+				<li>Haverá um mapa para ser explorado pelo jogador, tendo objetos, elementos arquitetônicos, vegetação, florestas e personagens para interação.</li>
+				<li>Os personagens para interação terão os sistemas de diálogos e escolhas estipulados anteriormente. Vale ressaltar que o sistema de perfis e sistema de pontos de empatia/amizade estarão vigentes neste modo.</ul>
+			</ul>
 		</td>
 </table>
 
