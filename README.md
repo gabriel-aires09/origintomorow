@@ -11,48 +11,48 @@
 </p>
 
 ## A2 - Sprint 1
+
 <details> 
 	<summary><h2>Introdução</h2><summary>
 
-<p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).</p>
+<p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de <a href="https://to.catolica.edu.br/portal/curso/engenharia-de-software/">Engenharia de Software</a> do <a href="https://to.catolica.edu.br">Centro Universitário Católica do Tocantins</a>.</p>
+
+<br>
 
 <p>O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.</p>
 
+<br>
+
 <p>Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.</p>
 
+<br>
 
-<p>Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa [Telltale Games](https://telltale.com/), responsáveis por jogos como [The Walking Dead Series](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/), [The Wolf Among Us](https://store.steampowered.com/app/250320/The_Wolf_Among_Us/) e [The Batman Telltale series](https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/).</p>
+<p>Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa <a href="https://telltale.com/">Telltale Games</a>, responsáveis por jogos como <a href="https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/">The Walking Dead </a>, <a href="https://store.steampowered.com/app/250320/The_Wolf_Among_Us/">The Wolf Among Us</a> e <a href="https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/">The Batman Telltale series</a>.</p>
 </details>
 
 
 <details>
 	<summary><h2>Funcionalidades</h2><summary>
 
-<p>
-1. Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação.
-
-2. Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;
-
-3. Sistemas de decisões que serão armazenadas no Banco de Dados e mostradas como estátisticas para o jogador ao final do jogo, demonstrando o seu  desempenho e progressão comparadas aos outros jogadores;
-
-4. História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história;
-
-5. Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história;
-
-6. Sons e efeitos sonoros para maior imersão do jogador;
-
-7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.
-</p>
+<ol>
+	<li>Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação;</li>
+	<li>Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;</li>
+	<li>Sistemas de decisões que serão armazenadas no Banco de Dados e mostradas como estátisticas para o jogador ao final do jogo, demonstrando o seu  desempenho e progressão comparadas aos outros jogadores;</li>
+	<li>História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história;</li>
+	<li>Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história;</li>
+	<li>Sons e efeitos sonoros para maior imersão do jogador;</li>
+	<li>Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.</li>
+</ol>
 </details>
 
 
 <details>
 	<summary><h2>Possíveis funcionalidades e que estão fora do escopo</h2></summary>
-<p>
-1. Portabilidade da aplicação para dispositivos móveis e consoles de videogame.
-2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
-3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história.
-</p>
+<ol>
+	<li>Portabilidade da aplicação para dispositivos móveis e consoles de videogame.</li>
+	<li>Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.</li>
+	<li>Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história</li>
+</ol>
 </details>
 
 <details>
