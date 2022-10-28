@@ -13,7 +13,7 @@
 ## A2 - Sprint 1
 
 <details> 
-	<summary><h2>Introdução</h2><summary>
+	<summary><h2>Introdução</h2></summary>
 
 <p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de <a href="https://to.catolica.edu.br/portal/curso/engenharia-de-software/">Engenharia de Software</a> do <a href="https://to.catolica.edu.br">Centro Universitário Católica do Tocantins</a>.</p>
 
@@ -32,7 +32,7 @@
 
 
 <details>
-	<summary><h2>Funcionalidades</h2><summary>
+	<summary><h2>Funcionalidades</h2></summary>
 
 <ol>
 	<li>Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação;</li>
