@@ -17,19 +17,13 @@
 
 <p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de <a href="https://to.catolica.edu.br/portal/curso/engenharia-de-software/">Engenharia de Software</a> do <a href="https://to.catolica.edu.br">Centro Universitário Católica do Tocantins</a>.</p>
 
-<br>
-
 <p>O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.</p>
 
-<br>
 
 <p>Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.</p>
 
-<br>
-
 <p>Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa <a href="https://telltale.com/">Telltale Games</a>, responsáveis por jogos como <a href="https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/">The Walking Dead </a>, <a href="https://store.steampowered.com/app/250320/The_Wolf_Among_Us/">The Wolf Among Us</a> e <a href="https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/">The Batman Telltale series</a>.</p>
 </details>
-
 
 <details>
 	<summary><h2>Funcionalidades</h2></summary>
@@ -44,7 +38,6 @@
 	<li>Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.</li>
 </ol>
 </details>
-
 
 <details>
 	<summary><h2>Possíveis funcionalidades e que estão fora do escopo</h2></summary>
@@ -94,7 +87,6 @@
 
 <p>Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.</p>
 
-
 <br>
 
 <p align="center">
@@ -105,7 +97,9 @@
 </p>
 
 </details>
-## Ferramentas utilizadas
+
+<details>
+	<summary><h2>Ferramentas utilizadas</h2></summary>
 
 1. [Godot](https://godotengine.org/) é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
 
@@ -119,18 +113,23 @@
 
 6. [Obs Studio](https://obsproject.com/pt-br/download) é uma suíte de software livre e de código aberto para gravação e transmissão ao vivo. Escrito em C e C++, o OBS fornece captura de fonte e dispositivo em tempo real, composição de cena, codificação, gravação e transmissão. A transmissão de dados é feita principalmente através do RTMP (Real Time Messaging Protocol) e pode ser enviada para qualquer destino de suporte RTMP, incluindo muitas predefinições para sites de streaming, como YouTube, Instagram, Twitch e Facebook.
 
-## Configurações do Projeto
+</details>
 
-Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. 
+<details>
+	<summary>Configurações do Projeto</summary>
 
-Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases). Necessário apenas descompactar os arquivos e rodar diretamente no sistema. O executável e o arquivo de extensão .pck devem estar localizados no mesmo diretório. Sem isso, o jogo não será executado. 
+<p>Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. </p>
 
+<p>Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases). Necessário apenas descompactar os arquivos e rodar diretamente no sistema. O executável e o arquivo de extensão .pck devem estar localizados no mesmo diretório. Sem isso, o jogo não será executado. </p>
 
-Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar ao jogo por meio deste link: [Github Pages](https://gabriel-aires09.github.io/origintomorow/). Criamos uma branch própria hospedada no Github Pages para acesso e conhecimentos das pessoas que tenham interesse em acessar ao jogo. Todos os novos recursos, mecânicas e funcionalidades serão também atualizadas neste link. Nossa intenção é apresentar nossas ideias, de maneira acessível, para outras pessoas interessadas no projeto.
+<p>Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar ao jogo por meio deste link: [Github Pages](https://gabriel-aires09.github.io/origintomorow/). Criamos uma branch própria hospedada no Github Pages para acesso e conhecimentos das pessoas que tenham interesse em acessar ao jogo. Todos os novos recursos, mecânicas e funcionalidades serão também atualizadas neste link. Nossa intenção é apresentar nossas ideias, de maneira acessível, para outras pessoas interessadas no projeto.</p>
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
-## Tutorial para rodar o projeto na Godot Engine
+</details>
+
+<details>
+	<summary><h2>Tutorial para rodar o projeto na Godot Engine</h2></summary>
 
 Abaixo, o tutorial passo a passo:
 
@@ -157,8 +156,11 @@ Abaixo, um pequeno tutorial em vídeo de como pode ser feito este procedimento.
 
 https://user-images.githubusercontent.com/90778217/195740843-746e6f9d-6960-4bfd-9436-a5dfde40e185.mp4
 
+</details>
 
-## Rotas
+
+<details> 
+	<summary><h2>Rotas</h2></summary>
 
 <p align="left">
 	<img width="1506" height="334"
@@ -182,8 +184,11 @@ https://user-images.githubusercontent.com/90778217/195460870-dfe8cddc-d4d2-4802-
 
 https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-a9cb-fe39b158ae0d.mp4
 
+</details>
 
-## Modelagem do banco de dados
+
+<details>
+	<summary><h2>Modelagem do banco de dados</h2></summary>
 
 Diante das funcionalidades e sistemas utilizados para o nosso projeto, optamos por um gerenciamento de banco de dados não relacional (NoSQL). Primeiramente, o motivo para utilizar esta estrutura de banco de dados é a sua característica de mutabilidade durante o processo de desenvolvimento da aplicação. Queremos, na medida que surgem novas ideias entre os integrantes do projeto, modificar a manipulação dos dados na nossa aplicação, não necessariamente atendendo uma estrutura pré-definida. Segundo, adotamos o Firebase como aplicação principal para o gerenciamento de dados e informações do nosso jogo. Percebemos que, ao analisar o contexto e, pelo tempo exigido para desenvolvimento da aplicação, o melhor caminho a ser seguido seria a utilização do Firebase, principalmente por causa da facilidade de implementação e praticidade de utilização na nossa aplicação. Terceiro, porque a nossa própria orientadora apresentou como uma das ferramentas que podem ser utilizadas durante o processo de desenvolvimento. :smile:
 
@@ -217,9 +222,12 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 		<br><br>Estrutura da tabela do arquivo .json criado pelo Dialogic. 
 </p>
 
+</details>
+
 ## A2 - Sprint 2
 
-## Padronização e permissão de rotas
+<details>
+<summary><h2>Padronização e permissão de rotas</h2></summary>
 
 Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. Quando o usuário se registra, seus dados são salvos na nuvem juntamente com um token gerado pelo Firebase, cuja utilização se dará na autenticação de usuário. O jogo apresenta as seguintes rotas: 
 ### Iniciar
@@ -234,7 +242,10 @@ Após ela, o usuário frequentemente passará pela seguinte rota:
 
 <h3 align="center">{Main}/{Login{token_autenticado}}/{Menu}/{Supercene{dialogic}}</h3>
 
-## Histórias de usuário
+</details>
+
+<details>
+	<summary><h2>Histórias de usuário</h2></summary>
 
 ### História 1: Registro
 
@@ -283,8 +294,10 @@ Então o jogador seleciona uma das duas opções, salva a escolha que o jogador 
 <ul>
 	<li>E avança a história de acordo com a opção escolhida</li>
 </ul>
-        
-## Regras de negócio - Jogo de texto
+</details>
+
+<details>
+	<summary><h2>Regras de negócio - Jogo de texto</h2></summary>
 
 ### Login/Registro
 
@@ -295,7 +308,10 @@ Um email e senha são obrigatórios
 	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
 </ul>
 
-## Termos de Uso
+</details>
+
+<details>
+	<summary><h2>Termos de Uso</h2></summary>
 
 Os termos deste contrato (“Termos de Uso”) regem o relacionamento entre você e os colaboradores, pessoas físicas com sede em Palmas/Tocantins.
 
@@ -357,8 +373,11 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 4. Informar imediatamente ao Usuário, devendo prestar toda a colaboração necessária a qualquer investigação que venha a ser realizada, caso exista alguma quebra de segurança, ou suspeita da mesma, independentemente de colocar ou não em causa a segurança e integridade dos Dados Pessoais;
 
 5. Assegurar que os respetivos colaboradores ou os prestadores de serviços externos contratados pelos colaboradores, que venham a ter acesso a dados pessoais dos Usuários no contexto do APP cumprem as disposições legais aplicáveis em matéria de proteção de dados pessoais, designadamente, não cedendo ou divulgando tais dados pessoais a terceiros, nem deles fazendo uso para quaisquer fins que não os estritamente consentidos pelos respectivos Usuários ou, se aplicável, ser o seu processamento objeto de notificação ou de pedido de autorização à Comissão Nacional de Proteção de Dados.
+
+</details>
 	
-## Colaboradores
+<details>
+	<summary><h2>Colaboradores</h2></summary>
 
 <br>
 
@@ -380,7 +399,7 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		alt="Gabriel"
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
-		Sou Gabriel Aires, natural de Palmas (TO). Estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar videogame, codar e ler.
+		Meu nome é Gabriel Aires, natural de Palmas (TO). Estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
@@ -392,7 +411,7 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		alt="Jonathan"
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
-		Sou Jonathan Rodrigues. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
+		Meu nome é Jonathan Rodrigues. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
 		<br><strong>Arte, Roteiro e Documentação</strong>  
 </p>
 
@@ -404,11 +423,12 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		alt="Mateus, a lenda"
 		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
-		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
+		Meu nome é Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
 <br>
+</details>
 
 
 ## Fontes de pesquisa
