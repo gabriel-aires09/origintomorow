@@ -512,6 +512,48 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 </details>
 
 <details>
+	<summary><h3>Regras de Negócio</h3></summary>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0001</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Registro do usuário</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0002 e OT0003</td>
+	</tr>
+</table>
+		
+
+</details>
+	
+
+<details>
 	<summary><h3>Termos de Uso</h3></summary>
 
 Os termos deste contrato (“Termos de Uso”) regem o relacionamento entre você e os colaboradores, pessoas físicas com sede em Palmas/Tocantins.
