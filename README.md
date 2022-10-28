@@ -13,7 +13,7 @@
 ## A2 - Sprint 1
 
 <details> 
-	<summary><h2>Introdução</h2></summary>
+	<summary><h3>Introdução</h3></summary>
 
 <p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de <a href="https://to.catolica.edu.br/portal/curso/engenharia-de-software/">Engenharia de Software</a> do <a href="https://to.catolica.edu.br">Centro Universitário Católica do Tocantins</a>.</p>
 
@@ -26,7 +26,7 @@
 </details>
 
 <details>
-	<summary><h2>Funcionalidades</h2></summary>
+	<summary><h3>Funcionalidades</h3></summary>
 
 <ol>
 	<li>Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação;</li>
@@ -40,7 +40,7 @@
 </details>
 
 <details>
-	<summary><h2>Possíveis funcionalidades e que estão fora do escopo</h2></summary>
+	<summary><h3>Possíveis funcionalidades e que estão fora do escopo</h3></summary>
 <ol>
 	<li>Portabilidade da aplicação para dispositivos móveis e consoles de videogame.</li>
 	<li>Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.</li>
@@ -49,7 +49,7 @@
 </details>
 
 <details>
-	<summary><h2>Fluxograma das funcionalidades</h2></summary>
+	<summary><h3>Fluxograma das funcionalidades</h3></summary>
 
 <p>Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo a comunicação entre aplicação e banco de dados/servidor Firebase. Estas informações serão armazenadas no banco de dados, criando uma identificação/chave primária própria. Existe um cenário/interação para verificação se os dados dos usuários estiverem corretos.</p>
 
@@ -99,7 +99,7 @@
 </details>
 
 <details>
-	<summary><h2>Ferramentas utilizadas</h2></summary>
+	<summary><h3>Ferramentas utilizadas</h3></summary>
 
 1. [Godot](https://godotengine.org/) é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
 
@@ -116,7 +116,7 @@
 </details>
 
 <details>
-	<summary>Configurações do Projeto</summary>
+	<summary><h3>Configurações do Projeto</h3></summary>
 
 <p>Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. </p>
 
@@ -129,7 +129,7 @@ Os arquivos do código fonte podem ser executados utilizando a própria engine [
 </details>
 
 <details>
-	<summary><h2>Tutorial para rodar o projeto na Godot Engine</h2></summary>
+	<summary><h3>Tutorial para rodar o projeto na Godot Engine</h3></summary>
 
 Abaixo, o tutorial passo a passo:
 
@@ -160,7 +160,7 @@ https://user-images.githubusercontent.com/90778217/195740843-746e6f9d-6960-4bfd-
 
 
 <details> 
-	<summary><h2>Rotas</h2></summary>
+	<summary><h3>Rotas</h3></summary>
 
 <p align="left">
 	<img width="1506" height="334"
@@ -188,7 +188,7 @@ https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-
 
 
 <details>
-	<summary><h2>Modelagem do banco de dados</h2></summary>
+	<summary><h3>Modelagem do banco de dados</h3></summary>
 
 Diante das funcionalidades e sistemas utilizados para o nosso projeto, optamos por um gerenciamento de banco de dados não relacional (NoSQL). Primeiramente, o motivo para utilizar esta estrutura de banco de dados é a sua característica de mutabilidade durante o processo de desenvolvimento da aplicação. Queremos, na medida que surgem novas ideias entre os integrantes do projeto, modificar a manipulação dos dados na nossa aplicação, não necessariamente atendendo uma estrutura pré-definida. Segundo, adotamos o Firebase como aplicação principal para o gerenciamento de dados e informações do nosso jogo. Percebemos que, ao analisar o contexto e, pelo tempo exigido para desenvolvimento da aplicação, o melhor caminho a ser seguido seria a utilização do Firebase, principalmente por causa da facilidade de implementação e praticidade de utilização na nossa aplicação. Terceiro, porque a nossa própria orientadora apresentou como uma das ferramentas que podem ser utilizadas durante o processo de desenvolvimento. :smile:
 
@@ -227,7 +227,7 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 ## A2 - Sprint 2
 
 <details>
-<summary><h2>Padronização e permissão de rotas</h2></summary>
+<summary><h3>Padronização e permissão de rotas</h3></summary>
 
 Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. Quando o usuário se registra, seus dados são salvos na nuvem juntamente com um token gerado pelo Firebase, cuja utilização se dará na autenticação de usuário. O jogo apresenta as seguintes rotas: 
 ### Iniciar
@@ -245,7 +245,7 @@ Após ela, o usuário frequentemente passará pela seguinte rota:
 </details>
 
 <details>
-	<summary><h2>Histórias de usuário</h2></summary>
+	<summary><h3>Histórias de usuário</h3></summary>
 
 ### História 1: Registro
 
@@ -297,7 +297,7 @@ Então o jogador seleciona uma das duas opções, salva a escolha que o jogador 
 </details>
 
 <details>
-	<summary><h2>Regras de negócio - Jogo de texto</h2></summary>
+	<summary><h3>Regras de negócio - Jogo de texto</h3></summary>
 
 ### Login/Registro
 
@@ -311,7 +311,7 @@ Um email e senha são obrigatórios
 </details>
 
 <details>
-	<summary><h2>Termos de Uso</h2></summary>
+	<summary><h3>Termos de Uso</h3></summary>
 
 Os termos deste contrato (“Termos de Uso”) regem o relacionamento entre você e os colaboradores, pessoas físicas com sede em Palmas/Tocantins.
 
@@ -376,9 +376,6 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 
 </details>
 	
-<details>
-	<summary><h2>Colaboradores</h2></summary>
-
 <br>
 
 <p align="left">
@@ -428,8 +425,6 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 </p>
 
 <br>
-</details>
-
 
 ## Fontes de pesquisa
 
