@@ -247,66 +247,262 @@ Após ela, o usuário frequentemente passará pela seguinte rota:
 <details>
 	<summary><h3>Histórias de usuário</h3></summary>
 
-### História 1: Registro
+#### US01 - Registro
+Eu, como jogador, desejo registrar uma conta no sistema, para que eu possa ter acesso ao jogo.
 
-Eu como jogador desejo registrar uma conta no sistema para que eu possa ter acesso ao jogo
+<strong>Cenário 1: Primeiro registro no jogo</strong>
+- Dado que o usuário não tenha uma conta
+	- E queira iniciar o jogo
+- Quando ele selecionar o opção registro
+	- E preenche os dados email, senha, confirmar senha. 
+- Então, o sistema retorna uma confirmação
+ 	- E o jogador é levado para a tela inicial
 
-#### Cenário 1: Primeira entrada
+<strong>Cenário 2: Usuário já cadastrado no sistema</strong>
+- Dado que usuário tenha uma conta
+	- E queira registrar, utilizando o mesmo login e senha já armazenado no banco de dados da aplicação
+- Quando ela tentar registrar no sistema
+- Então, vai aparecer uma mensagem de email e usuário já cadastrados no sistema 
 
+Cenário 3: Domínio de email não reconhecido no sistema
 Dado que o usuário não tenha uma conta
-<ul>
-	<li>E queira iniciar o jogo</li>
-</ul>
-Então ele seleciona o opção registro 
-<ul>
-	<li>E preenche os dados email, senha,confirmar senha</li>
-</ul>
-O sistema retorna uma confirmação 
-<ul>
-	<li>E o jogador é levado para a tela inicial</li>
-</ul>
-    
-#### Cenário 2: Senha fraca
+E queira registrar para inicializar/testar o jogo
+Quando selecionar a opção registrar
+E preencher os dados de email
+E este domínio de email não ser permitido/reconhecido no sistema de banco de dados
+Então o sistema retorna a seguinte mensagem: domínio de email não reconhecido pelo sistema
 
-Dado que o usuário
-Quando estiver preenchendo os dados do cadastro
-<ul>
-	<li>E a senha possuir menos que seis caracteres</li>
-</ul>
+Cenário 4: Senha fraca
+Dado que o usuário estiver preenchendo os dados do cadastro
+E a senha possuir menos que seis caracteres
+OU senha sem caracteres especiais como números, símbolos e letras maiúsculas 
+Quando o usuário apertar o botão de registrar
 Então o sistema retorna um erro
-<ul>
-	<li>E pede para o usuário tentar outra senha novamente</li>
-</ul>     
-    
-### História 2:  Sistema de decisões
+E pede para o usuário tentar outra senha novamente
 
-Eu como jogador quero escolher que escolhas tomar durante a história para que possa ver como minhas decisões afetaram a história no geral
+US02 - Acesso ao sistema, por meio de login (email) e senha
+Eu, como jogador, desejo acessar o sistema, para que eu possa retornar o jogo.
 
-#### Cenário 1: Escolha impactante
+Cenário 1: Usuário já Registrado no sistema
+Dado que o usuário estiver cadastrado no sistema
+Quando ele digitar seu email de login
+E sua senha
+Então,  vai aparecer uma mensagem de login bem sucedido
+E o usuário irá avançar para o menu do jogo
+
+Cenário 2: Usuário não registrado no sistema
+Dado que o usuário não estiver cadastrado no sistema
+Quando ele digitar seu email de login
+E sua senha
+Então, irá aparecer a mensagem de usuário e senha não cadastrados
+OU usuário e senha digitados incorretamente
+
+
+Cenário 3: Senha incorreta
+Dado que o usuário tenha uma conta registrada
+Quando ele digita seu login e senha
+E sua senha estiver incorreta
+Então, vai aparecer uma mensagem de login bem sucedido
+E o usuário irá avança para o menu do jogo
+
+US03 – Sistema de decisões
+Eu, como jogador, desejo escolher que escolhas tomar durante a história, para que possa ver como minhas decisões afetaram a história no geral
+
+Cenário 1: Escolhas ao decorrer da história
 Dado que o usuário esteja jogando
-<ul>
-	<li>E apareça duas ou mais opções de escolha</li>
-</ul>
+E apareça duas ou mais opções de escolha
+Quando o jogador seleciona uma das duas opções
+Então, a escolha que o jogador tomou será salva
+E a história do jogo avança de acordo com a opção escolhida
+E os elementos e personagens podem mudar, a depender do contexto e escolhas apresentadas na história
 
-Ex: Ajudar, ignorar    
+Cenário 2: Escolhas que caracterizam o perfil do jogador
+Dado que o jogador esteja jogando
+E tenha preenchido o formulário de perfil do jogo
+Quando o jogador avança ao decorrer da história
+Então, os elementos, tais como cor e nome, serão apresentados nos diálogos
+E novas interações serão apresentadas
 
-Então o jogador seleciona uma das duas opções, salva a escolha que o jogador tomou
-<ul>
-	<li>E avança a história de acordo com a opção escolhida</li>
-</ul>
-</details>
+US04 - Sistema de relacionamento 
+Eu, como desenvolvedor, desejo um sistema de relacionamento e pontuação, para que o jogador tenha maior engajamento com os personagens da história.
 
-<details>
-	<summary><h3>Regras de negócio - Jogo de texto</h3></summary>
+Cenário 1:  Sistemas de pontos positivos entre personagens e jogador
+Dado que existe um sistema de relacionamento entre o jogador e personagens 
+Quando é escolhida uma interação considerada positiva
+Então aumenta os pontos de amizade/empatia com o personagem
+E o personagem da interação te ajuda durante a  jornada
+E estes pontos serão adicionado na tela de estatística ao final do jogo
 
-### Login/Registro
+Cenário 2: Sistemas de pontos negativos entre personagens e jogador
+Dado que existe um sistema de relacionamento entre o jogador e personagens 
+Quando é escolhida uma interação considerada negativa
+Então diminui os pontos de amizade/empatia com o personagem
+E o personagem não te ajuda durante a história
+OU evita contato/conversa com seu personagem
+E estes pontos serão adicionado na tela de estatística ao final do jogo
 
-Um email e senha são obrigatórios
+Cenário 3: Sistema de pontos - personagem fora dos padrões de normalidade 
+Dado que existe um sistema de relacionamento entre o jogador e personagens
+Quando é escolhida uma interação considerada negativa 
+E o personagem goste deste tipo de tratamento
+Então aumenta os pontos de amizade
+E o personagem da interação te ajuda durante a  jornada
+OU evita contato/conversa com seu personagem
+E estes pontos serão adicionado na tela de estatística ao final do jogo
 
-<ul>
-	<li>A senha deve possuir no mínimo 6 caracteres</li>
-	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
-</ul>
+US05 - Menu inicial
+Eu, como desenvolvedor, desejo criar um menu inicial, para que o usuário possa navegar no jogo. 
+
+Cenário 1 - Botão Iniciar
+Dado que existe um botão iniciar
+Quando o usuário aperta este botão
+Então o jogo irá inicializar para o estado de progresso atual do jogador
+
+Cenário 2 - Botão Galeria
+Dado que existe o botão galeria no menu inicial do jogo
+Quando o usuário apertar este botão
+Então o jogo irá para outra janela, demonstrando uma galeria de artes feitas exclusivamente para o jogo
+
+Cenário 3 - Botão sair
+Dado que existe o botão sair presente no menu inicial 
+Quando o usuário aperta este botão
+Então a aplicação é fechada
+E como também a finalização do seu processo no computador
+
+US06 - Galeria
+Eu, como desenvolvedor, desejo uma galeria de arte, para que seja acessada/desbloqueada pelo jogador ao decorrer do jogo.
+
+Cenário 1 - Desbloqueio das artes do jogo
+Dado que o jogador está em determinada parte da história
+Quando o jogador concluir esta parte
+Então as artes criadas em pixel art como plano de fundo, cenário e personagens serão desbloqueadas
+E poderão ser acessadas no menu de Galeria do jogo
+
+Cenário 2 - Jogador quer visualizar a arte do jogo na Galeria
+Dado que existe um menu de galeria das artes do jogo
+E o jogo acessou por meio do caminho Menu inicial >> Galeria
+E estejam disponíveis/liberadas artes do jogo
+Quando o jogador clicar no ícone da arte do jogo
+Então será aberta esta mesma arte em tela cheia
+
+Cenário 3 - Voltar para o menu de Galeria ao clicar na arte desejada
+Dado que o jogador está na janela de tela cheia da pixel art
+Quando ele clicar no botão de voltar, no canto superior esquerdo da tela
+Então, o jogador voltará para tela inicial da galeria
+
+Cenário 4 - Voltar para o menu principal a partir da Galeria
+Dado que o jogador está na galeria do jogo
+Quando ele clicar no botão voltar na tela de galeria
+E não estiver aberta qualquer arte do jogo, no modo de tela cheia
+Então o jogador irá voltar para o menu principal do jogo
+
+US07 - Estatísticas de caminhos seguidos ao final do jogo
+Eu, como usuário, desejo que seja apresentadas estatísticas sobre o meu caminho tomado do jogo, para que eu possa comparar com outros jogadores
+
+Cenário 1 - Caminho X
+Dado que existe um determinado caminho X a ser seguido
+Quando o jogador escolhe este caminho, dependendo das escolhas realizadas durante o jogo
+E ele finaliza o jogo
+Então, é mostrado uma tabela de estatísticas, o número percentual de jogadores que seguiram este caminho. 
+E este caminho será armazenado no banco de dados 
+
+Cenário 2 - Caminho Y
+Dado que existe um determinado caminho Y a ser seguido
+Quando o jogador escolhe este caminho, dependendo das escolhas realizadas durante o jogo
+E ele finaliza o jogo
+Então, é mostrado uma tabela de estatísticas, o número percentual de jogadores que seguiram este caminho. 
+E este caminho será armazenado no banco de dados 
+
+US08 - Salvar as escolhas dos jogadores
+Eu, como desenvolvedor, desejo salvar as escolhas dos jogadores, para que eu possa demonstrar/manipular estas informações no banco de dados.
+
+Cenário 1 - Salvar escolhas no banco de dados
+Dado que o jogador está numa tela com duas caixas de diálogo, após a interação com personagem da conversa
+Quando o usuário aperta uma das caixas, utilizando o mouse
+Então, o personagem da interação terá uma resposta
+E esta resposta será salva no banco de dados
+E irá criar um token próprio
+E será computada nas estatísticas de caminhos seguidos pelos jogadores ao final do jogo.
+
+Cenário 2 - Salvar a pontuação de amizade entre os personagens 
+Dado que o jogador pode interagir com os personagens
+E cada uma das respostas tem um retorno positivo ou negativo para o sistema de amizade
+Quando o jogador escolhe determinada resposta
+Então, ela irá aumentar o nível de amizade entre o jogador e personagem
+Ou diminuir o nível de amizade entre jogador e personagem
+E salvar estas respostas no banco de dados
+E demonstrar esta pontuação ao final do jogo.
+
+US09 -  Mini-game RPG
+Eu, como usuário, desejo jogar um mini-game ao estilo RPG, para que eu possa ter mais interação e engajamento com o jogo.
+
+Cenário 1 - Perfil do usuário
+Dado que existem perfis para o usuário, delimitando seus gostos
+Quando o usuário loga no jogo
+E responde algumas das perguntas sobre você no início do jogo
+Então, essas escolhas serão demonstradas em diálogos
+E interações ao decorrer do jogo. 
+
+US 09.01 - Movimentação do personagem
+Eu, como usuário, desejo movimentar meu personagem, para que eu possa chegar ao final do game.
+
+Cenário 1 - Personagem move para esquerda 
+Dado que o personagem tem a função de movimentação
+E pode andar para direção esquerda 
+Quando aperto o direcional para esquerda
+Então, o personagem irá se movimentar para esquerda
+Ou não se locomover, caso existe algum objeto na frente do personagem
+
+Cenário 2 - Personagem move para direita 
+Dado que o personagem tem a função de movimentação
+E pode andar para direita 
+Quando aperto o direcional para direita
+Então, o personagem irá se movimentar para direita
+Ou não se locomover, caso existe algum objeto na frente do personagem
+
+
+Cenário 3 - Personagem move para cima 
+Dado que o personagem tem a função de movimentação
+E pode andar para cima 
+Quando aperto o direcional para cima
+Então, o personagem irá se movimentar para cima
+Ou não se locomover, caso existe algum objeto na frente do personagem
+
+Cenário 4 - Personagem move para baixo 
+Dado que o personagem tem a função de movimentação
+E pode andar para baixo 
+Quando aperto o direcional para baixo
+Então, o personagem irá se movimentar para baixo
+Ou não se locomover, caso existe algum objeto na frente do personagem
+
+US 09.02 - Interações com os personagens 
+Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para que o jogador tenha envolvimento com o jogo
+
+Cenário 1 - Conversar com os personagens
+Dado que existe um personagem no mapa
+E que esteja na frente do jogador
+Quando o jogador aperta o botão de interação
+Então, abre uma caixa de diálogo, juntamente com o avatar do personagem
+
+Cenário 2 - Escolhas e interações entre personagens do mapa
+Dado que o jogador apertou o botão de interação
+E apareceu a caixa de diálogo, juntamente com o avatar do personagem
+Quando aparece um escolha de respostas durante o diálogo
+Então, o jogador escolha uma das opções de respostas
+E o personagem responde
+E o tipo de resposta será diferente, a depender de cada interação
+
+Cenário 3 - Sistemas pontos de amizade implementados no mini-game de RPG
+Dado que o jogador interage com os NPCs do jogo
+E está na frente do personagem
+E abre a caixa de diálogo
+Quando ele faz determinada escolha
+Então, vai aumentar o sistema de amizade/empatia entre o jogador e personagem
+Ou vai diminuir o sistema de amizade/empatia entre o jogador e personagem
+E estas interações com personagens serão salvas no banco de dados 
+
+
+
 
 </details>
 
