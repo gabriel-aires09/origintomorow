@@ -616,6 +616,269 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 		</td>
 </table>	
 
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0003</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Menu inicial</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interface</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001 e OT0002</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>O menu inicial tem a função de ser a tela central do jogo, cujo usuário pode escolher suas configurações de vídeo, som e controles do jogo. Isto é importante, principalmente em computadores com nível de processamento menor. Não apenas as configurações, o menu inicial deve ter a galeria de todas as artes desbloqueadas durante o jogo, como também o menu de sair da aplicação.
+</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Caso o jogador aperte o botão Iniciar, o jogo vai inicializar. Dependendo do seu processo de salvamento, ele pode iniciar na parte em que o jogador parou.</li>
+				<li>Ao apertar o botão Galeria, o jogador será transferido para o menu das artes em pixel-art desbloqueadas e utilizadas durante o jogo</li>
+				<li>Quando o jogador apertar o botão sair, ele sairá da aplicação.</li>
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0004</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Galeria</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interface</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0003 e OT0005</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>A Galeria de artes é uma forma de recompensa para os jogadores que investiram no jogo Origin of Tomorrow. É um elemento utilizado em diversos jogos, podendo seus elementos serem desbloqueados em momentos específicos do jogo ou serem apresentados como colecionáveis dentro de fases do jogo.</td>
+	<tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>Os elementos da galeria serão mostrados apenas se o jogador iniciar uma campanha.</li>
+				<li>Cada arte será desbloqueada em momentos específicos dentro do jogo</li>
+				<li>Dentro do menu da galeria, irá aparecer uma foto em miniatura, representando cada uma das artes em pixel art elaboradas para o jogo</li>
+				<li>Caso o jogador clique em algumas das miniaturas, ele será transferido para outra janela, exibindo a arte em tela cheia.</li>
+				<li>Ao apertar o botão voltar, o jogador volta para janela anterior. No caso, a janela de menu da galeria.</li>
+				<li>O jogador pode voltar para o menu iniciar, apertando o botão voltar.</li>
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0005</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Diálogos do jogo</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interface e Interação Jogador/Aplicação</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Gabriel Oliveira Aires</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT002, OT0003 e OT0006</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Os diálogos são elementos essenciais de um jogo ao estilo Visual Novel. O gênero é focado, essencialmente, em histórias e interações entre jogadores e personagens. 
+		<br>
+Sendo assim, é necessário que sejam apresentadas dentro do contexto da história. Seja para salvar algum personagem ou não, seja para aumentar pontos de amizade/empatia entre os personagens.
+		<br>
+Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de cada um dos personagens, representando seus estados emocionais a partir de suas respostas no jogo. Eles ficarão localizados dentro de uma caixa de texto.</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Para que os diálogos sejam trocados ao decorrer do jogo, o jogador deve apertar qualquer botão do mouse ou tecla do teclado para isso.</li>
+				<li>Em determinados momentos, haverá opções de escolhas para o jogador. Para avançar, o jogador deve escolher uma delas. Dependendo da resposta, caminhos e elementos diferentes serão demonstrados</li>
+				<li>As escolhas podem afetar a maneira como os personagens tratam você ao decorrer do jogo. </li>
+				<li>Quando o jogador customizar seu perfil de usuário, definindo suas preferências (mesmo que estas não sejam verdadeiras), elas serão apresentadas em algum contexto da história.</li>
+				<li>Exemplo: Qual sua fruta favorita?</li>
+				<ul>
+					<li>Resposta: Maçã. Isto será salvo como variável e armazenado no banco de dados.</li>
+					<ul>
+						<li>Durante o jogo: Hmmm, vamos comer a fruta que você gosta? Que tal uma (variável = maçã)?</li>
+				</ul>
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0007</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Escolhas</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interação Jogador e armazenamento de informações no Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>XXXXXXXXX</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor, Gabriel Aires, Jonathan Rodrigues e Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>XXXXXXXX</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT002, OT0005</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Ao iniciar a aplicação, o jogador terá a oportunidade de personalizar seu perfil. Este perfil terá algumas perguntas sobre o perfil do jogador. Vale ressaltar que nenhum tipo de pergunta pessoal ou do âmbito extremamente privado do indivíduo como sexualidade e etnia serão impostas neste questionário. No máximo, perguntas voltadas para o âmbito geral como nome de música, cor, filme ou comida favorita.</td>
+	<tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>Neste módulo, é necessário que o jogador esteja cadastrado e logado no sistema. Ao apertar o botão iniciar, dentro do menu inicial do jogo, será exibido uma nova janela. Esta janela conterá um pequeno questionário a respeito do jogador, podendo este questionário ser predeterminado ou não</li>
+				<li>Ao fazer sua escolha, em alguns contextos serão apresentados características do perfil do jogador.</li>
+				<ul>
+					<li>Qual é a sua cor favorita?</li>
+					<li>Diálogo do personagem: Que tal você vestir essa camisa na cor x. Eu sei que é a sua cor favorita!</li>
+				</ul>
+				<li>Estas variáveis serão apresentadas em negritos e com cor destacada, conforme exemplo abaixo.</li>
+				<ul>
+					<li>Branco</li>
+				</ul>
+				<li>Será uma forma de lembrar a escolha/definição de perfil feita pelo jogador.</li> 
+			</ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0001</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Registro do usuário</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0002 e OT0003</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Ao iniciar o jogo, o usuário deverá preencher preencher os campos de email/login e senha. Estes dois campos são obrigatórios. O usuário pode sair ao apertar o botão de login.</td>
+	<tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>A senha deve possuir, no mínimo, 6 caracteres</li>
+				<li>A senha deve possuir caracteres especiais, números e letras maiúsculas</li>
+				<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
+			<ul>
+		</td>
+</table>
+
 </details>
 	
 
