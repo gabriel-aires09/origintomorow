@@ -547,8 +547,74 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 		<td>Dependências</td>
 		<td>OT0002 e OT0003</td>
 	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Ao iniciar o jogo, o usuário deverá preencher preencher os campos de email/login e senha. Estes dois campos são obrigatórios. O usuário pode sair ao apertar o botão de login.</td>
+	<tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>A senha deve possuir, no mínimo, 6 caracteres</li>
+				<li>A senha deve possuir caracteres especiais, números e letras maiúsculas</li>
+				<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>	
+			<ul>
+		</td>
 </table>
-		
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0002</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Login do usuário</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>O usuário, após cadastrar suas credenciais no sistema de banco de dados do jogo, ele será transferido para tela de login e senha. Esta tela de login terá o campo para preenchimento do email da senha cadastrada pelo usuário.</td>
+	<tr>
+	<tr>
+		<td>Requisitos<td>
+		<td>
+			<ul>
+				<li>O email já deve estar cadastrado no banco de dados</li>
+				<ul>
+					<li>Caso o usuário digite um email não registrado, vai aparecer uma mensagem de email e mail não cadastrado no sistema</li>
+				</ul>
+					<li>A senha deve ser preenchida corretamente</li>
+					<ul>
+						<li>Caso o usuário erre no preenchimento da senha, vai aparecer a mensagem de senha incorreta</li>
+					</ul>
+					<li>Se os campos de login e senha estiverem corretos, o jogador irá para tela de menu do jogo.</li>
+			</ul>
+		</td>
+</table>	
 
 </details>
 	
@@ -562,7 +628,7 @@ Antes de acessar ou utilizar o jogo, você deve concordar com os Termos de Uso. 
 
 Ao instalar e jogar Origin of Tomorrow, você estará de acordo com estes termos de uso. Se não estiver de acordo com estes termos de uso, não instale ou jogue o jogo.
 
-Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o jogo cessará, e você deverá interromper o uso do jogo imediatamente. 
+Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o jogo cessará, e você deverá interromper o uso do jogo imediatamente.
 
 ### Concessão de Licença Limitada para Uso do Jogo
 
@@ -579,18 +645,18 @@ Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta 
 ###	Jogo
 
 Todos os direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
-	
+
 ### Contas
 
 Não obstante disposições em contrário aqui expressas, você reconhece e concorda que não terá propriedade ou outros direitos de propriedade sobre a conta, e você reconhece e concorda ainda que todos os direitos sobre a conta são e serão sempre de propriedade e para o benefício dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
-	
+
 ### Uso da imagem do Usuário
-	
+
 Ao jogar Origin of Tomorrow, você autoriza a divulgação da sua imagem e nome para materiais de divulgação do jogo. Neste caso, você autoriza, expressa ser sua vontade e declara sua autorização pelo uso supramencionado. Tendo conhecimento disso, qualquer reclamação referente ao ponto mencionado acima se torna inviável. A autorização é concedida a título gratuito, abrangendo o uso da imagem em todo o território nacional.
 	Essa autorização pode ser revogada a qualquer momento por você, porém, seu uso do jogo deve cessar imediatamente para que os colaboradores possam então tomar as devidas providências.
-	
+
 ### Sua licença para o jogo Origin of Tomorrow
-	
+
 Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor), uma licença irrevogável, perpétua, transferível, integralmente paga e sem quaisquer tipo de custos e o direito de usar e praticar, de qualquer forma, seus Conteúdo de Usuário.
 
 ### Atualizações do jogo
@@ -606,7 +672,7 @@ Você concorda que todas as disputas entre você e os colaboradores serão regid
 
 ### Proteção de Dados
 Os colaboradores são os únicos responsáveis pela segurança dos dados e informações disponibilizados pelos usuários, obriando-se os colaboradores:
-	
+
 1. Tratar e usar os dados pessoais nos termos legalmente permitidos recolhendo, conservando, registando, organizando, consultando ou transmitindo os mesmos, apenas e somente nos casos em que o seu usuário tenha dado o consentimento.
 
 2. Tratar os dados de modo compatível com as finalidades para os quais tenham sido recolhidos;
