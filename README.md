@@ -703,7 +703,7 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 		<td>A Galeria de artes é uma forma de recompensa para os jogadores que investiram no jogo Origin of Tomorrow. É um elemento utilizado em diversos jogos, podendo seus elementos serem desbloqueados em momentos específicos do jogo ou serem apresentados como colecionáveis dentro de fases do jogo.</td>
 	<tr>
 	<tr>
-		<td>Requisitos<td>
+		<td>Requisitos</td>
 		<td>
 			<ul>
 				<li>Os elementos da galeria serão mostrados apenas se o jogador iniciar uma campanha.</li>
@@ -835,54 +835,6 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 <table>
 	<tr>
 		<td>Identificador</td>
-		<td>OT0001</td>
-	</tr>
-	<tr>
-		<td>Nome</td>
-		<td>Registro do usuário</td>
-	</tr>
-	<tr>
-		<td>Módulo</td>
-		<td>Firebase</td>
-	</tr>
-	<tr>
-		<td>Data</td>
-		<td>24/09/2022</td>
-	</tr>
-	<tr>
-		<td>Autor</td>
-		<td>Daniel Vitor</td>
-	</tr>
-	<tr>
-		<td>Data da última alteração</td>
-		<td>27/09/2022</td>
-	</tr>
-	<tr>
-		<td>Versão</td>
-		<td>0.1b</td>
-	</tr>
-	<tr>
-		<td>Dependências</td>
-		<td>OT0002 e OT0003</td>
-	</tr>
-	<tr>
-		<td>Descrição</td>
-		<td>Ao iniciar o jogo, o usuário deverá preencher preencher os campos de email/login e senha. Estes dois campos são obrigatórios. O usuário pode sair ao apertar o botão de login.</td>
-	<tr>
-	<tr>
-		<td>Requisitos<td>
-		<td>
-			<ul>
-				<li>A senha deve possuir, no mínimo, 6 caracteres</li>
-				<li>A senha deve possuir caracteres especiais, números e letras maiúsculas</li>
-				<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
-			<ul>
-		</td>
-</table>
-
-<table>
-	<tr>
-		<td>Identificador</td>
 		<td>OT0007</td>
 	</tr>
 	<tr>
@@ -920,7 +872,7 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 Buscamos como fonte de inspiração obras da empresa Telltale Games. Tanto que a implementação das escolhas para serem armazenadas, dentro de um banco de dados e apresentadas ao final da jornada do jogador, tem a sua origem em jogos como The Walking Dead e Batman.</td>
 	</tr>
 	<tr>
-		<td>Requisitos<td>
+		<td>Requisitos</td>
 		<td>
 			<ul>
 				<li>Caso o jogador faça determinada escolha para caminho A, a história caminhará para caminho X. Caso o jogador faça escolha para caminho B, a história seguirá para caminho Y. Conforme dito anteriormente, cada uma das escolhas irá apresentar novas experiências narrativas ao jogador. </li>
@@ -979,7 +931,7 @@ De qualquer forma, em determinado momento da história, a forma como o jogo est�
 </td>
 	<tr>
 	<tr>
-		<td>Requisitos<td>
+		<td>Requisitos</td>
 		<td>
 			<ul>
 				<li>Primeiramente, a perspectiva será isométrica. Os personagens serão apresentados em sprites com cabeça gigante e corpo pequeno. Remete visualmente aos jogos de Role-Playing Game do antigo Super Nintendo, videogame extremamente influente e importante da empresa japonesa Nintendo. </li>
@@ -994,7 +946,6 @@ De qualquer forma, em determinado momento da história, a forma como o jogo est�
 
 </details>
 	
-
 <details>
 	<summary><h3>Termos de Uso</h3></summary>
 
@@ -1060,8 +1011,9 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 5. Assegurar que os respetivos colaboradores ou os prestadores de serviços externos contratados pelos colaboradores, que venham a ter acesso a dados pessoais dos Usuários no contexto do APP cumprem as disposições legais aplicáveis em matéria de proteção de dados pessoais, designadamente, não cedendo ou divulgando tais dados pessoais a terceiros, nem deles fazendo uso para quaisquer fins que não os estritamente consentidos pelos respectivos Usuários ou, se aplicável, ser o seu processamento objeto de notificação ou de pedido de autorização à Comissão Nacional de Proteção de Dados.
 
 </details>
-	
-## Colaboradores
+
+<details>
+	<summary><h3>Colaboradores</h3></summary>
 
 <br>
 
@@ -1112,10 +1064,14 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 </p>
 
 <br>
+</details>
 
-## Fontes de pesquisa
+<details>
+	<summary><h3>Fontes de pesquisa</h3></summary>
 
 [Godot documentation](https://docs.godotengine.org/en/stable/)
 <br>[GDQuest - Login with Firebase in Godot 3.1 (tutorial)](https://www.youtube.com/watch?v=Udm7uDQM05w)
 <br>[Gamesfromscratch - Dialogic -- Powerful New Dialog Add-On For Godot](https://www.youtube.com/watch?v=QXm0L-QSXoQ)
 <br>[Emi - Getting Started With Dialogic](https://www.youtube.com/watch?v=sYjgDIgD7AY)
+
+</details>
