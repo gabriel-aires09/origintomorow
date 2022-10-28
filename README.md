@@ -600,7 +600,7 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 		<td>O usuário, após cadastrar suas credenciais no sistema de banco de dados do jogo, ele será transferido para tela de login e senha. Esta tela de login terá o campo para preenchimento do email da senha cadastrada pelo usuário.</td>
 	<tr>
 	<tr>
-		<td>Requisitos<td>
+		<td>Requisitos</td>
 		<td>
 			<ul>
 				<li>O email já deve estar cadastrado no banco de dados</li>
