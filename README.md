@@ -11,7 +11,8 @@
 </p>
 
 ## A2 - Sprint 1
-## Introdução
+<details> 
+	<summary><h2>Introdução</h2><summary>
 
 Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).
 
@@ -21,9 +22,11 @@ Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decis
 
 
 Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa [Telltale Games](https://telltale.com/), responsáveis por jogos como [The Walking Dead Series](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/), [The Wolf Among Us](https://store.steampowered.com/app/250320/The_Wolf_Among_Us/) e [The Batman Telltale series](https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/).
+</details>
 
 
-## Funcionalidades
+<details>
+	<summary><h2>Funcionalidades</h2><summary>
 
 1. Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação.
 
@@ -38,19 +41,21 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 6. Sons e efeitos sonoros para maior imersão do jogador;
 
 7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.
+</details>
 
 
-## Possíveis funcionalidades e que estão fora do escopo
+<details>
+	<summary><h2>Possíveis funcionalidades e que estão fora do escopo</h2></summary>
 
 1. Portabilidade da aplicação para dispositivos móveis e consoles de videogame.
 2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
 3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
+</details>
 
 <details>
 	<summary><h2>Fluxograma das funcionalidades</h2></summary>
 
 <p>Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo a comunicação entre aplicação e banco de dados/servidor Firebase. Estas informações serão armazenadas no banco de dados, criando uma identificação/chave primária própria. Existe um cenário/interação para verificação se os dados dos usuários estiverem corretos.</p>
-</details>
 
 <ul>
 	<li>Caso o email já esteja cadastrado, o jogador já pode pular para tela de login e digitar os seus dados;</li>
@@ -96,6 +101,7 @@ Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresen
 		<br>Exemplificação do sistema de escolhas do jogo
 </p>
 
+</details>
 ## Ferramentas utilizadas
 
 1. [Godot](https://godotengine.org/) é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
