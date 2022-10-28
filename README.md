@@ -14,20 +14,21 @@
 <details> 
 	<summary><h2>Introdução</h2><summary>
 
-Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).
+<p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).</p>
 
-O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.
+<p>O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.</p>
 
-Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.
+<p>Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.</p>
 
 
-Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa [Telltale Games](https://telltale.com/), responsáveis por jogos como [The Walking Dead Series](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/), [The Wolf Among Us](https://store.steampowered.com/app/250320/The_Wolf_Among_Us/) e [The Batman Telltale series](https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/).
+<p>Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa [Telltale Games](https://telltale.com/), responsáveis por jogos como [The Walking Dead Series](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/), [The Wolf Among Us](https://store.steampowered.com/app/250320/The_Wolf_Among_Us/) e [The Batman Telltale series](https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/).</p>
 </details>
 
 
 <details>
 	<summary><h2>Funcionalidades</h2><summary>
 
+<p>
 1. Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação.
 
 2. Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;
@@ -41,15 +42,17 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 6. Sons e efeitos sonoros para maior imersão do jogador;
 
 7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.
+</p>
 </details>
 
 
 <details>
 	<summary><h2>Possíveis funcionalidades e que estão fora do escopo</h2></summary>
-
+<p>
 1. Portabilidade da aplicação para dispositivos móveis e consoles de videogame.
 2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
-3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
+3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história.
+</p>
 </details>
 
 <details>
@@ -74,9 +77,9 @@ Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos
 		<br>Fluxograma da página de login e senha
 </p>
 
-Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída  ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.
+<p>Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída  ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.</p>
  
-Exemplo: 
+<p>Exemplo: </p>
 
 <ul>
 	<li>O jogador A traçou o caminho X.</li> 
@@ -89,7 +92,7 @@ Exemplo:
 	</ul>
 </ul> 
 
-Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.
+<p>Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.</p>
 
 
 <br>
