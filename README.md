@@ -11,44 +11,47 @@
 </p>
 
 ## A2 - Sprint 1
-## Introdução
 
-Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de [Engenharia de Software](https://to.catolica.edu.br/portal/curso/engenharia-de-software/) do [Centro Universitário Católica do Tocantins](https://to.catolica.edu.br/portal/).
+<details> 
+	<summary><h3>Introdução</h3></summary>
 
-O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.
+<p>Projeto realizado como parte da grade curricular da disciplina de Engenharia de Conhecimento, ministrado no curso de <a href="https://to.catolica.edu.br/portal/curso/engenharia-de-software/">Engenharia de Software</a> do <a href="https://to.catolica.edu.br">Centro Universitário Católica do Tocantins</a>.</p>
 
-Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.
-
-
-Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa [Telltale Games](https://telltale.com/), responsáveis por jogos como [The Walking Dead Series](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/), [The Wolf Among Us](https://store.steampowered.com/app/250320/The_Wolf_Among_Us/) e [The Batman Telltale series](https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/).
+<p>O principal objetivo do trabalho  é a implementação dos conceitos de Banco de Dados numa aplicação. No caso do nosso grupo, escolhemos fazer a implementação a partir de um jogo de texto Visual Novel, com o objetivo de alimentar o banco de dados com informações do usuário.</p>
 
 
-## Funcionalidades
+<p>Visual novel é um gênero de jogo focado em leituras de textos, cuja suas decisões afetam o rumo da história. O sistema terá como proposta utilizar um sistema de bancos de dados par analisar as decisões dos jogadores para comparar os caminhos traçados por cada um ao decorrer da história.</p>
 
-1. Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação.
+<p>Como base para o trabalho, partiu-se dos conceitos de interação e escolhas nos adventures criados pela empresa <a href="https://telltale.com/">Telltale Games</a>, responsáveis por jogos como <a href="https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/">The Walking Dead </a>, <a href="https://store.steampowered.com/app/250320/The_Wolf_Among_Us/">The Wolf Among Us</a> e <a href="https://store.steampowered.com/app/498240/Batman__The_Telltale_Series/">The Batman Telltale series</a>.</p>
+</details>
 
-2. Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;
+<details>
+	<summary><h3>Funcionalidades</h3></summary>
 
-3. Sistemas de decisões que serão armazenadas no Banco de Dados e mostradas como estátisticas para o jogador ao final do jogo, demonstrando o seu  desempenho e progressão comparadas aos outros jogadores;
+<ol>
+	<li>Implementação do Firebase como aplicação de gerenciamento de dados e informações emitidas pela aplicação;</li>
+	<li>Sistema de diálogo, cujo os jogadores terão a possibilidade de ler a narrativa e as fala dos personagens durante a história por intermédio de uma caixa de diálogo;</li>
+	<li>Sistemas de decisões que serão armazenadas no Banco de Dados e mostradas como estátisticas para o jogador ao final do jogo, demonstrando o seu  desempenho e progressão comparadas aos outros jogadores;</li>
+	<li>História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história;</li>
+	<li>Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história;</li>
+	<li>Sons e efeitos sonoros para maior imersão do jogador;</li>
+	<li>Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.</li>
+</ol>
+</details>
 
-4. História voltada ao universo dos jogos eletrônicos, tendo alguns mini-games como interação e progresso da história;
+<details>
+	<summary><h3>Possíveis funcionalidades e que estão fora do escopo</h3></summary>
+<ol>
+	<li>Portabilidade da aplicação para dispositivos móveis e consoles de videogame.</li>
+	<li>Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.</li>
+	<li>Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história</li>
+</ol>
+</details>
 
-5. Galeria de pixel-arts dos desenhos criados pelo artista do projeto. Estas artes serão desbloqueadas pelo jogador à medida em que ele vai avançando durante a história;
+<details>
+	<summary><h3>Fluxograma das funcionalidades</h3></summary>
 
-6. Sons e efeitos sonoros para maior imersão do jogador;
-
-7. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo.
-
-
-## Possíveis funcionalidades e que estão fora do escopo
-
-1. Portabilidade da aplicação para dispositivos móveis e consoles de videogame.
-2. Sub-aplicação móvel para votação. Voltada para espectadores que estão assistindo a transmissão e estão buscando interação com o streamer favorito.
-3. Sistemas de criação de perfis do usuário/jogador, delimitando preferências e escolhas pessoais determinadas que podem aparecer/afetar a história ao decorrer do jogo. A implementação da funcionalidade pode ser feita como base a interação proposta no ínicio do jogo Silent Hill Shattered Memories. Check-list da personalidade do jogador, mudando alguns elementos e personagens da história;
-
-## Fluxograma das funcionalidades
-
-Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo a comunicação entre aplicação e banco de dados/servidor Firebase. Estas informações serão armazenadas no banco de dados, criando uma identificação/chave primária própria. Existe um cenário/interação para verificação se os dados dos usuários estiverem corretos.
+<p>Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo a comunicação entre aplicação e banco de dados/servidor Firebase. Estas informações serão armazenadas no banco de dados, criando uma identificação/chave primária própria. Existe um cenário/interação para verificação se os dados dos usuários estiverem corretos.</p>
 
 <ul>
 	<li>Caso o email já esteja cadastrado, o jogador já pode pular para tela de login e digitar os seus dados;</li>
@@ -67,9 +70,9 @@ Primeiro, o jogador terá como tela inicial de registro e login do jogo, fazendo
 		<br>Fluxograma da página de login e senha
 </p>
 
-Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída  ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.
+<p>Segundo, o jogador interage com as escolhas estipuladas do jogo. Ao fazer isso, cada uma dessas escolhas terá uma saída  ou rumo diferente para a história. Podem ser diálogos e interações com os personagens diferentes do habitual ou segmento da história. Exemplo: determinado personagem pode morrer ou continuar na narrativa, desempenhando outro papel. Diante disso, cada uma dessas escolhas e caminhos serão armazenadas no banco de Dados, diferenciando cada uma dessas rotas selecionadas pelo jogador. Ao final do jogo, o jogador terá uma tela de estatísticas, comparando o seu desempenho com outros jogadores.</p>
  
-Exemplo: 
+<p>Exemplo: </p>
 
 <ul>
 	<li>O jogador A traçou o caminho X.</li> 
@@ -82,8 +85,7 @@ Exemplo:
 	</ul>
 </ul> 
 
-Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.
-
+<p>Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresentadas nas estatísticas, para entender como funciona o sistema por parte do jogador e quais interações futuras podem ser possíveis para acessar os outros finais do jogo.</p>
 
 <br>
 
@@ -94,7 +96,10 @@ Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresen
 		<br>Exemplificação do sistema de escolhas do jogo
 </p>
 
-## Ferramentas utilizadas
+</details>
+
+<details>
+	<summary><h3>Ferramentas utilizadas</h3></summary>
 
 1. [Godot](https://godotengine.org/) é um motor de jogo de código aberto, publicado utilizando a licença MIT e desenvolvido pela sua própria comunidade. Seu design é inovador, utilizando um sistema de nódulos e de cena, dando flexibilidade para o desenvolvedor criar qualquer coisa. Pode ser usada em qualquer plataforma de desenvolvimento moderno, tendo a engine suporte para os sistemas operacionais Linux, MacOs, Windows Android. 
 
@@ -108,18 +113,23 @@ Vale ressaltar que, as escolhas principais, ao decorrer da trama, serão apresen
 
 6. [Obs Studio](https://obsproject.com/pt-br/download) é uma suíte de software livre e de código aberto para gravação e transmissão ao vivo. Escrito em C e C++, o OBS fornece captura de fonte e dispositivo em tempo real, composição de cena, codificação, gravação e transmissão. A transmissão de dados é feita principalmente através do RTMP (Real Time Messaging Protocol) e pode ser enviada para qualquer destino de suporte RTMP, incluindo muitas predefinições para sites de streaming, como YouTube, Instagram, Twitch e Facebook.
 
-## Configurações do Projeto
+</details>
 
-Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. 
+<details>
+	<summary><h3>Configurações do Projeto</h3></summary>
 
-Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases). Necessário apenas descompactar os arquivos e rodar diretamente no sistema. O executável e o arquivo de extensão .pck devem estar localizados no mesmo diretório. Sem isso, o jogo não será executado. 
+<p>Origin of Tomorrow pode ser executado em diversos sistemas como Windows, Linux e até mesmo em <strong> navegadores de internet</strong>. </p>
 
+Binários compilados podem ser baixados na página de [releases do GitHub](https://github.com/gabriel-aires09/origintomorow/releases). Necessário apenas descompactar os arquivos e rodar diretamente no sistema. O executável e o arquivo de extensão .pck devem estar localizados no mesmo diretório. Sem isso, o jogo não será executado.
 
 Quanto ao uso da aplicação em <strong>navegadores</strong>, você pode acessar ao jogo por meio deste link: [Github Pages](https://gabriel-aires09.github.io/origintomorow/). Criamos uma branch própria hospedada no Github Pages para acesso e conhecimentos das pessoas que tenham interesse em acessar ao jogo. Todos os novos recursos, mecânicas e funcionalidades serão também atualizadas neste link. Nossa intenção é apresentar nossas ideias, de maneira acessível, para outras pessoas interessadas no projeto.
 
 Os arquivos do código fonte podem ser executados utilizando a própria engine [Godot](https://godotengine.org/). Necessário apenas a [importação dos arquivos do projeto](https://docs.godotengine.org/en/latest/tutorials/editor/project_manager.html#opening-and-importing-projects), abrir e apertar o botão play ao canto da tela da interface gráfica da Godot engine. 
 
-## Tutorial para rodar o projeto na Godot Engine
+</details>
+
+<details>
+	<summary><h3>Tutorial para rodar o projeto na Godot Engine</h3></summary>
 
 Abaixo, o tutorial passo a passo:
 
@@ -146,8 +156,11 @@ Abaixo, um pequeno tutorial em vídeo de como pode ser feito este procedimento.
 
 https://user-images.githubusercontent.com/90778217/195740843-746e6f9d-6960-4bfd-9436-a5dfde40e185.mp4
 
+</details>
 
-## Rotas
+
+<details> 
+	<summary><h3>Rotas</h3></summary>
 
 <p align="left">
 	<img width="1506" height="334"
@@ -171,8 +184,11 @@ https://user-images.githubusercontent.com/90778217/195460870-dfe8cddc-d4d2-4802-
 
 https://user-images.githubusercontent.com/90778217/195461271-6ae0ad93-40db-4643-a9cb-fe39b158ae0d.mp4
 
+</details>
 
-## Modelagem do banco de dados
+
+<details>
+	<summary><h3>Modelagem do banco de dados</h3></summary>
 
 Diante das funcionalidades e sistemas utilizados para o nosso projeto, optamos por um gerenciamento de banco de dados não relacional (NoSQL). Primeiramente, o motivo para utilizar esta estrutura de banco de dados é a sua característica de mutabilidade durante o processo de desenvolvimento da aplicação. Queremos, na medida que surgem novas ideias entre os integrantes do projeto, modificar a manipulação dos dados na nossa aplicação, não necessariamente atendendo uma estrutura pré-definida. Segundo, adotamos o Firebase como aplicação principal para o gerenciamento de dados e informações do nosso jogo. Percebemos que, ao analisar o contexto e, pelo tempo exigido para desenvolvimento da aplicação, o melhor caminho a ser seguido seria a utilização do Firebase, principalmente por causa da facilidade de implementação e praticidade de utilização na nossa aplicação. Terceiro, porque a nossa própria orientadora apresentou como uma das ferramentas que podem ser utilizadas durante o processo de desenvolvimento. :smile:
 
@@ -206,9 +222,12 @@ Abaixo, o modelo lógico estruturado do nosso banco de dados, como também a rep
 		<br><br>Estrutura da tabela do arquivo .json criado pelo Dialogic. 
 </p>
 
+</details>
+
 ## A2 - Sprint 2
 
-## Padronização e permissão de rotas
+<details>
+<summary><h3>Padronização e permissão de rotas</h3></summary>
 
 Não há diferentes tipos de usuários, sendo que as rotas serão igualmente distribuídas. Quando o usuário se registra, seus dados são salvos na nuvem juntamente com um token gerado pelo Firebase, cuja utilização se dará na autenticação de usuário. O jogo apresenta as seguintes rotas: 
 ### Iniciar
@@ -223,68 +242,712 @@ Após ela, o usuário frequentemente passará pela seguinte rota:
 
 <h3 align="center">{Main}/{Login{token_autenticado}}/{Menu}/{Supercene{dialogic}}</h3>
 
-## Histórias de usuário
+</details>
 
-### História 1: Registro
+<details>
+	<summary><h3>Histórias de usuário</h3></summary>
 
-Eu como jogador desejo registrar uma conta no sistema para que eu possa ter acesso ao jogo
+#### US01 - Registro
 
-#### Cenário 1: Primeira entrada
+Eu, como jogador, desejo registrar uma conta no sistema, para que eu possa ter acesso ao jogo.
 
-Dado que o usuário não tenha uma conta
-<ul>
-	<li>E queira iniciar o jogo</li>
-</ul>
-Então ele seleciona o opção registro 
-<ul>
-	<li>E preenche os dados email, senha,confirmar senha</li>
-</ul>
-O sistema retorna uma confirmação 
-<ul>
-	<li>E o jogador é levado para a tela inicial</li>
-</ul>
-    
-#### Cenário 2: Senha fraca
+<strong>Cenário 1: Primeiro registro no jogo</strong>
+- Dado que o usuário não tenha uma conta
+	- E queira iniciar o jogo
+- Quando ele selecionar o opção registro
+	- E preenche os dados email, senha, confirmar senha. 
+- Então, o sistema retorna uma confirmação
+ 	- E o jogador é levado para a tela inicial
 
-Dado que o usuário
-Quando estiver preenchendo os dados do cadastro
-<ul>
-	<li>E a senha possuir menos que seis caracteres</li>
-</ul>
-Então o sistema retorna um erro
-<ul>
-	<li>E pede para o usuário tentar outra senha novamente</li>
-</ul>     
-    
-### História 2:  Sistema de decisões
+<strong>Cenário 2: Usuário já cadastrado no sistema</strong>
+- Dado que usuário tenha uma conta
+	- E queira registrar, utilizando o mesmo login e senha já armazenado no banco de dados da aplicação
+- Quando ela tentar registrar no sistema
+- Então, vai aparecer uma mensagem de email e usuário já cadastrados no sistema 
 
-Eu como jogador quero escolher que escolhas tomar durante a história para que possa ver como minhas decisões afetaram a história no geral
+<strong>Cenário 3: Domínio de email não reconhecido no sistema</strong>
+- Dado que o usuário não tenha uma conta
+	- E queira registrar para inicializar/testar o jogo
+- Quando selecionar a opção registrar
+	- E preencher os dados de email
+	- E este domínio de email não ser permitido/reconhecido no sistema de banco de dados
+- Então o sistema retorna a seguinte mensagem: domínio de email não reconhecido pelo sistema
 
-#### Cenário 1: Escolha impactante
-Dado que o usuário esteja jogando
-<ul>
-	<li>E apareça duas ou mais opções de escolha</li>
-</ul>
+<strong>Cenário 4: Senha fraca</strong>
+- Dado que o usuário estiver preenchendo os dados do cadastro
+	- E a senha possuir menos que seis caracteres
+	- OU senha sem caracteres especiais como números, símbolos e letras maiúsculas 
+- Quando o usuário apertar o botão de registrar
+- Então o sistema retorna um erro
+	- E pede para o usuário tentar outra senha novamente
 
-Ex: Ajudar, ignorar    
+#### US02 - Acesso ao sistema, por meio de login (email) e senha
 
-Então o jogador seleciona uma das duas opções, salva a escolha que o jogador tomou
-<ul>
-	<li>E avança a história de acordo com a opção escolhida</li>
-</ul>
-        
-## Regras de negócio - Jogo de texto
+Eu, como jogador, desejo acessar o sistema, para que eu possa retornar o jogo.
 
-### Login/Registro
+<strong>Cenário 1: Usuário já Registrado no sistema</strong>
+- Dado que o usuário estiver cadastrado no sistema
+- Quando ele digitar seu email de login
+	- E sua senha
+- Então,  vai aparecer uma mensagem de login bem sucedido
+	- E o usuário irá avançar para o menu do jogo
 
-Um email e senha são obrigatórios
+<strong>Cenário 2: Usuário não registrado no sistema</strong>
+- Dado que o usuário não estiver cadastrado no sistema
+- Quando ele digitar seu email de login
+	- E sua senha
+- Então, irá aparecer a mensagem de usuário e senha não cadastrados
+	- OU usuário e senha digitados incorretamente
 
-<ul>
-	<li>A senha deve possuir no mínimo 6 caracteres</li>
-	<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>
-</ul>
 
-## Termos de Uso
+<strong>Cenário 3: Senha incorreta</strong>
+- Dado que o usuário tenha uma conta registrada
+- Quando ele digita seu login e senha
+- E sua senha estiver incorreta
+- Então, vai aparecer uma mensagem de login bem sucedido
+- E o usuário irá avança para o menu do jogo
+
+#### US03 – Sistema de decisões
+
+Eu, como jogador, desejo escolher que escolhas tomar durante a história, para que possa ver como minhas decisões afetaram a história no geral
+
+<strong>Cenário 1: Escolhas ao decorrer da história</strong>
+- Dado que o usuário esteja jogando
+	- E apareça duas ou mais opções de escolha
+- Quando o jogador seleciona uma das duas opções
+- Então, a escolha que o jogador tomou será salva
+	- E a história do jogo avança de acordo com a opção escolhida
+	- E os elementos e personagens podem mudar, a depender do contexto e escolhas apresentadas na história
+
+<strong>Cenário 2: Escolhas que caracterizam o perfil do jogador</strong>
+- Dado que o jogador esteja jogando
+	- E tenha preenchido o formulário de perfil do jogo
+- Quando o jogador avança ao decorrer da história
+- Então, os elementos, tais como cor e nome, serão apresentados nos diálogos
+	- E novas interações serão apresentadas
+
+#### US04 - Sistema de relacionamento 
+
+Eu, como desenvolvedor, desejo um sistema de relacionamento e pontuação, para que o jogador tenha maior engajamento com os personagens da história.
+
+<strong>Cenário 1:  Sistemas de pontos positivos entre personagens e jogador</strong>
+- Dado que existe um sistema de relacionamento entre o jogador e personagens 
+- Quando é escolhida uma interação considerada positiva
+- Então aumenta os pontos de amizade/empatia com o personagem
+	- E o personagem da interação te ajuda durante a  jornada
+	- E estes pontos serão adicionado na tela de estatística ao final do jogo
+
+<strong>Cenário 2: Sistemas de pontos negativos entre personagens e jogador</strong>
+- Dado que existe um sistema de relacionamento entre o jogador e personagens 
+- Quando é escolhida uma interação considerada negativa
+- Então diminui os pontos de amizade/empatia com o personagem
+	- E o personagem não te ajuda durante a história
+	- OU evita contato/conversa com seu personagem
+	- E estes pontos serão adicionado na tela de estatística ao final do jogo
+
+<strong>Cenário 3: Sistema de pontos - personagem fora dos padrões de normalidade</strong>
+- Dado que existe um sistema de relacionamento entre o jogador e personagens
+- Quando é escolhida uma interação considerada negativa 
+	- E o personagem goste deste tipo de tratamento
+- Então aumenta os pontos de amizade
+	- E o personagem da interação te ajuda durante a  jornada
+	- OU evita contato/conversa com seu personagem
+	- E estes pontos serão adicionado na tela de estatística ao final do jogo
+
+#### US05 - Menu inicial
+Eu, como desenvolvedor, desejo criar um menu inicial, para que o usuário possa navegar no jogo. 
+
+<strong>Cenário 1 - Botão Iniciar</strong>
+- Dado que existe um botão iniciar
+- Quando o usuário aperta este botão
+- Então o jogo irá inicializar para o estado de progresso atual do jogador
+
+<strong>Cenário 2 - Botão Galeria</strong>
+- Dado que existe o botão galeria no menu inicial do jogo
+- Quando o usuário apertar este botão
+- Então o jogo irá para outra janela, apresentando uma galeria de artes feitas exclusivamente para o jogo
+
+<strong>Cenário 3 - Botão sair</strong>
+- Dado que existe o botão sair presente no menu inicial 
+- Quando o usuário aperta este botão
+- Então a aplicação é fechada
+	- E como também a finalização do seu processo no computador
+
+#### US06 - Galeria
+
+Eu, como desenvolvedor, desejo uma galeria de arte, para que seja acessada/desbloqueada pelo jogador ao decorrer do jogo.
+
+<strong>Cenário 1 - Desbloqueio das artes do jogo</strong>
+- Dado que o jogador está em determinada parte da história
+- Quando o jogador concluir esta parte
+- Então as artes criadas em pixel art como plano de fundo, cenário e personagens serão desbloqueadas
+	- E poderão ser acessadas no menu de Galeria do jogo
+
+<strong>Cenário 2 - Jogador quer visualizar a arte do jogo na Galeria</strong>
+- Dado que existe um menu de galeria das artes do jogo
+	- E o jogo acessou por meio do caminho Menu inicial >> Galeria
+	- E estejam disponíveis/liberadas artes do jogo
+- Quando o jogador clicar no ícone da arte do jogo
+- Então será aberta esta mesma arte em tela cheia
+
+<strong>Cenário 3 - Voltar para o menu de Galeria ao clicar na arte desejada</strong>
+- Dado que o jogador está na janela de tela cheia da pixel art
+- Quando ele clicar no botão de voltar, no canto superior esquerdo da tela
+- Então, o jogador voltará para tela inicial da galeria
+
+<strong>Cenário 4 - Voltar para o menu principal a partir da Galeria</strong>
+- Dado que o jogador está na galeria do jogo
+- Quando ele clicar no botão voltar na tela de galeria
+	- E não estiver aberta qualquer arte do jogo, no modo de tela cheia
+- Então o jogador irá voltar para o menu principal do jogo
+
+#### US07 - Estatísticas de caminhos seguidos ao final do jogo
+
+Eu, como usuário, desejo que seja apresentadas estatísticas sobre o meu caminho tomado do jogo, para que eu possa comparar com outros jogadores
+
+<strong>Cenário 1 - Caminho X</strong>
+- Dado que existe um determinado caminho X a ser seguido
+- Quando o jogador escolhe este caminho, dependendo das escolhas realizadas durante o jogo
+	- E ele finaliza o jogo
+- Então, é mostrado uma tabela de estatísticas, o número percentual de jogadores que seguiram este caminho. 
+	- E este caminho será armazenado no banco de dados 
+
+<strong>Cenário 2 - Caminho Y</strong>
+- Dado que existe um determinado caminho Y a ser seguido
+- Quando o jogador escolhe este caminho, dependendo das escolhas realizadas durante o jogo
+	- E ele finaliza o jogo
+- Então, é mostrado uma tabela de estatísticas, o número percentual de jogadores que seguiram este caminho. 
+	- E este caminho será armazenado no banco de dados 
+
+#### US08 - Salvar as escolhas dos jogadores
+
+Eu, como desenvolvedor, desejo salvar as escolhas dos jogadores, para que eu possa demonstrar/manipular estas informações no banco de dados.
+
+<strong>Cenário 1 - Salvar escolhas no banco de dados</strong>
+- Dado que o jogador está numa tela com duas caixas de diálogo, após a interação com personagem da conversa
+- Quando o usuário aperta uma das caixas, utilizando o mouse
+- Então, o personagem da interação terá uma resposta
+	- E esta resposta será salva no banco de dados
+	- E irá criar um token próprio
+	- E será computada nas estatísticas de caminhos seguidos pelos jogadores ao final do jogo.
+
+<strong>Cenário 2 - Salvar a pontuação de amizade entre os personagens</strong>
+- Dado que o jogador pode interagir com os personagens
+	- E cada uma das respostas tem um retorno positivo ou negativo para o sistema de amizade
+- Quando o jogador escolhe determinada resposta
+- Então, ela irá aumentar o nível de amizade entre o jogador e personagem
+	- Ou diminuir o nível de amizade entre jogador e personagem
+	- E salvar estas respostas no banco de dados
+	- E demonstrar esta pontuação ao final do jogo.
+
+#### US09 -  Mini-game RPG
+
+Eu, como usuário, desejo jogar um mini-game ao estilo RPG, para que eu possa ter mais interação e engajamento com o jogo.
+
+<strong>Cenário 1 - Perfil do usuário</strong>
+- Dado que existem perfis para o usuário, delimitando seus gostos
+- Quando o usuário loga no jogo
+	- E responde algumas das perguntas sobre você no início do jogo
+- Então, essas escolhas serão demonstradas em diálogos
+	- E interações ao decorrer do jogo. 
+
+#### US 09.01 - Movimentação do personagem
+
+Eu, como usuário, desejo movimentar meu personagem, para que eu possa chegar ao final do game.
+
+<strong>Cenário 1 - Personagem move para esquerda</strong> 
+- Dado que o personagem tem a função de movimentação
+	- E pode andar para direção esquerda 
+- Quando aperto o direcional para esquerda
+- Então, o personagem irá se movimentar para esquerda
+	- Ou não se locomover, caso existe algum objeto na frente do personagem
+
+<strong>Cenário 2 - Personagem move para direita </strong>
+- Dado que o personagem tem a função de movimentação
+	- E pode andar para direita 
+- Quando aperto o direcional para direita
+- Então, o personagem irá se movimentar para direita
+	- Ou não se locomover, caso existe algum objeto na frente do personagem
+
+<strong>Cenário 3 - Personagem move para cima</strong>
+- Dado que o personagem tem a função de movimentação
+	- E pode andar para cima 
+- Quando aperto o direcional para cima
+- Então, o personagem irá se movimentar para cima
+ - Ou não se locomover, caso existe algum objeto na frente do personagem
+
+<strong>Cenário 4 - Personagem move para baixo </strong>
+- Dado que o personagem tem a função de movimentação
+	- E pode andar para baixo 
+- Quando aperto o direcional para baixo
+- Então, o personagem irá se movimentar para baixo
+	- Ou não se locomover, caso existe algum objeto na frente do personagem
+
+#### US 09.02 - Interações com os personagens 
+
+Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para que o jogador tenha envolvimento com o jogo
+
+<strong>Cenário 1 - Conversar com os personagens</strong>
+- Dado que existe um personagem no mapa
+	- E que esteja na frente do jogador
+- Quando o jogador aperta o botão de interação
+- Então, abre uma caixa de diálogo, juntamente com o avatar do personagem
+
+<strong>Cenário 2 - Escolhas e interações entre personagens do mapa</strong>
+- Dado que o jogador apertou o botão de interação
+	- E apareceu a caixa de diálogo, juntamente com o avatar do personagem
+- Quando aparece um escolha de respostas durante o diálogo
+- Então, o jogador escolha uma das opções de respostas
+	- E o personagem responde
+	- E o tipo de resposta será diferente, a depender de cada interação
+
+<strong>Cenário 3 - Sistemas pontos de amizade implementados no mini-game de RPG</strong>
+- Dado que o jogador interage com os NPCs do jogo
+	- E está na frente do personagem
+	- E abre a caixa de diálogo
+- Quando ele faz determinada escolha
+- Então, vai aumentar o sistema de amizade/empatia entre o jogador e personagem
+	- Ou vai diminuir o sistema de amizade/empatia entre o jogador e personagem
+	- E estas interações com personagens serão salvas no banco de dados 
+</details>
+
+<details>
+	<summary><h3>Regras de Negócio</h3></summary>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0001</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Registro do usuário</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0002 e OT0003</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Ao iniciar o jogo, o usuário deverá preencher preencher os campos de email/login e senha. Estes dois campos são obrigatórios. O usuário pode sair ao apertar o botão de login.</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>A senha deve possuir, no mínimo, 6 caracteres</li>
+				<li>A senha deve possuir caracteres especiais, números e letras maiúsculas</li>
+				<li>O email a ser cadastrado não pode ter sido usado anteriormente</li>	
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0002</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Login do usuário</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>O usuário, após cadastrar suas credenciais no sistema de banco de dados do jogo, ele será transferido para tela de login e senha. Esta tela de login terá o campo para preenchimento do email da senha cadastrada pelo usuário.</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>O email já deve estar cadastrado no banco de dados</li>
+				<ul>
+					<li>Caso o usuário digite um email não registrado, vai aparecer uma mensagem de email e mail não cadastrado no sistema</li>
+				</ul>
+					<li>A senha deve ser preenchida corretamente</li>
+					<ul>
+						<li>Caso o usuário erre no preenchimento da senha, vai aparecer a mensagem de senha incorreta</li>
+					</ul>
+					<li>Se os campos de login e senha estiverem corretos, o jogador irá para tela de menu do jogo.</li>
+			</ul>
+		</td>
+</table>	
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0003</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Menu inicial</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interface</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001 e OT0002</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>O menu inicial tem a função de ser a tela central do jogo, cujo usuário pode escolher suas configurações de vídeo, som e controles do jogo. Isto é importante, principalmente em computadores com nível de processamento menor. Não apenas as configurações, o menu inicial deve ter a galeria de todas as artes desbloqueadas durante o jogo, como também o menu de sair da aplicação.
+</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Caso o jogador aperte o botão Iniciar, o jogo vai inicializar. Dependendo do seu processo de salvamento, ele pode iniciar na parte em que o jogador parou.</li>
+				<li>Ao apertar o botão Galeria, o jogador será transferido para o menu das artes em pixel-art desbloqueadas e utilizadas durante o jogo</li>
+				<li>Quando o jogador apertar o botão sair, ele sairá da aplicação.</li>
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0004</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Galeria</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interface</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0003 e OT0005</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>A Galeria de artes é uma forma de recompensa para os jogadores que investiram no jogo Origin of Tomorrow. É um elemento utilizado em diversos jogos, podendo seus elementos serem desbloqueados em momentos específicos do jogo ou serem apresentados como colecionáveis dentro de fases do jogo.</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Os elementos da galeria serão mostrados apenas se o jogador iniciar uma campanha.</li>
+				<li>Cada arte será desbloqueada em momentos específicos dentro do jogo</li>
+				<li>Dentro do menu da galeria, irá aparecer uma foto em miniatura, representando cada uma das artes em pixel art elaboradas para o jogo</li>
+				<li>Caso o jogador clique em algumas das miniaturas, ele será transferido para outra janela, exibindo a arte em tela cheia.</li>
+				<li>Ao apertar o botão voltar, o jogador volta para janela anterior. No caso, a janela de menu da galeria.</li>
+				<li>O jogador pode voltar para o menu iniciar, apertando o botão voltar.</li>
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0005</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Diálogos do jogo</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interface e Interação Jogador/Aplicação</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>24/09/2022</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Gabriel Oliveira Aires</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>27/09/2022</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT002, OT0003 e OT0006</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Os diálogos são elementos essenciais de um jogo ao estilo Visual Novel. O gênero é focado, essencialmente, em histórias e interações entre jogadores e personagens. 
+		<br>
+Sendo assim, é necessário que sejam apresentadas dentro do contexto da história. Seja para salvar algum personagem ou não, seja para aumentar pontos de amizade/empatia entre os personagens.
+		<br>
+Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de cada um dos personagens, representando seus estados emocionais a partir de suas respostas no jogo. Eles ficarão localizados dentro de uma caixa de texto.</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Para que os diálogos sejam trocados ao decorrer do jogo, o jogador deve apertar qualquer botão do mouse ou tecla do teclado para isso.</li>
+				<li>Em determinados momentos, haverá opções de escolhas para o jogador. Para avançar, o jogador deve escolher uma delas. Dependendo da resposta, caminhos e elementos diferentes serão demonstrados</li>
+				<li>As escolhas podem afetar a maneira como os personagens tratam você ao decorrer do jogo. </li>
+				<li>Quando o jogador customizar seu perfil de usuário, definindo suas preferências (mesmo que estas não sejam verdadeiras), elas serão apresentadas em algum contexto da história.</li>
+				<li>Exemplo: Qual sua fruta favorita?</li>
+				<ul>
+					<li>Resposta: Maçã. Isto será salvo como variável e armazenado no banco de dados.</li>
+					<ul>
+						<li>Durante o jogo: Hmmm, vamos comer a fruta que você gosta? Que tal uma (variável = maçã)?</li>
+				</ul>
+			<ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0006</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Perfil do jogador</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interação Jogador/Aplicação e Comunicação banco de dados</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>XXXXXXXXX</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor e Gabriel Oliveira Aires</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>XXXXXXXX</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td> OT0001, OT002, OT0005 e OT0006</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Ao iniciar a aplicação, o jogador terá a oportunidade de personalizar seu perfil. Este perfil terá algumas perguntas sobre o perfil do jogador. Vale ressaltar que nenhum tipo de pergunta pessoal ou do âmbito extremamente privado do indivíduo como sexualidade e etnia serão impostas neste questionário. No máximo, perguntas voltadas para o âmbito geral como nome de música, cor, filme ou comida favorita.</td>
+	</tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Neste módulo, é necessário que o jogador esteja cadastrado e logado no sistema. Ao apertar o botão iniciar, dentro do menu inicial do jogo, será exibido uma nova janela. Esta janela conterá um pequeno questionário a respeito do jogador, podendo este questionário ser predeterminado ou não</li>
+				<li>Ao fazer sua escolha, em alguns contextos serão apresentados características do perfil do jogador.</li>
+				<ul>
+					<li>Qual é a sua cor favorita?</li>
+					<li>Diálogo do personagem: Que tal você vestir essa camisa na cor x. Eu sei que é a sua cor favorita!</li>
+				</ul>
+				<li>Estas variáveis serão apresentadas em negritos e com cor destacada, conforme exemplo abaixo.</li>
+				<ul>
+					<li>Branco</li>
+				</ul>
+				<li>Será uma forma de lembrar a escolha/definição de perfil feita pelo jogador.</li> 
+			</ul>
+		</td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0007</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Escolhas</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interação Jogador e armazenamento de informações no Firebase</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>XXXXX</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Daniel Vitor, Gabriel Aires, Jonathan Rodrigues e Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>XXXXXX</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT0002, OT0003, OT0004, OT0005 e OT0006</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td>Como todo bom jogo do gênero Visual Novel, ao decorrer da campanha haverá escolhas que irão afetar o progresso da história. Sendo assim, caso você siga para o caminho A, diversos elementos e até personagens podem mudar. Caso você siga para caminho B, outros objetos serão apresentados e personagens também. Dependendo das escolhas morais desencadeadas durante o jogo, personagens podem morrer e a história seguirá seu ritmo mesmo assim.
+		<br>
+Buscamos como fonte de inspiração obras da empresa Telltale Games. Tanto que a implementação das escolhas para serem armazenadas, dentro de um banco de dados e apresentadas ao final da jornada do jogador, tem a sua origem em jogos como The Walking Dead e Batman.</td>
+	</tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Caso o jogador faça determinada escolha para caminho A, a história caminhará para caminho X. Caso o jogador faça escolha para caminho B, a história seguirá para caminho Y. Conforme dito anteriormente, cada uma das escolhas irá apresentar novas experiências narrativas ao jogador. </li>
+				<li>As escolhas serão armazenadas no banco de dados e apresentadas ao jogador ao final do jogo, apresentando uma tela de estatísticas com desempenho e caminhos tomados pelo jogador.</li>
+				<li>Exemplo: O jogador seguiu na história do jogo, realizando suas escolhas morais e de interação com o personagem. </li>
+				<li>O caminho traçado é X:</li>
+				<ul>
+					<li>Porcentagem de jogadores que escolheram este caminho é igual 44%</li>
+				</ul>
+				<li>Outros jogadores traçaram o caminho Y:</li>
+				<ul>
+					<li>Porcentagem de jogadores que escolheram este caminho é igual a 56%</li>
+				</ul>
+			</ul>
+		</td>
+</table>
+
+<table>
+	<tr>
+		<td>Identificador</td>
+		<td>OT0008</td>
+	</tr>
+	<tr>
+		<td>Nome</td>
+		<td>Mini-game RPG</td>
+	</tr>
+	<tr>
+		<td>Módulo</td>
+		<td>Interação e maior engajamento jogador/aplicação</td>
+	</tr>
+	<tr>
+		<td>Data</td>
+		<td>XXXXX</td>
+	</tr>
+	<tr>
+		<td>Autor</td>
+		<td>Gabriel Aires, Jonathan Rodrigues e Mateus Citriniti</td>
+	</tr>
+	<tr>
+		<td>Data da última alteração</td>
+		<td>XXXXXX</td>
+	</tr>
+	<tr>
+		<td>Versão</td>
+		<td>0.1b</td>
+	</tr>
+	<tr>
+		<td>Dependências</td>
+		<td>OT0001, OT0002, OT0003, OT0004, OT0005, OT0006 e OT0007</td>
+	</tr>
+	<tr>
+		<td>Descrição</td>
+		<td><O sistema de perfil do jogador, como também o sistema de pontos são funcionalidades conectadas, seguindo princípios de Role-Playing Game, comumente empregados em diversos títulos atuais, sendo uma tendência para quase todos os gêneros de jogos existentes. Filmes como Jogador Número Um e animações japonesas do gênero Isekai apresentam estes conceitos para o público em geral.
+		<br>
+De qualquer forma, em determinado momento da história, a forma como o jogo está sendo apresentado para o jogador será modificada.
+</td>
+	<tr>
+	<tr>
+		<td>Requisitos</td>
+		<td>
+			<ul>
+				<li>Primeiramente, a perspectiva será isométrica. Os personagens serão apresentados em sprites com cabeça gigante e corpo pequeno. Remete visualmente aos jogos de Role-Playing Game do antigo Super Nintendo, videogame extremamente influente e importante da empresa japonesa Nintendo. </li>
+				<li>Os sprites dos jogadores poderão se mover em quatro sentidos, respectivamente: cima, baixo, direita e esquerda.</li>
+				<li>Ao se deparar com algum objeto ou personagem na frente do jogador, o algoritmo de colisão será acionado e o personagem controlável vai parar de movimentar.</li>
+				<li>O personagem controlável não pode ultrapassar os objetos, devendo ficar imóvel, apenas acionando a animação de movimentação.</li>
+				<li>Haverá um mapa para ser explorado pelo jogador, tendo objetos, elementos arquitetônicos, vegetação, florestas e personagens para interação.</li>
+				<li>Os personagens para interação terão os sistemas de diálogos e escolhas estipulados anteriormente. Vale ressaltar que o sistema de perfis e sistema de pontos de empatia/amizade estarão vigentes neste modo.</ul>
+			</ul>
+		</td>
+</table>
+
+</details>
+	
+<details>
+	<summary><h3>Termos de Uso</h3></summary>
 
 Os termos deste contrato (“Termos de Uso”) regem o relacionamento entre você e os colaboradores, pessoas físicas com sede em Palmas/Tocantins.
 
@@ -292,7 +955,7 @@ Antes de acessar ou utilizar o jogo, você deve concordar com os Termos de Uso. 
 
 Ao instalar e jogar Origin of Tomorrow, você estará de acordo com estes termos de uso. Se não estiver de acordo com estes termos de uso, não instale ou jogue o jogo.
 
-Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o jogo cessará, e você deverá interromper o uso do jogo imediatamente. 
+Caso você não concorde com as atualizações do termo de uso, ou de qualquer outra política presente neste documento, sua licença para utilizar o jogo cessará, e você deverá interromper o uso do jogo imediatamente.
 
 ### Concessão de Licença Limitada para Uso do Jogo
 
@@ -309,18 +972,18 @@ Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta 
 ###	Jogo
 
 Todos os direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
-	
+
 ### Contas
 
 Não obstante disposições em contrário aqui expressas, você reconhece e concorda que não terá propriedade ou outros direitos de propriedade sobre a conta, e você reconhece e concorda ainda que todos os direitos sobre a conta são e serão sempre de propriedade e para o benefício dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
-	
+
 ### Uso da imagem do Usuário
-	
+
 Ao jogar Origin of Tomorrow, você autoriza a divulgação da sua imagem e nome para materiais de divulgação do jogo. Neste caso, você autoriza, expressa ser sua vontade e declara sua autorização pelo uso supramencionado. Tendo conhecimento disso, qualquer reclamação referente ao ponto mencionado acima se torna inviável. A autorização é concedida a título gratuito, abrangendo o uso da imagem em todo o território nacional.
 	Essa autorização pode ser revogada a qualquer momento por você, porém, seu uso do jogo deve cessar imediatamente para que os colaboradores possam então tomar as devidas providências.
-	
+
 ### Sua licença para o jogo Origin of Tomorrow
-	
+
 Por este documento, você concede aos colaboradores (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor), uma licença irrevogável, perpétua, transferível, integralmente paga e sem quaisquer tipo de custos e o direito de usar e praticar, de qualquer forma, seus Conteúdo de Usuário.
 
 ### Atualizações do jogo
@@ -336,7 +999,7 @@ Você concorda que todas as disputas entre você e os colaboradores serão regid
 
 ### Proteção de Dados
 Os colaboradores são os únicos responsáveis pela segurança dos dados e informações disponibilizados pelos usuários, obriando-se os colaboradores:
-	
+
 1. Tratar e usar os dados pessoais nos termos legalmente permitidos recolhendo, conservando, registando, organizando, consultando ou transmitindo os mesmos, apenas e somente nos casos em que o seu usuário tenha dado o consentimento.
 
 2. Tratar os dados de modo compatível com as finalidades para os quais tenham sido recolhidos;
@@ -346,8 +1009,11 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 4. Informar imediatamente ao Usuário, devendo prestar toda a colaboração necessária a qualquer investigação que venha a ser realizada, caso exista alguma quebra de segurança, ou suspeita da mesma, independentemente de colocar ou não em causa a segurança e integridade dos Dados Pessoais;
 
 5. Assegurar que os respetivos colaboradores ou os prestadores de serviços externos contratados pelos colaboradores, que venham a ter acesso a dados pessoais dos Usuários no contexto do APP cumprem as disposições legais aplicáveis em matéria de proteção de dados pessoais, designadamente, não cedendo ou divulgando tais dados pessoais a terceiros, nem deles fazendo uso para quaisquer fins que não os estritamente consentidos pelos respectivos Usuários ou, se aplicável, ser o seu processamento objeto de notificação ou de pedido de autorização à Comissão Nacional de Proteção de Dados.
-	
-## Colaboradores
+
+</details>
+
+<details>
+	<summary><h3>Colaboradores</h3></summary>
 
 <br>
 
@@ -369,7 +1035,7 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		alt="Gabriel"
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
-		Sou Gabriel Aires, natural de Palmas (TO). Estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar videogame, codar e ler.
+		Meu nome é Gabriel Aires, natural de Palmas (TO). Estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar videogame, codar e ler.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
@@ -381,7 +1047,7 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		alt="Jonathan"
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
-		Sou Jonathan Rodrigues. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
+		Meu nome é Jonathan Rodrigues. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
 		<br><strong>Arte, Roteiro e Documentação</strong>  
 </p>
 
@@ -393,16 +1059,19 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		alt="Mateus, a lenda"
 		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
-		Sou Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
+		Meu nome é Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
 		<br><strong>Codificação, Documentação e Ideias</strong>
 </p>
 
 <br>
+</details>
 
-
-## Fontes de pesquisa
+<details>
+	<summary><h3>Fontes de pesquisa</h3></summary>
 
 [Godot documentation](https://docs.godotengine.org/en/stable/)
 <br>[GDQuest - Login with Firebase in Godot 3.1 (tutorial)](https://www.youtube.com/watch?v=Udm7uDQM05w)
 <br>[Gamesfromscratch - Dialogic -- Powerful New Dialog Add-On For Godot](https://www.youtube.com/watch?v=QXm0L-QSXoQ)
 <br>[Emi - Getting Started With Dialogic](https://www.youtube.com/watch?v=sYjgDIgD7AY)
+
+</details>
