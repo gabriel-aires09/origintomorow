@@ -598,7 +598,7 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 	<tr>
 		<td>Descrição</td>
 		<td>O usuário, após cadastrar suas credenciais no sistema de banco de dados do jogo, ele será transferido para tela de login e senha. Esta tela de login terá o campo para preenchimento do email da senha cadastrada pelo usuário.</td>
-	<tr>
+	</tr>
 	<tr>
 		<td>Requisitos</td>
 		<td>
@@ -614,6 +614,7 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 					<li>Se os campos de login e senha estiverem corretos, o jogador irá para tela de menu do jogo.</li>
 			</ul>
 		</td>
+	</tr>
 </table>	
 
 <table>
@@ -651,9 +652,8 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 	</tr>
 	<tr>
 		<td>Descrição</td>
-		<td>O menu inicial tem a função de ser a tela central do jogo, cujo usuário pode escolher suas configurações de vídeo, som e controles do jogo. Isto é importante, principalmente em computadores com nível de processamento menor. Não apenas as configurações, o menu inicial deve ter a galeria de todas as artes desbloqueadas durante o jogo, como também o menu de sair da aplicação.
-</td>
-	<tr>
+		<td>O menu inicial tem a função de ser a tela central do jogo, cujo usuário pode escolher suas configurações de vídeo, som e controles do jogo. Isto é importante, principalmente em computadores com nível de processamento menor. Não apenas as configurações, o menu inicial deve ter a galeria de todas as artes desbloqueadas durante o jogo, como também o menu de sair da aplicação.</td>
+	</tr>
 	<tr>
 		<td>Requisitos</td>
 		<td>
@@ -663,6 +663,7 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 				<li>Quando o jogador apertar o botão sair, ele sairá da aplicação.</li>
 			<ul>
 		</td>
+	</tr>
 </table>
 
 <table>
@@ -751,12 +752,10 @@ Eu, como desenvolvedor, desejo a interação entre jogador e NPCs do mapa, para 
 	</tr>
 	<tr>
 		<td>Descrição</td>
-		<td>Os diálogos são elementos essenciais de um jogo ao estilo Visual Novel. O gênero é focado, essencialmente, em histórias e interações entre jogadores e personagens. 
-		<br>
-Sendo assim, é necessário que sejam apresentadas dentro do contexto da história. Seja para salvar algum personagem ou não, seja para aumentar pontos de amizade/empatia entre os personagens.
-		<br>
-Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de cada um dos personagens, representando seus estados emocionais a partir de suas respostas no jogo. Eles ficarão localizados dentro de uma caixa de texto.</td>
-	<tr>
+		<td>Os diálogos são elementos essenciais de um jogo ao estilo Visual Novel. O gênero é focado, essencialmente, em histórias e interações entre jogadores e personagens.<br>
+		Sendo assim, é necessário que sejam apresentadas dentro do contexto da história. Seja para salvar algum personagem ou não, seja para aumentar pontos de amizade/empatia entre os personagens.<br>
+		Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de cada um dos personagens, representando seus estados emocionais a partir de suas respostas no jogo. Eles ficarão localizados dentro de uma caixa de texto.</td>
+	</tr>
 	<tr>
 		<td>Requisitos</td>
 		<td>
@@ -773,6 +772,7 @@ Os diálogos serão apresentados juntamente com as artes do jogo e o avatar de c
 				</ul>
 			<ul>
 		</td>
+	</tr>
 </table>
 
 <table>
@@ -888,6 +888,7 @@ Buscamos como fonte de inspiração obras da empresa Telltale Games. Tanto que a
 				</ul>
 			</ul>
 		</td>
+	</tr>
 </table>
 
 <table>
@@ -925,11 +926,9 @@ Buscamos como fonte de inspiração obras da empresa Telltale Games. Tanto que a
 	</tr>
 	<tr>
 		<td>Descrição</td>
-		<td><O sistema de perfil do jogador, como também o sistema de pontos são funcionalidades conectadas, seguindo princípios de Role-Playing Game, comumente empregados em diversos títulos atuais, sendo uma tendência para quase todos os gêneros de jogos existentes. Filmes como Jogador Número Um e animações japonesas do gênero Isekai apresentam estes conceitos para o público em geral.
-		<br>
-De qualquer forma, em determinado momento da história, a forma como o jogo está sendo apresentado para o jogador será modificada.
-</td>
-	<tr>
+		<td>O sistema de perfil do jogador, como também o sistema de pontos são funcionalidades conectadas, seguindo princípios de Role-Playing Game, comumente empregados em diversos títulos atuais, sendo uma tendência para quase todos os gêneros de jogos existentes. Filmes como Jogador Número Um e animações japonesas do gênero Isekai apresentam estes conceitos para o público em geral.<br>
+		De qualquer forma, em determinado momento da história, a forma como o jogo está sendo apresentado para o jogador será modificada.</td>
+	</tr>
 	<tr>
 		<td>Requisitos</td>
 		<td>
@@ -942,6 +941,7 @@ De qualquer forma, em determinado momento da história, a forma como o jogo est�
 				<li>Os personagens para interação terão os sistemas de diálogos e escolhas estipulados anteriormente. Vale ressaltar que o sistema de perfis e sistema de pontos de empatia/amizade estarão vigentes neste modo.</ul>
 			</ul>
 		</td>
+	</tr>
 </table>
 
 </details>
