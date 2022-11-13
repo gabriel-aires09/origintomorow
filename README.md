@@ -1065,7 +1065,7 @@ Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes me
 	<img width="600"
 		alt="Novo menu do Jogo"
 		src="https://i.imgur.com/7aHyCDk.png"
-		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
+		<br><br>Novo visual da Galeria, combinando com as paletas de cores escolhidas para o jogo.
 </p>
 </details>
 	
