@@ -1035,7 +1035,7 @@ https://user-images.githubusercontent.com/90778217/201501920-875e55bb-b29a-4c01-
 	
 #### Melhorias na interface gráfica do projeto original
 	
-Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes melhoraram as caixas de diálogo do jogo, fontes, menu inicial e Galeria. Futuramente, pensamos em colocar uma animação inicial da personagem Sabrina, como também efeito parallax nas nuvens do menu inicial. Interessante observar o aprimorament do uso do Dialogic durante o desenvolvimento do projeto.
+Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes melhoraram as caixas de diálogo do jogo, fontes, menu inicial e Galeria. Futuramente, pensamos em colocar uma animação inicial da personagem Sabrina, como também efeito parallax nas nuvens do menu inicial. Interessante observar o aprimoramento do uso do Dialogic durante o desenvolvimento do projeto.
 
 <p align="center">
 	<img width="600"
