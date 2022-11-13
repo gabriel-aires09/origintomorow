@@ -113,6 +113,8 @@
 
 6. [Obs Studio](https://obsproject.com/pt-br/download) é uma suíte de software livre e de código aberto para gravação e transmissão ao vivo. Escrito em C e C++, o OBS fornece captura de fonte e dispositivo em tempo real, composição de cena, codificação, gravação e transmissão. A transmissão de dados é feita principalmente através do RTMP (Real Time Messaging Protocol) e pode ser enviada para qualquer destino de suporte RTMP, incluindo muitas predefinições para sites de streaming, como YouTube, Instagram, Twitch e Facebook.
 
+7.[Aseprite](https://www.aseprite.org/) é um editor de imagens proprietário, com código fonte disponível, projetado principalmente para desenho e animação de pixel art.
+
 </details>
 
 <details>
