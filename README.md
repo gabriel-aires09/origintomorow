@@ -1014,8 +1014,6 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 
 ## A2 - Sprint 3
 
-## Desenvolvimento Front-End e Back-End
-
 <details>
 	<summary><h3>Front-end</h3></summary>
 
