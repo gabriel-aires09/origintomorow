@@ -1034,8 +1034,10 @@ https://user-images.githubusercontent.com/90778217/201501700-f48df235-321b-457e-
 	
 <details>
 	<summary><h3>Interação objetos e NPC</h3></summary>
-Aproveitando o bom resultado da implementação da movimentação do personagem, quando o jogo mudar para perspectiva RPG, conseguimos colocar um sistema de colisão que serão acionadas após o jogador chegar perto em determinados objetos. Um ponto de interrogação irá aparecer na tela, indicando como ponto de interesse e interação ao jogador. Abaixo, o funcionamento desta implementação.
 	
+Aproveitando o bom resultado da implementação da movimentação do personagem, quando o jogo mudar para perspectiva RPG, conseguimos colocar um sistema de colisão que serão acionadas após o jogador chegar perto em determinados objetos. Um ponto de interrogação irá aparecer na tela, indicando como ponto de interesse e interação ao jogador. Abaixo, o funcionamento desta implementação.
+<br>
+
 https://user-images.githubusercontent.com/90778217/201501920-875e55bb-b29a-4c01-9137-688572aa505f.mp4
 </details>	
 
@@ -1043,6 +1045,7 @@ https://user-images.githubusercontent.com/90778217/201501920-875e55bb-b29a-4c01-
 	<summary><h3>Melhorias na interface gráfica do projeto original</h3></summary>
 	
 https://user-images.githubusercontent.com/90778217/201503342-4b6a85cd-303f-4356-8fb9-1348ab99cba5.mp4
+
 
 Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes melhoraram as caixas de diálogo do jogo, fontes, menu inicial e Galeria. Futuramente, pensamos em colocar uma animação inicial da personagem Sabrina, como também efeito parallax nas nuvens do menu inicial. Interessante observar o aprimoramento do uso do Dialogic durante o desenvolvimento do projeto.
 
