@@ -1054,17 +1054,46 @@ Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes me
 <p align="center">
 	<img width="600"
 		alt="Novo menu do Jogo"
-		src="https://i.imgur.com/PI8fVGH.png"
+		src="https://i.imgur.com/7aHyCDk.png"
 		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
 </p>
 	
-	https://i.imgur.com/PI8fVGH.png
+### Back-end
 
+#### Salvar as escolhas dos jogadores no Firebase
 
+Conforme a US08, uma das propostas do nosso jogo é salvar as escolhas geradas pelo usuário dentro do banco de dados escolhidos para manipulação das informações dos jogadores. Depois de muita luta e pesquisa, conseguimos fazer funcionar a implementação inicial desta funcionalidade. Inicialmente, pensamos utilizar o recurso get_scene para criar diversas cenas e a partir delas, armazenar as escolhas do jogador. Felizmente, após alguns testes e pesquisas, conseguimos armazenar as escolhas do usuário utilizando sinais, umas das funcionalidades da engine Godot. Abaixo, o código elaborado pelos integrantes. 
 
+```gdscript
+var dialog = Dialogic.start("ConversaTrue")
+    add_child(dialog)
+    dialog.connect('dialogic_signal', self, "dialogic_signal_event")
+    dialog.connect('dialogic_signal', self, "dialogic_signal_event")
+função dialogic_signal_event
+func dialogic_signal_event(param):
+    if param == 'get_choice':
+        print("siiiiiii")
+        choice1.text = "Resposta sarcastica"
+        profile.choice1 = { "stringValue": choice1.text}
+        match new_profile:
+            true:
+                Firebase.save_document("users?documentId=%s" % Firebase.user_info.id, profile, http)
 
+            false:
+                Firebase.update_document("users/%s" % Firebase.user_info.id, profile, http)
+        information_sent = true
+    if param == 'get_choice2':
+        print("Faz o L")
+        choice1.text = "Resposta neutra"
+        profile.choice1 = { "stringValue": choice1.text}
+        match new_profile:
+            true:
+                Firebase.save_document("users?documentId=%s" % Firebase.user_info.id, profile, http)
 
-
+            false:
+                Firebase.update_document("users/%s" % Firebase.user_info.id, profile, http)
+        information_sent = true
+```
 
 </details>
 
