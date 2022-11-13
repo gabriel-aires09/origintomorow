@@ -1036,7 +1036,7 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
 		Meu nome é Gabriel Aires, natural de Palmas (TO). Estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar videogame, codar e ler.
-		<br><strong>Codificação, Documentação e Ideias</strong>
+		<br><strong>Codificação, Documentação, UX/UI e Ideias</strong>
 </p>
 
 <br>
@@ -1060,7 +1060,7 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 		src="https://i.imgur.com/utVksoZ.png"
 		<br><br>
 		Meu nome é Mateus Citriniti Emilio. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar, programar e ouvir música.
-		<br><strong>Codificação, Documentação e Ideias</strong>
+		<br><strong>Integração com Firebase, Codificação, Documentação e Ideias</strong>
 </p>
 
 <br>
