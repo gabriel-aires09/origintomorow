@@ -969,7 +969,7 @@ Será solicitado que você escolha um e-mail e senha para sua conta. Essa conta 
 
 ### Propriedade
 
-###	Jogo
+### Jogo
 
 Todos os direitos sobre o jogo são de propriedade dos colaboradores do github (Gabriel Aires, Mateus Citriniti, Jonathan Rodrigues; Daniel Vitor).
 
@@ -1012,8 +1012,65 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 
 </details>
 
+## A2 - Sprint 3
+
+<details>
+	<summary><h3>Desenvolvimento Front-End e Back-End</h3></summary>
+
+### Front-end
+
+Durante esta sprint, os integrantes focaram no aperfeiçoamento do protótipo original. Neste sentido, buscamos formas de implementação das histórias de usuários criadas durante a Sprint 2. Houve a necessidade de um novo gerenciamento das tarefas entre os integrantes, pois era notório a sobrecarga e cansaço de alguns componentes do projeto de ficarem encarregados de apenas uma função. Principalmente, referente a implementação do Firebase dentro da nossa aplicação. 
+	
+#### Movimentação
+	
+Utilizando a Godot Engine, juntamente com as ferramentas Krita e Aseprite, fizemos animações da personagem Sabrina e sua movimentação, conforme US09.01. O maior desafio foi tentar, organicamente, estabelecer a animação <strong>idle</strong> da personagem em quatro posições diferentes: esquerda, direita, cima e baixo. Felizmente, conseguimos entender como seria a sua implementação e a utilização das coordenadas (x, y), dentro da função que deveriam ser passadas, por intermédio da linguagem GDScript. Abaixo, o resultado do nosso esforço. 
+
+https://user-images.githubusercontent.com/90778217/201501700-f48df235-321b-457e-8233-008e1cb30acf.mp4
+	
+#### Interação objetos e NPC
+
+Aproveitando o bom resultado da implementação da movimentação do personagem, quando o jogo mudar para perspectiva RPG, conseguimos colocar um sistema de colisão que serão acionadas após o jogador chegar perto em determinados objetos. Um ponto de interrogação irá aparecer na tela, indicando como ponto de interesse e interação ao jogador. Abaixo, o funcionamento desta implementação.
+	
+https://user-images.githubusercontent.com/90778217/201501920-875e55bb-b29a-4c01-9137-688572aa505f.mp4
+	
+#### Melhorias na interface gráfica do projeto original
+	
+Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes melhoraram as caixas de diálogo do jogo, fontes, menu inicial e Galeria. Futuramente, pensamos em colocar uma animação inicial da personagem Sabrina, como também efeito parallax nas nuvens do menu inicial. Interessante observar o aprimorament do uso do Dialogic durante o desenvolvimento do projeto.
+
+<p align="center">
+	<img width="600"
+		alt="Nova caixa de diálogo e escolhas"
+		src="https://i.imgur.com/QfwM4G3.png"
+		<br><br>Criação de uma nova caixa de diálogo e de escolhas, utilizando Aseprite. 
+</p>
+	
+<p align="center">
+	<img width="600"
+		alt="Novo menu do Jogo"
+		src="https://i.imgur.com/PI8fVGH.png"
+		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
+</p>
+
+<p align="center">
+	<img width="600"
+		alt="Novo menu do Jogo"
+		src="https://i.imgur.com/PI8fVGH.png"
+		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
+</p>
+	
+	https://i.imgur.com/PI8fVGH.png
+
+
+
+
+
+
+
+</details>
+
 <details>
 	<summary><h3>Colaboradores</h3></summary>
+	
 
 <br>
 
