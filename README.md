@@ -1014,27 +1014,36 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 
 ## A2 - Sprint 3
 
-<details>
-	<summary><h3>Desenvolvimento Front-End e Back-End</h3></summary>
+## Desenvolvimento Front-End e Back-End
 
-### Front-end
+<details>
+	<summary><h3>Front-end</h3></summary>
+
 
 Durante esta sprint, os integrantes focaram no aperfeiçoamento do protótipo original. Neste sentido, buscamos formas de implementação das histórias de usuários criadas durante a Sprint 2. Houve a necessidade de um novo gerenciamento das tarefas entre os integrantes, pois era notório a sobrecarga e cansaço de alguns componentes do projeto de ficarem encarregados de apenas uma função. Principalmente, referente a implementação do Firebase dentro da nossa aplicação. 
+</details>
 	
-#### Movimentação
+<details>
+	<summary><h3>Movimentação</h3></summary>
 	
 Utilizando a Godot Engine, juntamente com as ferramentas Krita e Aseprite, fizemos animações da personagem Sabrina e sua movimentação, conforme US09.01. O maior desafio foi tentar, organicamente, estabelecer a animação <strong>idle</strong> da personagem em quatro posições diferentes: esquerda, direita, cima e baixo. Felizmente, conseguimos entender como seria a sua implementação e a utilização das coordenadas (x, y), dentro da função que deveriam ser passadas, por intermédio da linguagem GDScript. Abaixo, o resultado do nosso esforço. 
 
 https://user-images.githubusercontent.com/90778217/201501700-f48df235-321b-457e-8233-008e1cb30acf.mp4
 	
-#### Interação objetos e NPC
-
+</details>
+	
+<details>
+	<summary><h3>Interação objetos e NPC</h3></summary>
 Aproveitando o bom resultado da implementação da movimentação do personagem, quando o jogo mudar para perspectiva RPG, conseguimos colocar um sistema de colisão que serão acionadas após o jogador chegar perto em determinados objetos. Um ponto de interrogação irá aparecer na tela, indicando como ponto de interesse e interação ao jogador. Abaixo, o funcionamento desta implementação.
 	
 https://user-images.githubusercontent.com/90778217/201501920-875e55bb-b29a-4c01-9137-688572aa505f.mp4
+</details>	
+
+<details>
+	<summary><h3>Melhorias na interface gráfica do projeto original</h3></summary>
 	
-#### Melhorias na interface gráfica do projeto original
-	
+https://user-images.githubusercontent.com/90778217/201503342-4b6a85cd-303f-4356-8fb9-1348ab99cba5.mp4
+
 Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes melhoraram as caixas de diálogo do jogo, fontes, menu inicial e Galeria. Futuramente, pensamos em colocar uma animação inicial da personagem Sabrina, como também efeito parallax nas nuvens do menu inicial. Interessante observar o aprimoramento do uso do Dialogic durante o desenvolvimento do projeto.
 
 <p align="center">
@@ -1057,9 +1066,11 @@ Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes me
 		src="https://i.imgur.com/7aHyCDk.png"
 		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
 </p>
+</details>
 	
-### Back-end
-
+<details>
+	<summary><h3>Back-end</h3></summary>
+	
 #### Salvar as escolhas dos jogadores no Firebase
 
 Conforme a US08, uma das propostas do nosso jogo é salvar as escolhas geradas pelo usuário dentro do banco de dados escolhidos para manipulação das informações dos jogadores. Depois de muita luta e pesquisa, conseguimos fazer funcionar a implementação inicial desta funcionalidade. Inicialmente, pensamos utilizar o recurso get_scene para criar diversas cenas e a partir delas, armazenar as escolhas do jogador. Felizmente, após alguns testes e pesquisas, conseguimos armazenar as escolhas do usuário utilizando sinais, umas das funcionalidades da engine Godot. Abaixo, o código elaborado pelos integrantes. 
@@ -1094,7 +1105,6 @@ func dialogic_signal_event(param):
                 Firebase.update_document("users/%s" % Firebase.user_info.id, profile, http)
         information_sent = true
 ```
-
 </details>
 
 <details>
@@ -1122,7 +1132,7 @@ func dialogic_signal_event(param):
 		src="https://i.imgur.com/4b3eRBA.png"
 		<br><br>
 		Meu nome é Gabriel Aires, natural de Palmas (TO). Estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões jogar videogame, codar e ler.
-		<br><strong>Codificação, Documentação, UX/UI e Ideias</strong>
+		<br><strong>Artes, Codificação, Documentação e Ideias</strong>
 </p>
 
 <br>
