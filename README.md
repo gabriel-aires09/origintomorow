@@ -1021,7 +1021,6 @@ Os colaboradores são os únicos responsáveis pela segurança dos dados e infor
 
 
 Durante esta sprint, os integrantes focaram no aperfeiçoamento do protótipo original. Neste sentido, buscamos formas de implementação das histórias de usuários criadas durante a Sprint 2. Houve a necessidade de um novo gerenciamento das tarefas entre os integrantes, pois era notório a sobrecarga e cansaço de alguns componentes do projeto de ficarem encarregados de apenas uma função. Principalmente, referente a implementação do Firebase dentro da nossa aplicação. 
-</details>
 	
 <details>
 	<summary><h3>Movimentação</h3></summary>
@@ -1070,7 +1069,8 @@ Com o intuito de cumprir os prazos estipulados nesta Sprint 3, os integrantes me
 		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
 </p>
 </details>
-	
+</details>
+
 <details>
 	<summary><h3>Back-end</h3></summary>
 	
