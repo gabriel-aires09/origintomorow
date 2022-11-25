@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://sprites/Parada/Direita/quadro0001.png" type="Texture" id=1]
 [ext_resource path="res://Player.gd" type="Script" id=2]
@@ -23,18 +23,40 @@
 [ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0004.png" type="Texture" id=21]
 [ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0005.png" type="Texture" id=22]
 [ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0006.png" type="Texture" id=23]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0002.png" type="Texture" id=24]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0005.png" type="Texture" id=25]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0003.png" type="Texture" id=26]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0001.png" type="Texture" id=27]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0004.png" type="Texture" id=28]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0000.png" type="Texture" id=29]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0001.png" type="Texture" id=30]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0004.png" type="Texture" id=31]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0002.png" type="Texture" id=32]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0000.png" type="Texture" id=33]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0005.png" type="Texture" id=34]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0003.png" type="Texture" id=35]
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
+"frames": [ ExtResource( 29 ), ExtResource( 27 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 28 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "correr_costa",
+"speed": 10.0
+}, {
 "frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 10 ) ],
 "loop": true,
 "name": "correr_direita",
-"speed": 8.0
+"speed": 10.0
 }, {
 "frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "correr_esquerda",
-"speed": 8.0
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 33 ), ExtResource( 30 ), ExtResource( 32 ), ExtResource( 35 ), ExtResource( 31 ), ExtResource( 34 ) ],
+"loop": true,
+"name": "correr_frente",
+"speed": 10.0
 }, {
 "frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
 "loop": true,
@@ -62,7 +84,7 @@ radius = 8.33333
 height = 42.0
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 0, -1 )
+position = Vector2( 2, 0 )
 scale = Vector2( 3, 3 )
 script = ExtResource( 2 )
 

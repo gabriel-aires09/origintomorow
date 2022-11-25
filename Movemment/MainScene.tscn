@@ -1,7 +1,176 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=48 format=2]
 
-[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=1]
+[ext_resource path="res://sprites/Parada/Direita/quadro0001.png" type="Texture" id=2]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0006.png" type="Texture" id=3]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0005.png" type="Texture" id=4]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0001.png" type="Texture" id=5]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0002.png" type="Texture" id=6]
+[ext_resource path="res://sprites/Parada/Costas/quadro0001.png" type="Texture" id=7]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0000.png" type="Texture" id=8]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0005.png" type="Texture" id=9]
+[ext_resource path="res://sprites/Parada/Esquerda/quadro0000.png" type="Texture" id=10]
+[ext_resource path="res://sprites/Parada/Esquerda/quadro0001.png" type="Texture" id=11]
+[ext_resource path="res://sprites/Parada/Direita/quadro0000.png" type="Texture" id=12]
+[ext_resource path="res://sprites/Parada/Frente/quadro0000.png" type="Texture" id=13]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0006.png" type="Texture" id=14]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0004.png" type="Texture" id=15]
+[ext_resource path="res://sprites/Parada/Frente/quadro0001.png" type="Texture" id=16]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0001.png" type="Texture" id=17]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0002.png" type="Texture" id=18]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0003.png" type="Texture" id=19]
+[ext_resource path="res://sprites/Correndo/Correndo_Direita/quadro0000.png" type="Texture" id=20]
+[ext_resource path="res://sprites/Parada/Costas/quadro0000.png" type="Texture" id=21]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0003.png" type="Texture" id=22]
+[ext_resource path="res://sprites/Correndo/Correndo_Esquerda/quadro0004.png" type="Texture" id=23]
+[ext_resource path="res://sprites/elements/question/question.png" type="Texture" id=24]
+[ext_resource path="res://sprites/Leumas/quadro0000.png" type="Texture" id=25]
+[ext_resource path="res://NPC.gd" type="Script" id=26]
+[ext_resource path="res://sprites/Cenario/scenarioHyper_scaled_5x_pngcrushed.png" type="Texture" id=27]
+[ext_resource path="res://sprites/Cenario/scenarioHyper_scaled_5x_pngcrushed(1).png" type="Texture" id=28]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0002.png" type="Texture" id=29]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0005.png" type="Texture" id=30]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0003.png" type="Texture" id=31]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0001.png" type="Texture" id=32]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0004.png" type="Texture" id=33]
+[ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0000.png" type="Texture" id=34]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0001.png" type="Texture" id=35]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0004.png" type="Texture" id=36]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0002.png" type="Texture" id=37]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0000.png" type="Texture" id=38]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0005.png" type="Texture" id=39]
+[ext_resource path="res://sprites/Correndo/Correndo_Frente/quadro0003.png" type="Texture" id=40]
+[ext_resource path="res://sprites/Leumas/quadro0001.png" type="Texture" id=41]
+[ext_resource path="res://sprites/Lilia/Lillia.png" type="Texture" id=42]
 
-[node name="MainScene" type="Node2D"]
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 32 ), ExtResource( 29 ), ExtResource( 31 ), ExtResource( 33 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "correr_costa",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 20 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 19 ), ExtResource( 15 ), ExtResource( 4 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "correr_direita",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 3 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "correr_esquerda",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 38 ), ExtResource( 35 ), ExtResource( 37 ), ExtResource( 40 ), ExtResource( 36 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "correr_frente",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "parada_costa",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "parada_direita",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "parada_esquerda",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "parada_frente",
+"speed": 3.0
+} ]
 
-[node name="Player" parent="." instance=ExtResource( 1 )]
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 8.33333
+height = 42.0
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 25 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 104.561
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ ExtResource( 42 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 0, -1 )
+scale = Vector2( 3, 3 )
+script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
+position = Vector2( 12.3333, 154.667 )
+frames = SubResource( 2 )
+animation = "parada_direita"
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2( 11, 154.667 )
+shape = SubResource( 1 )
+
+[node name="RayCast2D" type="RayCast2D" parent="Player"]
+position = Vector2( 11, 154.333 )
+enabled = true
+
+[node name="NPC" type="Area2D" parent="."]
+position = Vector2( 1499, 436 )
+script = ExtResource( 26 )
+
+[node name="Sprite" type="AnimatedSprite" parent="NPC"]
+position = Vector2( 3, 26 )
+scale = Vector2( 3.14706, 3.25 )
+frames = SubResource( 4 )
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC"]
+position = Vector2( 3, 27 )
+shape = SubResource( 3 )
+
+[node name="QuestionMark" type="Sprite" parent="NPC"]
+position = Vector2( 11, -106 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 24 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ScenarioHyperScaled5xPngcrushed" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( 962, 321 )
+scale = Vector2( 0.975222, 0.74351 )
+texture = ExtResource( 27 )
+normal_map = ExtResource( 28 )
+
+[node name="NPC2" type="Area2D" parent="."]
+position = Vector2( 1514, 836 )
+script = ExtResource( 26 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC2"]
+position = Vector2( 2.00002, 20 )
+scale = Vector2( 2.70588, 3.53333 )
+frames = SubResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC2"]
+position = Vector2( 2, 26 )
+shape = SubResource( 3 )
+
+[node name="QuestionMark" type="Sprite" parent="NPC2"]
+position = Vector2( 11, -106 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 24 )

@@ -35,9 +35,9 @@ func manage_animations():
 	elif velocity.x < 0:
 		play_animation("correr_esquerda")
 	elif velocity.y < 0: 
-		play_animation("parada_costa")
+		play_animation("correr_costa")
 	elif velocity.y > 0: 
-		play_animation("parada_frente")
+		play_animation("correr_frente")
 	elif dir.x == 1:
 		play_animation("parada_direita")
 	elif dir.x == -1:
