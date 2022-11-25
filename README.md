@@ -1246,6 +1246,7 @@ func _on_NPC_body_exited(body):
 		active = false
 ```
 </details>
+</details>
 
 <details>
 	<summary><h3>Back-end</h3></summary>
