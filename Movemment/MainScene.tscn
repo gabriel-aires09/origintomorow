@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=2]
+[gd_scene load_steps=47 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://sprites/Parada/Direita/quadro0001.png" type="Texture" id=2]
@@ -26,8 +26,7 @@
 [ext_resource path="res://sprites/elements/question/question.png" type="Texture" id=24]
 [ext_resource path="res://sprites/Leumas/quadro0000.png" type="Texture" id=25]
 [ext_resource path="res://NPC.gd" type="Script" id=26]
-[ext_resource path="res://sprites/Cenario/scenarioHyper_scaled_5x_pngcrushed.png" type="Texture" id=27]
-[ext_resource path="res://sprites/Cenario/scenarioHyper_scaled_5x_pngcrushed(1).png" type="Texture" id=28]
+[ext_resource path="res://sprites/Cenario/scenario.png" type="Texture" id=27]
 [ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0002.png" type="Texture" id=29]
 [ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0005.png" type="Texture" id=30]
 [ext_resource path="res://sprites/Correndo/Correndo_Costas/quadro0003.png" type="Texture" id=31]
@@ -112,22 +111,23 @@ animations = [ {
 [node name="Node2D" type="Node2D"]
 
 [node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 0, -1 )
+position = Vector2( 54, 493 )
 scale = Vector2( 3, 3 )
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
-position = Vector2( 12.3333, 154.667 )
+position = Vector2( 2.66666, -3 )
 frames = SubResource( 2 )
 animation = "parada_direita"
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2( 11, 154.667 )
+position = Vector2( 0.666672, -0.666668 )
 shape = SubResource( 1 )
 
 [node name="RayCast2D" type="RayCast2D" parent="Player"]
-position = Vector2( 11, 154.333 )
+position = Vector2( 1.33336, -3.33401 )
 enabled = true
 
 [node name="NPC" type="Area2D" parent="."]
@@ -138,6 +138,7 @@ script = ExtResource( 26 )
 position = Vector2( 3, 26 )
 scale = Vector2( 3.14706, 3.25 )
 frames = SubResource( 4 )
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC"]
@@ -152,10 +153,10 @@ texture = ExtResource( 24 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ScenarioHyperScaled5xPngcrushed" type="Sprite" parent="ParallaxBackground"]
-position = Vector2( 962, 321 )
+position = Vector2( 961, 418 )
 scale = Vector2( 0.975222, 0.74351 )
 texture = ExtResource( 27 )
-normal_map = ExtResource( 28 )
+normal_map = ExtResource( 27 )
 
 [node name="NPC2" type="Area2D" parent="."]
 position = Vector2( 1514, 836 )

@@ -1,4 +1,5 @@
 extends KinematicBody2D
+var screen_size
 
 var moveSpeed : int = 250
 var interactDist : int = 70
@@ -8,8 +9,12 @@ var dir = Vector2()
 onready var rayCast = $RayCast2D
 onready var anim = $AnimatedSprite
 
+func _ready():
+	screen_size = get_viewport_rect().size
+
 func _physics_process(delta):
 	velocity = Vector2()
+	var velocity_screen = Vector2.ZERO
 	
 	if Input.is_action_pressed("move_up"):
 		velocity.y -= 1
@@ -25,7 +30,10 @@ func _physics_process(delta):
 		dir = Vector2(1, 0)
 	
 	velocity = velocity.normalized()
-	
+	position += velocity_screen * delta
+	position.x = clamp(position.x, 0, screen_size.x)
+	position.y = clamp(position.y, 0, screen_size.y)
+
 	move_and_slide(velocity * moveSpeed, Vector2.ZERO)
 	manage_animations()
 	
