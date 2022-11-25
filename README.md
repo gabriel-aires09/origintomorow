@@ -1124,7 +1124,7 @@ Utilizando a Godot Engine, juntamente com as ferramentas Krita e Aseprite, fizem
 
 A personagem Sabrina consegue mudar a animação para quatro direções diferentes (esquerda, direita, cima, baixo). Pesquisamos alguns tutoriais na internet de como fazer esta implementação e tivemos que estudar um pouco como funciona álgebra linear e algumas funções da linguagem GDScript para alcançar este resultado final. 
 
-https://user-images.githubusercontent.com/90778217/201501700-f48df235-321b-457e-8233-008e1cb30acf.mp4
+https://user-images.githubusercontent.com/90778217/204061382-bd44e1f5-0bd2-4c49-9f37-858a651fba8a.mp4
 	
 </details>
 	
@@ -1136,35 +1136,115 @@ Nesta Sprint, conseguimos colocar um sistema de colisão que serão acionadas ap
 O aplicativo de gerenciamento de falas e diálogo entre personagens Dialogic foi utilizado como exemplo das interações entre NPC do jogo. O cenário e a interface do jogo foram elaborados utilizando a ferramenta de criação e desenho de sprite chamada Aseprite. Os personagens foram elaborados utilizando o aplicativo de desenhos digitais Krita.  Abaixo, o resultado do nosso esforço durante esta Sprint. 
 <br>
 
-
-
-https://user-images.githubusercontent.com/90778217/204061382-bd44e1f5-0bd2-4c49-9f37-858a651fba8a.mp4
-
-
-</details>	
+https://user-images.githubusercontent.com/90778217/204062035-b458295f-ad08-4a17-bdd3-4377e97c01c5.mp4
 
 
 <p align="center">
 	<img width="600"
 		alt="Cenário criado para o jogo"
-		src="https://i.imgur.com/QfwM4G3.png"
+		src="https://i.ibb.co/Dk3bv8y/scenario.png"
 		<br><br>Criação do cenário do jogo, utilizando as ferramentas Aseprite e Krita 
 </p>
-	
-<p align="center">
-	<img width="600"
-		alt="Galeria"
-		src="https://i.imgur.com/PI8fVGH.png"
-		<br><br>Novo visual da Galeria, combinando com as paletas de cores escolhidas para o jogo.
-</p>
 
-<p align="center">
-	<img width="600"
-		alt="Novo menu do Jogo"
-		src="https://i.imgur.com/7aHyCDk.png"
-		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
-</p>
-</details>
+Código utilizado para criação da movimentação
+
+```gdscript
+extends KinematicBody2D
+var screen_size
+
+var moveSpeed : int = 250
+var interactDist : int = 70
+var velocity = Vector2()
+var dir = Vector2()
+
+onready var rayCast = $RayCast2D
+onready var anim = $AnimatedSprite
+
+func _ready():
+	screen_size = get_viewport_rect().size
+
+func _physics_process(delta):
+	velocity = Vector2()
+	var velocity_screen = Vector2.ZERO
+	
+	if Input.is_action_pressed("move_up"):
+		velocity.y -= 1
+		dir = Vector2(0, -1)
+	if Input.is_action_pressed("move_down"):
+		velocity.y += 1
+		dir = Vector2(0, 1)
+	if Input.is_action_pressed("move_left"):
+		velocity.x -= 1
+		dir = Vector2(-1, 0)
+	if Input.is_action_pressed("move_right"):
+		velocity.x += 1
+		dir = Vector2(1, 0)
+	
+	velocity = velocity.normalized()
+	position += velocity_screen * delta
+	position.x = clamp(position.x, 0, screen_size.x)
+	position.y = clamp(position.y, 0, screen_size.y)
+
+	move_and_slide(velocity * moveSpeed, Vector2.ZERO)
+	manage_animations()
+	
+func manage_animations():
+	if velocity.x > 0:
+		play_animation("correr_direita")
+	elif velocity.x < 0:
+		play_animation("correr_esquerda")
+	elif velocity.y < 0: 
+		play_animation("correr_costa")
+	elif velocity.y > 0: 
+		play_animation("correr_frente")
+	elif dir.x == 1:
+		play_animation("parada_direita")
+	elif dir.x == -1:
+		play_animation("parada_esquerda")
+	elif dir.y == -1:
+		play_animation("parada_costa")
+	elif dir.y == 1:
+		play_animation("parada_frente")		
+
+func play_animation (anim_name):
+	if anim.animation != anim_name:
+		anim.play(anim_name)
+```
+
+Código utilizado para interação com personagens NPC
+
+```gdscript
+extends Area2D
+
+var active = false
+
+func _ready():
+	connect("body_entered", self, '_on_NPC_body_entered')
+	connect("body_exited", self, '_on_NPC_body_exited')
+
+func _process(delta):	
+	$QuestionMark.visible = active
+
+func _input(event):
+	if get_node_or_null('DialogNode') == null:
+		if event.is_action_pressed("ui_accept") and active:
+			get_tree().paused = true
+			var dialog = Dialogic.start('timeline-1')
+			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+			dialog.connect('timeline_end', self, 'unpause')
+			add_child(dialog)
+
+func unpause(timeline_name):
+	get_tree().paused = false
+	
+func _on_NPC_body_entered(body):
+	if body.name == "Player":
+		active = true
+
+func _on_NPC_body_exited(body):
+	if body.name == "Player":
+		active = false
+```
 </details>
 
 <details>
@@ -1173,6 +1253,7 @@ https://user-images.githubusercontent.com/90778217/204061382-bd44e1f5-0bd2-4c49-
 #### Salvar as escolhas dos jogadores no Firebase
 
 Não houve grandes alterações nesta parte. Apenas reforçamos os conceitos trabalhados anteriormente e fizemos algumas alterações
+
 </details>
 
 <details>
