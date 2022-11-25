@@ -1110,6 +1110,71 @@ func dialogic_signal_event(param):
 ```
 </details>
 
+## A2 - Sprint 4
+
+<details>
+	<summary><h3>Front-end</h3></summary>
+
+Nesta última sprint, os integrantes responsáveis pela parte Front-End focaram na implementação de apenas um protótipo da parte RPG do game. 
+	
+<details>
+	<summary><h3>Movimentação</h3></summary>
+	
+Utilizando a Godot Engine, juntamente com as ferramentas Krita e Aseprite, fizemos animações da personagem Sabrina e sua movimentação, conforme US09.01. De acordo com a Sprint anterior, nós tivemos dificuldade para implementar algumas animações dentro da Godot Engine. Entretanto, mesmo com os imprevistos ocorridos, conseguimos criar uma animação decente, juntamente com o integrante responsáveis pelas principais artes e animações do jogo. 
+
+A personagem Sabrina consegue mudar a animação para quatro direções diferentes (esquerda, direita, cima, baixo). Pesquisamos alguns tutoriais na internet de como fazer esta implementação e tivemos que estudar um pouco como funciona álgebra linear e algumas funções da linguagem GDScript para alcançar este resultado final. 
+
+https://user-images.githubusercontent.com/90778217/201501700-f48df235-321b-457e-8233-008e1cb30acf.mp4
+	
+</details>
+	
+<details>
+	<summary><h3>Mapa e Interação com NPC</h3></summary>
+	
+Nesta Sprint, conseguimos colocar um sistema de colisão que serão acionadas após o jogador chegar perto dos personagens inseridos no universo criado pelos colaboradores. Na elaboração do protótipo, dividimos a parte Front-End entre dois integrantes. O primeiro ficou responsável pelas animações dos personagens e revisão das artes finais. O segundo ficou encarregado da criação dos cenários e UX/UI dentro do jogo. Os personagens foram elaborados utilizando o aplicativo de desenhos digitais Krita. A base de inspiração para os traços e paleta de cores selecionadas tiveram como base o jogo indie Hyper Light Drift. Pensamos em criar um jogo de maneira mais difícil, de certa forma, criando e desenhando todas as artes inseridas no jogo. Como o jogo é um elemento artístico, desejamos criar uma certa identidade visual própria para nosso projeto, pegando como referência nossos gostos pessoais e a administração do tempo nosso durante a realização do protótipo
+
+O aplicativo de gerenciamento de falas e diálogo entre personagens Dialogic foi utilizado como exemplo das interações entre NPC do jogo. O cenário e a interface do jogo foram elaborados utilizando a ferramenta de criação e desenho de sprite chamada Aseprite. Os personagens foram elaborados utilizando o aplicativo de desenhos digitais Krita.  Abaixo, o resultado do nosso esforço durante esta Sprint. 
+<br>
+
+
+
+https://user-images.githubusercontent.com/90778217/204061382-bd44e1f5-0bd2-4c49-9f37-858a651fba8a.mp4
+
+
+</details>	
+
+
+<p align="center">
+	<img width="600"
+		alt="Cenário criado para o jogo"
+		src="https://i.imgur.com/QfwM4G3.png"
+		<br><br>Criação do cenário do jogo, utilizando as ferramentas Aseprite e Krita 
+</p>
+	
+<p align="center">
+	<img width="600"
+		alt="Galeria"
+		src="https://i.imgur.com/PI8fVGH.png"
+		<br><br>Novo visual da Galeria, combinando com as paletas de cores escolhidas para o jogo.
+</p>
+
+<p align="center">
+	<img width="600"
+		alt="Novo menu do Jogo"
+		src="https://i.imgur.com/7aHyCDk.png"
+		<br><br>Criação do novo menu do jogo, utilizando Krita. Futuramente, terá animações.
+</p>
+</details>
+</details>
+
+<details>
+	<summary><h3>Back-end</h3></summary>
+	
+#### Salvar as escolhas dos jogadores no Firebase
+
+Não houve grandes alterações nesta parte. Apenas reforçamos os conceitos trabalhados anteriormente e fizemos algumas alterações
+</details>
+
 <details>
 	<summary><h3>Colaboradores</h3></summary>
 	
