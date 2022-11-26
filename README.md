@@ -1124,8 +1124,9 @@ Utilizando a Godot Engine, juntamente com as ferramentas Krita e Aseprite, fizem
 
 A personagem Sabrina consegue mudar a animação para quatro direções diferentes (esquerda, direita, cima, baixo). Pesquisamos alguns tutoriais na internet de como fazer esta implementação e tivemos que estudar um pouco como funciona álgebra linear e algumas funções da linguagem GDScript para alcançar este resultado final. 
 
-https://user-images.githubusercontent.com/90778217/204061382-bd44e1f5-0bd2-4c49-9f37-858a651fba8a.mp4
-	
+https://user-images.githubusercontent.com/90778217/204067443-6dcadd2f-59fa-4146-ad35-02fba08148ea.mp4
+
+
 </details>
 	
 <details>
@@ -1136,7 +1137,7 @@ Nesta Sprint, conseguimos colocar um sistema de colisão que serão acionadas ap
 O aplicativo de gerenciamento de falas e diálogo entre personagens Dialogic foi utilizado como exemplo das interações entre NPC do jogo. O cenário e a interface do jogo foram elaborados utilizando a ferramenta de criação e desenho de sprite chamada Aseprite. Os personagens foram elaborados utilizando o aplicativo de desenhos digitais Krita.  Abaixo, o resultado do nosso esforço durante esta Sprint. 
 <br>
 
-https://user-images.githubusercontent.com/90778217/204062035-b458295f-ad08-4a17-bdd3-4377e97c01c5.mp4
+https://user-images.githubusercontent.com/90778217/204067449-65329fe3-ab3b-440b-8161-c6e7ecd31538.mp4
 
 
 <p align="center">
