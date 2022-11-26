@@ -1319,5 +1319,16 @@ Não houve grandes alterações nesta parte. Apenas reforçamos os conceitos tra
 <br>[GDQuest - Login with Firebase in Godot 3.1 (tutorial)](https://www.youtube.com/watch?v=Udm7uDQM05w)
 <br>[Gamesfromscratch - Dialogic -- Powerful New Dialog Add-On For Godot](https://www.youtube.com/watch?v=QXm0L-QSXoQ)
 <br>[Emi - Getting Started With Dialogic](https://www.youtube.com/watch?v=sYjgDIgD7AY)
+<br>[Godot Tutorials](https://godottutorials.pro/rpg-godot-tutorial/)
+<br>[Make an Action RPG in Godot 3.2](https://www.youtube.com/watch?v=mAbG8Oi-SvQ)
+<br>[Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html)
+<br>[An Aseprite Crash Course In 30 Minutes](https://www.youtube.com/watch?v=59Y6OTzNrhk&t=753s)
+<br>[The Ultimate Pixel Art Tutorial](https://www.youtube.com/watch?v=lfR7Qj04-UA)
+<br>[Aseprite Tutorial For Beginners (Pixel Art)](https://www.youtube.com/watch?v=tFsETEP01k8)
+<br>[Dialog and NPC interactions in Godot](https://www.youtube.com/watch?v=gZ3h09B7Utc)
+<br>[Advanced Godot | Creating a Login Page With Firebase](https://www.youtube.com/watch?v=jKj57cXvViY)
+<br>[Saving information to Firebase's Firestore with Godot (tutorial)](https://www.youtube.com/watch?v=-vDNk7BzOGc)
+<br>[Godot 4 - Login | Signup with Firebase Tutorial](https://www.youtube.com/watddch?v=J-n1kDFZyR8)
+<br>[The Apps I Use to Design Games](https://www.youtube.com/watch?v=SuntoL4OYJ4&t=1359s)
 
 </details>
