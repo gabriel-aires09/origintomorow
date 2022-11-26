@@ -1,0 +1,110 @@
+{
+	"events": [
+		{
+			"background": "res://Praia.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "sabrina_felizona",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "sabrina_felizona",
+			"text": "Então Vamos Logo!!"
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sabrina tira suas roupas rapidamente e sai em direção ao mar, como se não percebesse o frio intenso que estava"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://praia_roupas.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Acho melhor ir atrás dela antes que..."
+		},
+		{
+			"background": "res://afogando.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A idiota tá se afogando."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você saiu em desepero até o mar para salva-la mas ao chegar lá..."
+		},
+		{
+			"background": "res://quadro final.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Trolei"
+		},
+		{
+			"change_scene": "res://Estatística.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1665592399.json",
+		"name": "Conversa1"
+	}
+}

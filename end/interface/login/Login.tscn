@@ -103,7 +103,7 @@ align = 1
 
 [node name="Menu" type="Sprite" parent="."]
 show_behind_parent = true
-position = Vector2( 962, 539 )
+position = Vector2( 958, 542 )
 z_as_relative = false
 texture = ExtResource( 4 )
 

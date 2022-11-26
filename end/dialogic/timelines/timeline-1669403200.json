@@ -1,0 +1,189 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "triste",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "triste-apontando",
+			"text": "Ah"
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "sabrina_felizona",
+			"text": "Vou só então!"
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sabrina tira suas roupas, me dá um beijo e mergulha no mar. "
+		},
+		{
+			"background": "res://praia_roupas.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ela me largou aqui."
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ela tá demorando..."
+		},
+		{
+			"background": "res://afogando.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "SABRINA????"
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu pulei na água tentando salvar desesperadamente Sabrina, que se afogava. "
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sabrina sempre foi uma péssima nadadora e dificilmente se arriscava em águas mais profundas."
+		},
+		{
+			"character": "character-1663628023.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pera, o mar foi sempre tão raso?"
+		},
+		{
+			"background": "res://quadro final.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "É pegadinha carai! "
+		},
+		{
+			"character": "character-1664193693.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Agora aproveitar a água e para de encher."
+		},
+		{
+			"change_scene": "res://Estatística.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"definition": "",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": ""
+		},
+		{
+			"definition": "",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": true,
+			"set_value": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669403200.json",
+		"name": "Não nadou"
+	}
+}

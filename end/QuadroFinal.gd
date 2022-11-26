@@ -16,5 +16,5 @@ func _ready():
 #	pass
 
 
-func _on_BackButton_pressed():
+func _on_BotaoVoltar_pressed():
 	get_tree().change_scene("res://Galeria.tscn")

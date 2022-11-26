@@ -11,8 +11,7 @@ func _on_LoginButton_pressed() -> void:
 		notification.text = "Por favor, insira a senha e o email"
 		return
 	Firebase.login(username.text, password.text, http)
-
-
+	
 func _on_HTTPRequest_request_completed(result: int, response_code: int, headers: PoolStringArray, body: PoolByteArray) -> void:
 	var response_body := JSON.parse(body.get_string_from_ascii())
 	if response_code != 200:
@@ -20,4 +19,4 @@ func _on_HTTPRequest_request_completed(result: int, response_code: int, headers:
 	else:
 		notification.text = "Logado com Sucesso!"
 		yield(get_tree().create_timer(2.0), "timeout")
-		get_tree().change_scene("res://Menu.tscn")
+		get_tree().change_scene("res://interface/profile/UserProfile.tscn")

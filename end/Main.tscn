@@ -1,49 +1,96 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Nova cena.gd" type="Script" id=1]
 [ext_resource path="res://interface/fonts/montserrat_eb_64.tres" type="DynamicFont" id=2]
-[ext_resource path="res://menu.png" type="Texture" id=3]
-[ext_resource path="res://interface/fonts/montserrat_eb_128.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Menu/Sprites menu/quadro0004.png" type="Texture" id=3]
+[ext_resource path="res://Menu/Sprites menu/quadro0007.png" type="Texture" id=4]
+[ext_resource path="res://Menu/Sprites menu/quadro0009.png" type="Texture" id=5]
+[ext_resource path="res://Menu/Sprites menu/quadro0011.png" type="Texture" id=6]
+[ext_resource path="res://Menu/Sprites menu/quadro0012.png" type="Texture" id=7]
+[ext_resource path="res://Logo_OOT.png" type="Texture" id=8]
+[ext_resource path="res://Menu/Sprites menu/quadro0002.png" type="Texture" id=9]
+[ext_resource path="res://Menu/Sprites menu/quadro0005.png" type="Texture" id=10]
+[ext_resource path="res://Menu/Sprites menu/quadro0008.png" type="Texture" id=11]
+[ext_resource path="res://Menu/Sprites menu/quadro0010.png" type="Texture" id=12]
+[ext_resource path="res://Menu/Sprites menu/quadro0013.png" type="Texture" id=13]
+[ext_resource path="res://Menu/Sprites menu/quadro0014.png" type="Texture" id=14]
+[ext_resource path="res://Menu/Sprites menu/quadro0006.png" type="Texture" id=15]
+[ext_resource path="res://Menu/Sprites menu/quadro0000.png" type="Texture" id=16]
+[ext_resource path="res://Menu/Sprites menu/quadro0001.png" type="Texture" id=17]
+[ext_resource path="res://Menu/Sprites menu/quadro0003.png" type="Texture" id=18]
+[ext_resource path="res://Menu/Sprites menu/quadro0018.png" type="Texture" id=19]
+[ext_resource path="res://Menu/Sprites menu/quadro0019.png" type="Texture" id=20]
+[ext_resource path="res://Menu/Sprites menu/quadro0021.png" type="Texture" id=21]
+[ext_resource path="res://Menu/Sprites menu/quadro0015.png" type="Texture" id=22]
+[ext_resource path="res://Menu/Register.png" type="Texture" id=23]
+[ext_resource path="res://Menu/Sprites menu/quadro0016.png" type="Texture" id=24]
+[ext_resource path="res://Menu/Sprites menu/quadro0020.png" type="Texture" id=25]
+[ext_resource path="res://Menu/Sprites menu/quadro0017.png" type="Texture" id=26]
+[ext_resource path="res://Menu/Login.png" type="Texture" id=27]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 16 ), ExtResource( 17 ), ExtResource( 9 ), ExtResource( 18 ), ExtResource( 3 ), ExtResource( 10 ), ExtResource( 15 ), ExtResource( 4 ), ExtResource( 11 ), ExtResource( 5 ), ExtResource( 12 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 25 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
 
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 960, 540 )
+scale = Vector2( 6.76056, 6.75 )
+frames = SubResource( 1 )
+frame = 15
+playing = true
+
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
+margin_left = -8.0
+margin_top = 70.0
+margin_right = -8.0
+margin_bottom = 155.0
 custom_constants/separation = 50
 alignment = 1
 
+[node name="LogoOot" type="Sprite" parent="HBoxContainer"]
+position = Vector2( 935, -292 )
+scale = Vector2( 4.03906, 4.29859 )
+texture = ExtResource( 8 )
+
 [node name="RegisterButton" type="Button" parent="HBoxContainer"]
-margin_left = 610.0
-margin_right = 1009.0
+margin_left = 619.0
+margin_right = 992.0
 margin_bottom = 85.0
 size_flags_horizontal = 4
 custom_fonts/font = ExtResource( 2 )
-text = "REGISTRAR"
+text = "                   "
+flat = true
+
+[node name="Sprite" type="Sprite" parent="HBoxContainer/RegisterButton"]
+position = Vector2( 172, 43 )
+scale = Vector2( 5.179, 5.542 )
+texture = ExtResource( 23 )
 
 [node name="LoginButton" type="Button" parent="HBoxContainer"]
-margin_left = 1059.0
-margin_right = 1310.0
+margin_left = 1042.0
+margin_right = 1301.0
 margin_bottom = 85.0
 size_flags_horizontal = 8
 custom_fonts/font = ExtResource( 2 )
-text = "LOGAR"
+text = "             "
+flat = true
 
-[node name="TextEdit" type="TextEdit" parent="."]
-margin_left = 326.0
-margin_top = 258.0
-margin_right = 1684.0
-margin_bottom = 428.0
-custom_fonts/font = ExtResource( 4 )
-text = "Origem do Amanhã"
+[node name="Login" type="Sprite" parent="HBoxContainer/LoginButton"]
+position = Vector2( 123, 45 )
+scale = Vector2( 5.17901, 5.54167 )
+texture = ExtResource( 27 )
 
-[node name="Menu" type="Sprite" parent="."]
-show_behind_parent = true
-position = Vector2( 965, 541 )
-texture = ExtResource( 3 )
 [connection signal="pressed" from="HBoxContainer/RegisterButton" to="." method="_on_RegisterButton_pressed"]
 [connection signal="pressed" from="HBoxContainer/LoginButton" to="." method="_on_LoginButton_pressed"]
