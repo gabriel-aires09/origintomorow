@@ -1295,7 +1295,7 @@ Não houve grandes alterações nesta parte. Apenas reforçamos os conceitos tra
 		src="https://i.imgur.com/Dek9BJr.png"
 		<br><br>
 		Meu nome é Jonathan Rodrigues. Atualmente, estudo Engenharia de software no Centro Universitário Católica do Tocantins. Tenho como paixões desenhar, jogar videogame, colocar o headphone no talo e programar.
-		<br><strong>Artes, Roteiro e Documentação</strong>  
+		<br><strong>Artes, Roteiro, Documentação e Ideias</strong>  
 </p>
 
 <br>
